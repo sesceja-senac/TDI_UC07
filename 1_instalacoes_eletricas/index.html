@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Instalações elétricas: tipos, simbologia, fios (fase, neutro, retorno e aterramento), interruptores, tomadas
+  </title>
+
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
+  <link href="../template/css/cores.css" rel="stylesheet">
+  <link href="../template/css/modal-100.css" rel="stylesheet">
+  <link href="../template/css/devibeans.min.css" rel="stylesheet">
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css">
+  <link href="../template/css/sncload.css" rel="stylesheet">
+  <link href="../template/css/magnific-popup.css" rel="stylesheet">
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet">
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet">
+  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+
+  <!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Paulo Ricardo Soveral Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">46914400.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Paulo Ricardo Soveral Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
+  <!-- /MARCA D´ÁGUA -->
+
+  <div id='sncloader' class='over-loader'>
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de interiores</h1>
+      <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
+    </div>
+    <div id="sombra"></div>
+  </header>
+  <div id="booklet">
+    <header class="no-print container">
+      <!-- BTO IMPRIMIR -->
+
+      <!-- /BTO IMPRIMIR -->
+    </header>
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
+
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina">
+        <!-- <div class="parallax" data-parallax="scroll" data-image-src="imgs/paralaxe_1.png"></div>
+        <div class="rellax el el-esq bottom" data-rellax-speed="3" style="transform: translate3d(0px, -90px, 0px);">
+          <img src="imgs/lamp_parallax1.png" alt="">   </div>-->
+
+
+        <div class="bloco-0">
+          <div class="container menu">
+            <button class="mobile-menu-btn"></button>
+            <div class="menu-02">
+              <div class="menu-links">
+                <a class="menu-btn menu-btn-1" href="#bloco1"></a>
+                <a class="menu-btn menu-btn-2" href="#bloco2"></a>
+                <a class="menu-btn menu-btn-3" href="#bloco3"></a>
+                <a class="menu-btn menu-btn-4" href="#bloco4"></a>
+                <a class="menu-btn menu-btn-5" href="#bloco5"></a>
+                <a class="menu-btn menu-btn-6" href="#bloco6"></a>
+                <a class="menu-btn menu-btn-7" href="#bloco7"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bloco-1" id="bloco1">
+          <div class="container b1">
+            <div class="grupo-imprimir no-print">
+              <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                <span class="fa fa-print"></span> <span>Imprimir</span>
+              </button>
+            </div>
+            <div class="row">
+              <div class="col-lg-8">
+                <h2>Instalações elétricas:</h2>
+                <h3 class="margem">tipos, simbologia, fios (fase, neutro, retorno e aterramento), interruptores,
+                  tomadas</h3>
+                <h3>Introdução</h3>
+                <p>Ao longo do curso de <i>design</i> de interiores, você já teve contato com alguns conceitos de
+                  instalações
+                  elétricas. Na unidade curricular <b>Estruturar concepção projetual de <i>design</i> de interiores</b>,
+                  você conheceu
+                  alguns símbolos de interruptores e tomadas que o ajudaram a fazer o levantamento métrico. Já na
+                  unidade
+                  curricular <b>Representar graficamente o ambiente de forma tridimensional</b> houve uma breve
+                  abordagem
+                  a
+                  respeito de lâmpadas e luminárias para iluminar o seu projeto de interiores nos programas de modelagem
+                  e
+                  renderização.
+                  Agora, nesta unidade curricular, esse conhecimento será aprofundado. Você aprenderá a respeito de luz
+                  natural e artificial, luminárias, tomadas, tecnologias, cálculos, simuladores e assim por diante. Este
+                  material iniciará com conhecimentos básicos: as instalações elétricas que competem a você, futuro
+                  <i>designer</i> de interiores.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <img src="imgs/img_intro.png" class="center-block img-responsive img_margem">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="divisoria"></div>
+
+        <div class="bloco-2" id="bloco2">
+          <div class="container b2">
+            <h3>Tipos</h3>
+            <p>As instalações elétricas são as responsáveis por levar a energia à sua casa ou aos espaços comerciais do
+              seu
+              bairro. São elas que farão com que as tomadas possam ligar os equipamentos elétricos e a iluminação dos
+              ambientes, quando necessário. Ao longo dessa unidade curricular, o foco serão as instalações elétricas
+              prediais. A norma da ABNT (Associação Brasileira de Normas Técnicas) que rege as instalações elétricas de
+              baixa tensão, ou seja, as instalações elétricas das edificações, é a 5410, de 2004, corrigida em 2008.</p>
+            <p>Na maioria das instalações brasileiras, o fornecimento é feito por empresas concessionárias que executam,
+              operam e fazem a manutenção necessária da rede elétrica (ANDRADE, 2018). Os postes com fios que são vistos
+              nas ruas fazem a transmissão da energia elétrica até casas, comércios e indústrias. A energia elétrica é
+              transmitida e recebida por meio de um quadro de distribuição principal, existente nas edificações. O
+              fornecimento ocorre por ligações até os locais de utilização, e dividem-se conforme a seguinte tabela:</p>
+            <div class="table-responsive">
+              <table class="senac">
+                <tbody>
+                  <tr>
+                    <th>Tipo de ligação</th>
+                    <th>Definição</th>
+                  </tr>
+                  <tr>
+                    <td>Monofásica</td>
+                    <td>Contém dois fios: fase e neutro.<br>
+                      Tensão de fornecimento 127/220V: carga total instalada de até 12 kW.<br>
+                      Tensão de fornecimento 220/380V: carga total instalada de até 15 kW. </td>
+                  </tr>
+                  <tr>
+                    <td>Bifásica</td>
+                    <td>Contém três fios: duas fases e um neutro.<br>
+                      Tensão de fornecimento 127/220V: carga total instalada de 12 até 25 kW.<br>
+                      Tensão de fornecimento 220/380V: carga total instalada de 15 até 25 kW. </td>
+                  </tr>
+                  <tr>
+                    <td>Trifásica</td>
+                    <td>Contém quatro fios: três fases e um neutro. <br>
+                      Tensão de fornecimento 127/220V: carga total instalada de 25 até 75 kW.<br>
+                      Tensão de fornecimento 220/380V: carga total instalada de 25 até 75 kW. </td>
+                  </tr>
+                  <tr>
+                    <td>Ligação de carga especial</td>
+                    <td>Ligação de aparelhos com carga de flutuação brusca, como solda elétrica, motor com partidas
+                      frequentes, aparelho de raios X, entre outros.<br>
+                      Consumidor deve contatar concessionária para
+                      análise e orientações.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="legenda-imagem">Quadro 1 – Tipos de ligação para fornecimento de instalações elétricas
+              prediais<br>
+              Fonte: Adaptado de Andrade (2018); Carvalho Júnior (2018)</p>
+            <p>No início da implantação do sistema elétrico no Brasil, a decisão do tipo de implantação ficou por conta
+              das
+              companhias, o que fez com que as cidades brasileiras tivessem ou um sistema fase-neutro (chamado de 127V)
+              ou
+              o sistema fase-fase (chamado de 220V). As luminárias e tomadas indicadas em um projeto de interiores devem
+              estar de acordo com o sistema fornecido pela cidade e também de acordo com os equipamentos e usos do
+              cliente.</p>
+            <p>Considere, por exemplo, a cidade de Porto Alegre/RS, que tem o sistema de 127V. Ao fazer um projeto nessa
+              cidade, você deverá ter em mente que a maioria das tomadas e dos pontos terá essa voltagem, porém, com
+              algumas exceções, como aparelhos de ar-condicionado, que invariavelmente utilizarão o sistema fase-fase
+              (220V). Além disso, ao comprar equipamentos e luminárias para o local, é preciso ter cuidado para que eles
+              funcionem na voltagem 127V. Porém, se você fizer um projeto em Recife (PE), por exemplo, deverá ter
+              atenção
+              ao fato de o sistema da cidade ser 220V. Nesse caso, é preciso garantir que instalações e equipamentos
+              atendam a essa voltagem.</p>
+            <div class="caixa-destaque icone dica">
+              <h3 class="titulo_destaque">O <i>designer</i> de interiores pode fazer alterações de pontos elétricos de
+                um projeto existente?</h3>
+              <p>A Resolução nº 096, do CFT (Conselho Federal dos Técnicos Industriais), no inciso VIII do artigo 3º,
+                indica que é atribuição do <i>designer</i> de interiores</p>
+              <p class="citacao"><i>propor interferências em espaços existentes ou pré-configurados, internos e externos
+                  contíguos aos
+                  interiores, desde que na especificidade do projeto de interiores não houver inclusão de cargas e/ou
+                  mudanças de pontos de instalações prediais, e quando for o caso mediante atuação concomitante e/ou
+                  compartilhada com profissional habilitado na forma da lei.</i></p>
+              <p>Ou seja, sempre que você sugerir ou trocar pontos elétricos no seu projeto de interiores, você deve
+                atuar
+                em parceria com um profissional habilitado por lei, como, por exemplo, um engenheiro elétrico ou um
+                técnico eletricista.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="divisoria"></div>
+
+        <div class="bloco-3" id="bloco3">
+          <div class="container b3">
+            <h3>Simbologia</h3>
+            <p>Uma das coisas mais importantes que você, futuro <i>designer</i> de interiores, deve saber é interpretar
+              a planta
+              baixa de um projeto elétrico. Dessa maneira, você conseguirá conversar com o profissional que o auxiliará
+              nas possíveis alterações de pontos e luminárias.</p>
+            <p>Existem duas plantas baixas principais que você deverá entender: a de pontos elétricos de parede e a de
+              pontos elétricos de forro/laje.</p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#1" aria-controls="1" role="tab"
+                    data-toggle="tab">Pontos elétricos de parede</a>
+                </li>
+                <li role="presentation"><a href="#2" aria-controls="2" role="tab" data-toggle="tab">Pontos elétricos de
+                    forro/laje</a></li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="1">
+                  <p>A planta de pontos elétricos de parede focará principalmente em tomadas e interruptores, conforme
+                    você pode perceber no exemplo a seguir: </p>
+                  <p class="no-print">Clique ou toque na imagem para ampliar a visualização.</p>
+                  <figure>
+                    <img src="imgs/figura_01.png"
+                      class="center-block img-responsive hidden-lg hidden-md hidden-sm hidden-xs print">
+                    <a href="imgs/figura_01_ZOOM.jpg" target="_blank"
+                      class="no-print visible-lg visible-md visible-sm visible-xs" aria-hidden="true"><img
+                        src="imgs/figura_01.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      Figura 1 – Exemplo de planta baixa de pontos elétricos de parede
+                      <br>
+                      Fonte: Senac EAD (2023)
+                    </p>
+                    <p class="acessivel no-print">Exemplo de planta baixa mostrando os pontos elétricos de uma
+                      residência. Paredes estão em traço preto, os móveis estão em traço cinza e os símbolos de pontos
+                      elétricos estão em traço verde. Na lateral da planta baixa há uma legenda identificando a
+                      simbologia de pontos elétricos utilizados. Na legenda há símbolos como o de tomadas interruptores,
+                      campainha, telefone, TV a cabo, ar-condicionado etc.</p>
+                  </figure>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="2">
+                  <p>Já a planta de pontos elétricos de forro focará em como o ambiente será iluminado, trazendo
+                    luminárias
+                    como plafons, lustres, pendentes, spots, embutidos, locais para instalação das fontes de alimentação
+                    para fita de LED (light emitting diode, ou diodo emissor de luz) – chamados drivers –, entre outros.
+                    Veja no seguinte exemplo:</p>
+                  <p class="no-print">Clique ou toque na imagem para ampliar a visualização.</p>
+                  <figure>
+                    <img src="imgs/figura_02.png"
+                      class="center-block img-responsive hidden-lg hidden-md hidden-sm hidden-xs print">
+                    <a href="imgs/figura_02_ZOOM.jpg" target="_blank"
+                      class="no-print visible-lg visible-md visible-sm visible-xs" aria-hidden="true"><img
+                        src="imgs/figura_02.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      Figura 2 – Exemplo de planta baixa de pontos elétricos de forro
+                      <br>
+                      Fonte: Senac EAD (2023)
+                    </p>
+                    <p class="acessivel no-print">Exemplo de planta baixa mostrando os pontos de forro de um dormitório.
+                      As paredes estão em traço cinza e os pontos elétricos estão em traço verde. Na lateral da planta
+                      baixa há uma legenda identificando a simbologia de pontos elétricos utilizados. Na legenda, há
+                      símbolos como o de ventilador de teto, corda de LED e dicroica, além de detalhe de forro.</p>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              </h3>Pontos elétricos de parede:</h3>
+              <p>A planta de pontos elétricos de parede focará principalmente em tomadas e interruptores, conforme
+                você pode perceber no exemplo a seguir: </p>
+              <figure>
+                <img src="imgs/figura_01.png" class="center-block img-responsive print">
+                <a href="imgs/figura_01_ZOOM.jpg" target="_blank"
+                  class="no-print visible-sm visible-xs visible-lg visible-md" aria-hidden="true"><img
+                    src="imgs/figura_01_ZOOM.jpg" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 1 – Exemplo de planta baixa de pontos elétricos de parede
+                  <br>
+                  Fonte: Senac EAD (2023)
+                </p>
+                <p class="acessivel no-print">Exemplo de planta baixa mostrando os pontos elétricos de uma
+                  residência. Paredes estão em traço preto, os móveis estão em traço cinza e os símbolos de pontos
+                  elétricos estão em traço verde. Na lateral da planta baixa há uma legenda identificando a
+                  simbologia de pontos elétricos utilizados. Na legenda há símbolos como o de tomadas interruptores,
+                  campainha, telefone, TV a cabo, ar-condicionado etc.</p>
+              </figure>
+              <h3>Pontos elétricos de
+                forro/laje:</h3>
+              <p>Já a planta de pontos elétricos de forro focará em como o ambiente será iluminado, trazendo luminárias
+                como plafons, lustres, pendentes, spots, embutidos, locais para instalação das fontes de alimentação
+                para fita de LED (light emitting diode, ou diodo emissor de luz) – chamados drivers –, entre outros.
+                Veja no seguinte exemplo:</p>
+              <figure>
+                <img src="imgs/figura_02.png" class="center-block img-responsive print hidden-sm hidden-xs">
+                <a href="imgs/figura_01_ZOOM.jpg" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_02_ZOOM.jpg" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 2 – Exemplo de planta baixa de pontos elétricos de forro
+                  <br>
+                  Fonte: Senac EAD (2023)
+                </p>
+                <p class="acessivel no-print">Exemplo de planta baixa mostrando os pontos de forro de um dormitório.
+                  As paredes estão em traço cinza e os pontos elétricos estão em traço verde. Na lateral da planta
+                  baixa há uma legenda identificando a simbologia de pontos elétricos utilizados. Na legenda, há
+                  símbolos como o de ventilador de teto, corda de LED e dicroica, além de detalhe de forro.</p>
+              </figure>
+            </div>
+            <p>Note que ambas as plantas apresentam as paredes do ambiente e uma simbologia própria, identificando o
+              que é cada um dos pontos. Dessa maneira, ao “ler” um desses projetos, você sabe onde estão tomadas,
+              interruptores, arandelas, ar-condicionado, luminárias e assim por diante.</p>
+            <p>A seguir, você terá acesso a um material para baixar com os principais símbolos utilizados para plantas
+              de pontos de parede e plantas de pontos de forro.</p>
+            <p>Clique ou toque e salve esta tabela: </p>
+            <a target="_blank" href="../1_instalacoes_eletricas/documento/simbolos-download-conhecimento1.pdf"
+              download="simbolos-download-conhecimento1"><button
+                class="btn-baixar no-print center-block hidden-sm hidden-xs"></button></a>
+
+
+            <a target="_blank" href="../1_instalacoes_eletricas/documento/simbolos-download-conhecimento1.pdf"
+              download="simbolos-download-conhecimento1"><button
+                class="btn-baixar1 no-print center-block hidden-md hidden-lg"></button></a>
+
+            <p>Você pode criar suas próprias sugestões de plantas para conversar com o profissional parceiro. </p>
+          </div>
+        </div>
+
+        <div class="divisoria"></div>
+
+        <div class="bloco-4" id="bloco4">
+          <div class="container b4">
+            <h3>Fios</h3>
+            <p>Toda a instalação elétrica de uma residência é feita por fios. São eles que conduzem a corrente elétrica,
+              que se transforma em iluminação e pontos de energia e acionamento.</p>
+            <p>Os fios contêm diferentes bitolas e tamanhos, que são calculados pelo projetista da rede de instalação
+              predial do local. Essas medidas variam de acordo com o uso e com a corrente elétrica que passarão por
+              eles.
+              Clique nos cards a seguir para conhecer os fios utilizados nas instalações elétricas residenciais e saber
+              como identificá-los em obra:</p>
+            <p class="no-print">Clique ou toque para visualizar o conteúdo.</p>
+            <div class="no-print painel2 center-block hidden-md hidden-lg" aria-hidden="true">
+              <button type="button" class="btn_mob bt-1_mob" data-toggle="modal" data-target="#bt-1"></button>
+              <button type="button" class="btn_mob bt-2_mob" data-toggle="modal" data-target="#bt-2"></button>
+              <button type="button" class="btn_mob bt-3_mob" data-toggle="modal" data-target="#bt-3"></button>
+            </div>
+
+            <div class="no-print painel1 center-block hidden-sm hidden-xs" aria-hidden="true">
+              <button type="button" class="btn bt-1" data-toggle="modal" data-target="#bt-1"></button>
+              <button type="button" class="btn bt-2" data-toggle="modal" data-target="#bt-2"></button>
+              <button type="button" class="btn bt-3" data-toggle="modal" data-target="#bt-3"></button>
+            </div>
+            <div class="modal fade" id="bt-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-live="polite" aria-atomic="true" aria-hidden="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Fase e retorno</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Os fios que são condutores de carga são os chamados fios fase. É por eles que a corrente
+                      elétrica “abastece” os pontos de energia, sejam tomadas, sejam luminárias. Normalmente são
+                      utilizados fios de cor escura, como vermelho, marrom ou preto. </p>
+                    <figure>
+                      <img src="imgs/figura_03.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <a href="imgs/figura_03.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/figura_03.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Figura 3 – Exemplos de fios tipo fase
+                        <br>
+                        Fonte: Conduscamp (c2022)
+                      </p>
+                      <p class="acessivel no-print">Imagem de três rolos de fios utilizados para o tipo fase. Os rolos
+                        estão, da esquerda para a direita, nas cores vermelha, marrom e preta, respectivamente.</p>
+                    </figure>
+                    <p>O fio de retorno é o condutor que liga o ponto de luz até o interruptor, fechando o circuito e
+                      fazendo com que a lâmpada seja ligada ou desligada. Assim como o fio fase, o fio de retorno pode
+                      utilizar diversas cores, porém, é importante que tenha uma cor diferente, para diferenciá-lo do
+                      fio fase. </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn-mod btn-default" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="bt-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-live="polite" aria-atomic="true" aria-hidden="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Neutro</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>O fio neutro é um fio utilizado para criar a diferença de potencial em relação ao fio fase,
+                      fazendo com que haja a passagem da corrente elétrica. Segundo a Norma Técnica Brasileira (NBR)
+                      5.410, o fio neutro deve ter a cor azul-clara. </p>
+                    <figure>
+                      <img src="imgs/figura_04.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <a href="imgs/figura_04.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/figura_04.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Figura 4 – Exemplos de fios tipo neutro
+                        <br>
+                        Fonte: Conduscamp (c2022)
+                      </p>
+                      <p class="acessivel no-print">Imagem de dois rolos de fios utilizados para o tipo neutro. Na cor
+                        azul-clara, o rolo da direta está apoiado no rolo da esquerda.</p>
+                    </figure>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn-mod btn-default" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="bt-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-live="polite" aria-atomic="true" aria-hidden="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Terra</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>O fio de aterramento, ou terra, é um condutor de proteção, pois tem a função de proteger as
+                      instalações de sobrecargas elétricas. Segundo a NBR 5.410, esses fios devem ser da cor
+                      verde-amarela ou verde. </p>
+                    <figure>
+                      <img src="imgs/figura_05.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <a href="imgs/figura_05.png" target="_blank" class="no-print visible-sm visible-xs"
+                        aria-hidden="true"><img src="imgs/figura_05.png" class="center-block img-responsive"></a>
+                      <p class="legenda-imagem">
+                        Figura 5 – Exemplos de fios tipo terra
+                        <br>
+                        Fonte: Conduscamp (c2022)
+                      </p>
+                      <p class="acessivel no-print">Imagem de dois rolos de fios utilizados para o tipo neutro. O rolo
+                        da direta, na cor verde, está apoiado no rolo da esquerda, na cor verde-amarela.</p>
+                    </figure>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn-mod btn-default" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h4>Fase e retorno</h4>
+              <p>Os fios que são condutores de carga são os chamados fios fase. É por eles que a corrente
+                elétrica “abastece” os pontos de energia, sejam tomadas, sejam luminárias. Normalmente são
+                utilizados fios de cor escura, como vermelho, marrom ou preto. </p>
+              <figure>
+                <img src="imgs/figura_03.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <a href="imgs/figura_03.png" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_03.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 3 – Exemplos de fios tipo fase
+                  <br>
+                  Fonte: Conduscamp (c2022)
+                </p>
+                <p class="acessivel no-print">Imagem de três rolos de fios utilizados para o tipo fase. Os rolos
+                  estão, da esquerda para a direita, nas cores vermelha, marrom e preta, respectivamente.</p>
+              </figure>
+              <p>O fio de retorno é o condutor que liga o ponto de luz até o interruptor, fechando o circuito e
+                fazendo com que a lâmpada seja ligada ou desligada. Assim como o fio fase, o fio de retorno pode
+                utilizar diversas cores, porém, é importante que tenha uma cor diferente, para diferenciá-lo do
+                fio fase. </p>
+              <h4>Neutro</h4>
+              <p>O fio neutro é um fio utilizado para criar a diferença de potencial em relação ao fio fase,
+                fazendo com que haja a passagem da corrente elétrica. Segundo a Norma Técnica Brasileira (NBR)
+                5.410, o fio neutro deve ter a cor azul-clara. </p>
+              <figure>
+                <img src="imgs/figura_04.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <a href="imgs/figura_04.png" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_04.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 4 – Exemplos de fios tipo neutro
+                  <br>
+                  Fonte: Conduscamp (c2022)
+                </p>
+                <p class="acessivel no-print">Imagem de dois rolos de fios utilizados para o tipo neutro. Na cor
+                  azul-clara, o rolo da direta está apoiado no rolo da esquerda.</p>
+              </figure>
+              <h4>Terra</h4>
+              <p>O fio de aterramento, ou terra, é um condutor de proteção, pois tem a função de proteger as
+                instalações de sobrecargas elétricas. Segundo a NBR 5.410, esses fios devem ser da cor
+                verde-amarela ou verde. </p>
+              <figure>
+                <img src="imgs/figura_05.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <a href="imgs/figura_05.png" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_05.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 5 – Exemplos de fios tipo terra
+                  <br>
+                  Fonte: Conduscamp (c2022)
+                </p>
+                <p class="acessivel no-print">Imagem de dois rolos de fios utilizados para o tipo neutro. O rolo
+                  da direta, na cor verde, está apoiado no rolo da esquerda, na cor verde-amarela.</p>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="divisoria"></div>
+
+        <div class="bloco-5" id="bloco5">
+          <div class="container b5">
+            <h3>Interruptores</h3>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#bt-5" aria-controls="5" role="tab"
+                    data-toggle="tab">Interruptor simples, duplo e triplo</a>
+                </li>
+                <li role="presentation"><a href="#bt-6" aria-controls="6" role="tab" data-toggle="tab">Interruptor
+                    redondo ou de embutir</a></li>
+                <li role="presentation"><a href="#bt-7" aria-controls="7" role="tab" data-toggle="tab">Interruptor
+                    inteligente</a></li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="bt-5">
+                  <p>Os interruptores são a principal forma de acionar as luminárias das residências e existem diversos
+                    tipos, formatos, cores e estratégias de uso desses dispositivos. Normalmente ficam posicionados a
+                    1,15
+                    m de altura, a fim de que possam ser acionados ou desligados por uma pessoa quando ela entrar ou
+                    sair
+                    de um ambiente. Muitas vezes eles podem ter mais de uma tecla, viabilizando vários acionamentos em
+                    um
+                    mesmo ambiente.</p>
+                  <figure>
+                    <img src="imgs/figura_06.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <a href="imgs/figura_06.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/figura_06.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      Figura 6 – Interruptor simples, duplo e triplo
+                      <br>
+                      Fonte: Leroy Merlin (c2023b)
+                    </p>
+                    <p class="acessivel no-print">Três interruptores na cor branca no formato retangular medindo
+                      aproximadamente 8cm de largura por 12cm de altura. O interruptor da esquerda possui uma tecla, o
+                      do meio possui duas teclas e o da direita possui três teclas. </p>
+                  </figure>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="bt-6">
+                  <p>Outro interruptor bastante utilizado é o redondo ou de embutir. Ele não tem espelho (a placa que
+                    fica em volta do acionamento) de tamanho grande, é bastante discreto e bastante utilizado em
+                    marcenarias ou móveis, podendo acionar uma iluminação embutida do mobiliário, por exemplo. </p>
+                  <figure>
+                    <img src="imgs/figura_07.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <a href="imgs/figura_07.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/figura_07.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      Figura 7 – Interruptor redondo ou de embutir
+                      <br>
+                      Fonte: MarGirius (s. d.)
+                    </p>
+                    <p class="acessivel no-print">Imagem de interruptor redondo na cor preta. O dispositivo tem
+                      aproximadamente 2 cm de diâmetro, a tecla de acionamento também tem formato redondo e há uma base
+                      retangular com duas conexões metálicas.</p>
+                  </figure>
+                  <figure>
+                    <img src="imgs/figura_08.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <a href="imgs/figura_08.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/figura_08.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      Figura 8 – Interruptor redondo instalado em painel de marcenaria
+                      <br>
+                      Fonte: Hiperfer (s. d.)
+                    </p>
+                    <p class="acessivel no-print">Imagem de três interruptores redondos na cor branca, aplicados na
+                      lateral de painel de marcenaria cinza.</p>
+                  </figure>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="bt-7">
+                  <p>Atualmente existem também os interruptores inteligentes. Conectados na rede <i>wi-fi</i>, eles
+                    podem ser acionados por leve toque, por comandos de voz ou até mesmo a distância. </p>
+                  <figure>
+                    <img src="imgs/figura_09.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                    <a href="imgs/figura_09.png" target="_blank" class="no-print visible-sm visible-xs"
+                      aria-hidden="true"><img src="imgs/figura_09.png" class="center-block img-responsive"></a>
+                    <p class="legenda-imagem">
+                      Figura 9 – Interruptor inteligente
+                      <br>
+                      Fonte: Tecmundo (2021)
+                    </p>
+                    <p class="acessivel no-print">A imagem mostra três interruptores inteligentes na cor branca e no
+                      formato retangular, medindo aproximadamente 8 cm de largura por 12 cm de altura. Ao invés de
+                      teclas de um interruptor comum, eles têm pequenos círculos como acionamento. O interruptor da
+                      esquerda tem duas teclas, o do meio tem uma tecla e o da direita tem três teclas.</p>
+                  </figure>
+                  <div class="caixa-destaque icone dica">
+                    <p>Mas você sabe por que o interruptor recebe esse nome?</p>
+                    <p>A resposta é simples: com o acionamento de tecla, ele “interrompe” a corrente elétrica,
+                      desligando a iluminação, ou seja, abrindo o circuito. Acionando novamente, é possível fechar o
+                      circuito e acender a luz. O mesmo processo ocorre com os disjuntores utilizados nos quadros de
+                      distribuição. Eles interrompem a corrente elétrica, deixando de fornecer a eletricidade para as
+                      tomadas e os pontos de iluminação.</p>
+                    <p>Confira o GIF a seguir:</p>
+                    <figure>
+                      <img src="imgs/" class="center-block img-responsive hidden-sm hidden-xs print">
+                      <a href="imgs/" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                          src="imgs/" class="center-block img-responsive"></a>
+                      <p class="acessivel no-print">A animação demonstra o acionamento de uma lâmpada pelo interruptor.
+                        À direita da imagem há uma lâmpada apagada. Na base da lâmpada há um fio vermelho e um fio azul
+                        conectados, ambos saindo para o lado esquerdo da imagem. O fio vermelho, que está acima do fio
+                        azul contínuo, tem uma interrupção. Neste local, um pequeno traço sobe e desce: quando sobe,
+                        interrompe a corrente elétrica e desliga a luz; quando desce, fecha a corrente elétrica e liga a
+                        luz.</p>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h3>Interruptor simples, duplo e triplo:</h3>
+              <p>Os interruptores são a principal forma de acionar as luminárias das residências e existem diversos
+                tipos, formatos, cores e estratégias de uso desses dispositivos. Normalmente ficam posicionados a
+                1,15
+                m de altura, a fim de que possam ser acionados ou desligados por uma pessoa quando ela entrar ou
+                sair
+                de um ambiente. Muitas vezes eles podem ter mais de uma tecla, viabilizando vários acionamentos em
+                um
+                mesmo ambiente.</p>
+              <figure>
+                <img src="imgs/figura_06.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <a href="imgs/figura_06.png" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_06.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 6 – Interruptor simples, duplo e triplo
+                  <br>
+                  Fonte: Leroy Merlin (c2023b)
+                </p>
+                <p class="acessivel no-print">Três interruptores na cor branca no formato retangular medindo
+                  aproximadamente 8cm de largura por 12cm de altura. O interruptor da esquerda possui uma tecla, o
+                  do meio possui duas teclas e o da direita possui três teclas. </p>
+              </figure>
+              <h3>Interruptor redondo ou de embutir:</h3>
+              <p>Outro interruptor bastante utilizado é o redondo ou de embutir. Ele não tem espelho (a placa que
+                fica em volta do acionamento) de tamanho grande, é bastante discreto e bastante utilizado em
+                marcenarias ou móveis, podendo acionar uma iluminação embutida do mobiliário, por exemplo. </p>
+              <figure>
+                <img src="imgs/figura_07.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <a href="imgs/figura_07.png" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_07.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 7 – Interruptor redondo ou de embutir
+                  <br>
+                  Fonte: MarGirius (s. d.)
+                </p>
+                <p class="acessivel no-print">Imagem de interruptor redondo na cor preta. O dispositivo tem
+                  aproximadamente 2 cm de diâmetro, a tecla de acionamento também tem formato redondo e há uma base
+                  retangular com duas conexões metálicas.</p>
+              </figure>
+              <figure>
+                <img src="imgs/figura_08.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <a href="imgs/figura_08.png" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_08.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 8 – Interruptor redondo instalado em painel de marcenaria
+                  <br>
+                  Fonte: Hiperfer (s. d.)
+                </p>
+                <p class="acessivel no-print">Imagem de três interruptores redondos na cor branca, aplicados na
+                  lateral de painel de marcenaria cinza.</p>
+              </figure>
+              <h3>Interruptor inteligente:</h3>
+              <p>Atualmente existem também os interruptores inteligentes. Conectados na rede <i>wi-fi</i>, eles
+                podem ser acionados por leve toque, por comandos de voz ou até mesmo a distância. </p>
+              <figure>
+                <img src="imgs/figura_09.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <a href="imgs/figura_09.png" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_09.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 9 – Interruptor inteligente
+                  <br>
+                  Fonte: Tecmundo (2021)
+                </p>
+                <p class="acessivel no-print">A imagem mostra três interruptores inteligentes na cor branca e no
+                  formato retangular, medindo aproximadamente 8 cm de largura por 12 cm de altura. Ao invés de
+                  teclas de um interruptor comum, eles têm pequenos círculos como acionamento. O interruptor da
+                  esquerda tem duas teclas, o do meio tem uma tecla e o da direita tem três teclas.</p>
+              </figure>
+              <div class="caixa-destaque icone dica">
+                <p>Mas você sabe por que o interruptor recebe esse nome?</p>
+                <p>A resposta é simples: com o acionamento de tecla, ele “interrompe” a corrente elétrica, desligando a
+                  iluminação, ou seja, abrindo o circuito. Acionando novamente, é possível fechar o circuito e acender a
+                  luz. O mesmo processo ocorre com os disjuntores utilizados nos quadros de distribuição. Eles
+                  interrompem a corrente elétrica, deixando de fornecer a eletricidade para as tomadas e os pontos de
+                  iluminação.</p>
+                <p>Confira o GIF a seguir:</p>
+                <figure>
+                  <img src="imgs/" class="center-block img-responsive hidden-sm hidden-xs print">
+                  <a href="imgs/" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img
+                      src="imgs/" class="center-block img-responsive"></a>
+                  <p class="acessivel no-print">A animação demonstra o acionamento de uma lâmpada pelo interruptor. À
+                    direita da imagem há uma lâmpada apagada. Na base da lâmpada há um fio vermelho e um fio azul
+                    conectados, ambos saindo para o lado esquerdo da imagem. O fio vermelho, que está acima do fio azul
+                    contínuo, tem uma interrupção. Neste local, um pequeno traço sobe e desce: quando sobe, interrompe a
+                    corrente elétrica e desliga a luz; quando desce, fecha a corrente elétrica e liga a luz.</p>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="divisoria"></div>
+
+        <div class="bloco-6" id="bloco6">
+          <div class="container b6">
+            <h3>Tomadas</h3>
+            <p>As tomadas são imprescindíveis em um ambiente de interiores, seja residencial, seja comercial ou
+              corporativo. É por meio delas que se podem ligar equipamentos, luminárias, eletrodomésticos, entre outros.
+              As tomadas contêm padrões diferentes em cada país, sendo a tomada de três pinos o padrão brasileiro.</p>
+            <p>Um ponto de tomada pode ter mais de uma conexão, podendo chegar a três tomadas em um só local, por
+              exemplo.
+              Tomadas triplas ajudam bastante em cozinhas e pontos nos quais são ligados muitos equipamentos, como em um
+              ambiente de estar. É possível também combinar tomadas com interruptores, para haver menos espelhos e
+              caixas
+              na parede. Um exemplo dessa utilização é em tomadas de banheiro.</p>
+            <figure>
+              <img src="imgs/figura_10.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <a href="imgs/figura_10.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/figura_10.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Figura 10 – Tomadas simples, dupla e tripla
+                <br>
+                Fonte: Fame (s. d.)
+              </p>
+              <p class="acessivel no-print">Três tomadas na cor branca no formato retangular medindo aproximadamente 8cm
+                de largura por 12cm de altura. A tomada da esquerda possui uma entrada, a do meio possui duas entradas e
+                a da direita possui três entradas. Todas entradas são para três pinos.</p>
+            </figure>
+            <p>É preciso sempre ter cuidado com os equipamentos que serão conectados nas tomadas. Por padrão, a tomada
+              dever ter entrada de 10 amperes (com o orifício medindo 4 mm de diâmetro), porém, equipamentos como
+              secadores de cabelo têm o <i>plug</i> de 20 amperes (com o orifício medindo 4,8 mm de diâmetro). </p>
+            <figure>
+              <img src="imgs/figura_11.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <a href="imgs/figura_11.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/figura_11.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Figura 11 – Tomada de 10A e 20A
+                <br>
+                Fonte: <i>Blog</i> EletroJr. (2021?)
+              </p>
+              <p class="acessivel no-print">Desenho esquemático de duas tomadas. Na esquerda há uma tomada de 10 amperes
+                e cada orifício para entrada dos pinos mede 4 mm. Na direita há uma tomada de 20 amperes e cada orifício
+                para entrada dos pinos mede 4,8 mm.</p>
+            </figure>
+            <div class="caixa-destaque icone dica">
+              <h3 class="titulo_destaque">Mas você sabe o que são amperes?</h3>
+              <p>A corrente elétrica é gerada quando os elétrons de um átomo começam a se mover de um átomo para o outro
+                ordenadamente. A unidade ampere (A) mede quantos elétrons estão se movimentando a cada segundo nesta
+                corrente. Em resumo, o ampere mede a quantidade de corrente elétrica, portanto, é importante saber que
+                quanto mais amperagem um aparelho eletrodoméstico tiver, maior será o gasto de energia elétrica.</p>
+            </div>
+            <p>Tomadas de informática, lógica, telefonia, USB (<i>universal serial bus</i>, ou porta universal) e
+              inteligente
+              trazem opções de conexão e energia diferentes das utilizadas apenas para ligar equipamentos
+              eletroeletrônicos. </p>
+            <figure>
+              <img src="imgs/figura_12.png" class="center-block img-responsive hidden-sm hidden-xs print">
+              <a href="imgs/figura_12.png" target="_blank" class="no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="imgs/figura_12.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Figura 12 – Tomadas USB, HDMI, inteligente e de informática
+                <br>
+                Fonte: Leroy Merlin (2021)
+              </p>
+              <p class="acessivel no-print">A imagem mostra quatro tomadas na cor branca. A primeira, na esquerda, uma é
+                tomada USB com medida padrão e duas entradas para ligação USB. A seguinte é uma tomada com entrada HDMI
+                quadrada, diferente do formato retangular. A terceira é uma tomada retangular inteligente, ela tem o
+                encaixe de tomada com três furos. Acima dos furos há um botão branco escrito “power” e, abaixo dos
+                furos, há um símbolo de conexão com a internet. A quarta e última tomada é de informática, com conexão
+                para cabos de internet.</p>
+            </figure>
+            <p>Para mobiliários existem as torres de tomadas ou caixas de embutir, que permitem um ambiente ou uma
+              bancada de trabalho mais organizados. As tomadas de piso permitem ligar equipamentos sem precisar que um
+              fio atravesse um cômodo. </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <figure>
+                  <img src="imgs/figura_13.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                  <a href="imgs/figura_13.png" target="_blank" class="no-print visible-sm visible-xs"
+                    aria-hidden="true"><img src="imgs/figura_13.png" class="center-block img-responsive"></a>
+                  <p class="legenda-imagem">
+                    Figura 13 – Torre de tomadas e tomada de piso
+                    <br>
+                    Fonte: Metalferco (s. d.)
+                  </p>
+                  <p class="acessivel no-print">Imagem de uma torre de tomadas fixada em uma mesa. A torre é cilíndrica,
+                    na
+                    cor preta, com um detalhe circular cinza na parte superior. Na torre estão ligados dois equipamentos
+                    na
+                    cor branca.</p>
+                </figure>
+              </div>
+              <div class="col-lg-6">
+                <figure>
+                  <img src="imgs/figura_14.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                  <a href="imgs/figura_14.png" target="_blank" class="no-print visible-sm visible-xs"
+                    aria-hidden="true"><img src="imgs/figura_14.png" class="center-block img-responsive"></a>
+                  <p class="legenda-imagem">
+                    Figura 14 – Tomada de piso
+                    <br>
+                    Fonte: Leroy Merlin (c2023a)
+                  </p>
+                  <p class="acessivel no-print">Tomada de piso quadrada, na cor cinza. Ela tem duas entradas, cada uma
+                    com
+                    uma pequena tampa aberta, que pode ser fechada quando não está em uso.</p>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="divisoria"></div>
+
+        <div class="bloco-7" id="bloco7">
+          <div class="container b7">
+            <div class="row">
+              <div class="col-lg-8">
+                <h3>Encerramento</h3>
+                <p>Agora você já tem base para entender os principais conceitos de uma instalação elétrica. Conhecendo
+                  os
+                  principais tipos de tomadas, fios, interruptores e símbolos, você tem condições de examinar projetos
+                  elétricos e entender como é a distribuição e o fornecimento daquele ambiente. Com esses conceitos,
+                  seus
+                  projetos ganharão qualidade de iluminação e atendimento de pontos elétricos, questões imprescindíveis
+                  para
+                  um bom projeto de <i>design</i> de interiores. </p>
+              </div>
+              <div class="col-lg-4">
+                <img src="imgs/img_encerramento.png" class="img-responsive center-block no-print img_margem1" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </section>
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <!--
+          <ul class="pagination">
+
+          </ul>
+          -->
+    </footer>
+
+  </div>
+
+
+  <!-- Modais -->
+
+
+  <!-- Modais 100% -->
+
+
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+	-->
+  <!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png">
+    <img src="../template/images/bg-content.jpg">
+    <img src="../template/images/bg-topo.jpg">
+    <img src="../template/images/black-zoom-in-256.png">
+    <img src="../template/images/concluindo.png">
+    <img src="../template/images/curtir.png">
+    <img src="../template/images/desafio.png">
+    <img src="../template/images/dica.png">
+    <img src="../template/images/doc.png">
+    <img src="../template/images/fundamental.png">
+    <img src="../template/images/icon-03.png">
+    <img src="../template/images/importante.png">
+    <img src="../template/images/lightbulb.png">
+    <img src="../template/images/link.png">
+    <img src="../template/images/link_pdf_hover.png">
+    <img src="../template/images/link_pdf_normal.png">
+    <img src="../template/images/logo-senac.png">
+    <img src="../template/images/mark-icon.png">
+    <img src="../template/images/mark-icon02.png">
+    <img src="../template/images/midia.png">
+    <img src="../template/images/monitor.png">
+    <img src="../template/images/nao_curtir.png">
+    <img src="../template/images/pergunta.png">
+    <img src="../template/images/pesquisa.png">
+    <img src="../template/images/play.png">
+    <img src="../template/images/radio_flat.png">
+    <img src="../template/images/refletir.png">
+    <img src="../template/images/saiba_mais.png">
+    <img src="../template/images/senac_loader.png">
+    <img src="../template/images/tanamidia.png">
+    <img src="../template/images/transcricao.png">
+    <img src="../template/images/transcricao_small.png">
+    <img src="../template/images/tv.png">
+    <img src="../template/images/tv_bottom.png">
+    <img src="../template/images/zoom.png">
+    <img src="../template/images/zoom_ie.cur">
+    <img src="../template/images/zoom_ie.png">
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/highlight.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/menu-02.js"></script>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+</body>
+
+</html>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('pre code').forEach((el) => {
+      hljs.highlightElement(el);
+    });
+  });
+  //inicializa zoom na imagem
+  $('.zoom-imagem').magnificPopup({
+    type: 'image',
+    mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+
+      duration: 300, // duration of the effect, in milliseconds
+      easing: 'ease-in-out', // CSS transition easing function
+
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function (openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+      }
+    },
+    image: {
+      markup: '<div class="mfp-figure">' +
+        '<div class="mfp-close"></div>' +
+        '<div class="mfp-img"></div>' + // Floated left
+        '<div class="mfp-bottom-bar">' + '<figcaption>' + '<div class="mfp-title" style="text-align:center"></div>' +
+        '<div class="mfp-counter"></div>' + '</figcaption>' +
+        '</div>' +
+        '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+      cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+      tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
+    }
+  });
+
+  //inicializa popover
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+  //inicializa tooltip
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
+  /*------- Script de animação do botão -------*/
+  var root = document.documentElement;
+  root.className += ' js';
+
+  function boxTop(idBox) {
+    var boxOffset = $(idBox).offset().top;
+    return boxOffset;
+  }
+
+  $(document).ready(function () {
+    var $target = $('.animeStart'),
+      $target2 = $('.animeStop'),
+      targetBox = $('.box'),
+      animationClass = 'anime-init',
+      windowHeight = $(window).height(),
+      offset = windowHeight - (windowHeight / 4);
+
+    function animeScroll() {
+      var documentTop = $(document).scrollTop();
+      $target.each(function () {
+        if (documentTop > boxTop(this) - offset) {
+          targetBox.addClass(animationClass);
+        } else {
+          targetBox.removeClass(animationClass);
+        }
+        if (documentTop > boxTop($target2) - offset) {
+          targetBox.removeClass(animationClass);
+        }
+      });
+    }
+    animeScroll();
+
+    $(document).scroll(function () {
+      animeScroll();
+    });
+  });
+
+
+</script>
+
+<script>
+  var scriptElem = document.createElement("script");
+  scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+    scriptElem.charset = "UTF-8",
+    scriptElem.onload = function () {
+      window.ht = new HT({
+        token: "bf5b7efb148a829a126a0e0c9fd533bf",
+        align: "top",
+        videoEnabled: true,
+        ytEmbedReplace: true,
+        mobileConfig: {
+          align: "right",
+          actionsAlign: "top",
+          customButtonStyle: {
+            borderRadius: "6px",
+            size: "38px",
+            horizontalMargin: "13px",
+            bottomMargin: "140px",
+            rightMargin: "40px"
+          }
+        }
+      });
+      $('.ht-skip').attr("aria-hidden", "true")
+    },
+    document.body.appendChild(scriptElem);
+</script>

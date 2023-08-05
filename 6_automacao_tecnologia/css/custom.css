@@ -1,0 +1,173 @@
+h1,
+h2,
+h3,
+h4 {
+  color: #206060;
+  font-weight: bold;
+}
+
+.bloco-1 {
+  background: url("../imgs/BG.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+
+.btn-m {
+  width: 126px;
+  height: 163px;
+  border: none;
+  transition: all .4s;
+  cursor: url(../imgs/cursor_painel.png), auto;
+}
+
+.painel1 {
+  background: url("../imgs/img_mobile.png");
+  display: flex;
+  width: 765px;
+  height: 897px;
+  margin-top: 112px;
+  padding-right: 191px;
+  padding-left: 225px;
+  align-items: center;
+  cursor: url(../imgs/cursor_painel.png), auto;
+
+}
+
+.btn-1 {
+  background: url("../imgs/painel_bt1.png") no-repeat;
+}
+
+.btn-2 {
+  background: url("../imgs/painel_bt2.png") no-repeat;
+}
+
+.btn-3 {
+  background: url("../imgs/painel_bt3.png") no-repeat;
+}
+
+.btn-4 {
+  background: url("../imgs/painel_bt4.png") no-repeat;
+}
+
+.btn-5 {
+  background: url("../imgs/painel_bt5.png") no-repeat;
+}
+
+.btn-6 {
+  background: url("../imgs/painel_bt6.png") no-repeat;
+}
+
+.btn-1:hover {
+  background: url("../imgs/painel_bt1_hover.png") no-repeat;
+}
+
+.btn-2:hover {
+  background: url("../imgs/painel_bt2_hover.png") no-repeat;
+}
+
+.btn-3:hover {
+  background: url("../imgs/painel_bt3_hover.png") no-repeat;
+}
+
+.btn-4:hover {
+  background: url("../imgs/painel_bt4_hover.png") no-repeat;
+}
+
+.btn-5:hover {
+  background: url("../imgs/painel_bt5_hover.png") no-repeat;
+}
+
+.btn-6:hover {
+  background: url("../imgs/painel_bt6_hover.png") no-repeat;
+}
+
+
+.modal_01 {
+  background: url("../imgs/bg_modal1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #000;
+  background-attachment: fixed;
+}
+
+.modal_02 {
+  background: url("../imgs/bg_modal2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #000;
+  background-attachment: fixed;
+}
+
+.modal_03 {
+  background: url("../imgs/bg_modal3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #000;
+  background-attachment: fixed;
+}
+
+.modal_04 {
+  background: url("../imgs/bg_modal4.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #000;
+  background-attachment: fixed;
+}
+
+.modal_05 {
+  background: url("../imgs/bg_modal5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #000;
+  background-attachment: fixed;
+}
+
+.modal_06 {
+  background: url("../imgs/bg_modal6.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #000;
+  background-attachment: fixed;
+}
+
+.titulo_modal {
+  border-bottom: 2px solid #66a1a1;
+}
+
+/* personalização modal 100% */
+button.close {
+  background: url(../imgs/ico_fechar.png) no-repeat;
+  width: 101px;
+  height: 101px;
+  opacity: unset;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .painel1 {
+    background: unset;
+    display: flex;
+    width: unset;
+    height: unset;
+    margin-top: unset;
+    padding-right: 40px;
+    padding-left: 40px;
+    align-items: center;
+    cursor: unset;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}

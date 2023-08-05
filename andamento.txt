@@ -1,0 +1,53 @@
+html 1 arrumar menu ancorado desktop e mobile e verificar versão para impressão.
+
+html 2 tudo certo, mas se tiver tempo dar uma atenção ao mobile
+
+html 3
+
+html 4 tudo certo, mas se tiver tempo dar uma atenção ao mobile
+
+html 5
+
+html 6 verificar versão impressa , bloco-1 e bg das modais
+
+html 7 fazer bloco 1, ico_fechar, arrumar parallax e container do 360, verificar mobile e impressão, pedir para a Tifa os botões mobile do painel
+
+html 8 tudo certo, mas se tiver tempo dar uma atenção ao mobile
+
+html 9 verificar versão impressa e bloco-1
+
+html 10
+
+html 11
+
+tela inicial
+
+
+
+
+
+
+
+.parallax{
+  min-height: 400px;
+  background: transparent;
+  width: 100% !important;
+}
+.parallax-mirror{
+z-index: unset !important;
+width: 100% !important;
+}
+.parallax-mirror{
+  z-index: unset !important;
+  width: 100% !important;
+}
+.parallax-slider{
+  width: 100%;
+}
+
+
+uc05 cont 09 slideshow
+
+ <img src="imgs/figura_01.png" data-mfp-src="imgs/figura_02.png"
+                  class="zoom-imagem center-block anim-pop img-responsive">
+

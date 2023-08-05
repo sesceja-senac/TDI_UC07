@@ -1,0 +1,320 @@
+h1,
+h2,
+h3,
+h4 {
+  color: #206060;
+  font-weight: bold;
+}
+
+.pagina {
+  margin-top: 30px;
+}
+
+.animacao {
+  width: 300px;
+  height: 100px;
+  background-color: #bc3630;
+  margin-bottom: 20px;
+}
+
+.espera-video {
+  width: 300px;
+  height: 150px;
+  background-color: #206060;
+  margin-bottom: 20px;
+}
+
+.b6,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b7,
+.b8 {
+  padding: 20px;
+}
+
+
+.b3,
+.b5,
+.b7 {
+  background-color: #f7f7f7;
+}
+
+.titulo-normal {
+  color: #000;
+}
+
+.titulo-branco {
+  color: #fff;
+  font-weight: bold;
+}
+
+.bloco-1 {
+  background: url("../imgs/BG_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+
+.bloco-2 {
+  background-color: #206060;
+  color: #fff;
+  margin: 15px;
+}
+
+.bloco-3 {
+  background: url("../imgs/BG_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+
+.bloco-4 {
+  background-color: #80392c;
+  color: #fff;
+  margin: 15px;
+}
+
+.bloco-5 {
+  background: url("../imgs/BG_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+
+.bloco-6 {
+  background-color: #206060;
+  color: #fff;
+  margin: 15px;
+}
+
+.bloco-7 {
+  background: url("../imgs/BG_2.png");
+  background-size: contain;
+  background-repeat: repeat-y;
+  margin: 15px;
+}
+
+.bloco-8 {
+  background-color: #4c4c4c;
+  color: #fff;
+  margin: 15px;
+}
+
+/* tabela */
+table.senac th {
+  background-color: #bc3630;
+  color: #fff;
+  border: 1px solid #bc3630;
+}
+
+table.senac {
+  border-color: #bc3630;
+}
+
+table.senac td {
+  border-color: #bc3630;
+}
+
+/* tabela */
+/* Personalização painel gaitinha */
+.panel-group {
+  color: #000;
+  border-radius: 20px;
+}
+
+.panel-body {
+  background-color: #fff;
+}
+
+.panel-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.panel-default {
+  border-color: #bd3d33;
+}
+
+.panel-heading {
+  background-color: #bd3d33 !important;
+  padding: 10px 10px !important;
+  border-bottom: 1px solid #bd3d33 !important;
+  border-top-left-radius: none !important;
+  border-top-right-radius: none !important;
+}
+
+.collapsed:hover {
+  color: none;
+  text-decoration: none;
+}
+
+/* Fim personalização painel gaitinha */
+.painel1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 15px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-p {
+  width: 381px;
+  height: 142px;
+  border: none;
+}
+
+.btn-1 {
+  background: url("../imgs/bt1.png") no-repeat;
+}
+
+.btn-2 {
+  background: url("../imgs/bt2.png") no-repeat;
+}
+
+.btn-1:hover {
+  background: url("../imgs/bt1_hover.png") no-repeat;
+}
+
+.btn-2:hover {
+  background: url("../imgs/bt2_hover.png") no-repeat;
+}
+
+.btn-exemplo {
+  width: 288px;
+  height: 86px;
+  border: none;
+  background: url("../imgs/bt_exemplo.png") no-repeat;
+}
+
+.btn-exemplo:hover {
+  background: url("../imgs/bt_exemplo_hover.png") no-repeat;
+}
+
+
+
+/* modal simples*/
+.modal-title {
+  color: #66a1a1;
+  font-weight: bold;
+}
+
+.modal-body {
+  border-top: 2px solid #66a1a1;
+  color: #000;
+}
+
+/* modal simples*/
+/* personalização modal 100% */
+.modal-diferente {
+  background: url("../imgs/BG_modal.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.titulo_modal {
+  border-bottom: 2px solid #66a1a1;
+}
+
+/* personalização modal 100% */
+/* caixa destaque */
+.caixa-destaque {
+  background-color: #bc3630;
+  color: #fff;
+  width: 230px;
+}
+
+.titulo_destaque {
+  color: #fff;
+}
+
+/* caixa destaque */
+/* painel abas */
+.tab-content {
+  border: 4px solid #bc3630;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 26px;
+  margin-bottom: 50px;
+  border-top: transparent;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+  color: #bc3630;
+  cursor: default;
+  background-color: #fff;
+  border: 4px solid #bc3630;
+  border-radius: 10px;
+  border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+  color: #fff;
+  background-color: #bc3630;
+  border: 4px solid #bc3630;
+}
+
+/* painel abas */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .btn-p {
+    width: 237px;
+    height: 82px;
+    border: none;
+  }
+
+  .btn-1 {
+    background: url("../imgs/mob_bt1.png") no-repeat;
+  }
+
+  .btn-2 {
+    background: url("../imgs/mob_bt2.png") no-repeat;
+  }
+
+  .btn-1:hover {
+    background: url("../imgs/mob_bt1_hover.png") no-repeat;
+  }
+
+  .btn-2:hover {
+    background: url("../imgs/mob_bt2_hover.png") no-repeat;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}

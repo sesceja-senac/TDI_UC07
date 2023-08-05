@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Automação e tecnologia: sensores, dimmers, conexão e integração via wi-fi, assistentes domiciliares
+    inteligentes, aplicativos
+  </title>
+
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
+  <link href="../template/css/cores.css" rel="stylesheet">
+  <link href="../template/css/modal-100.css" rel="stylesheet">
+  <link href="../template/css/devibeans.min.css" rel="stylesheet">
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css">
+  <link href="../template/css/sncload.css" rel="stylesheet">
+  <link href="../template/css/magnific-popup.css" rel="stylesheet">
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet">
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet">
+  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+
+  <!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Paulo Ricardo Soveral Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">46914400.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Paulo Ricardo Soveral Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
+  <!-- /MARCA D´ÁGUA -->
+
+  <div id='sncloader' class='over-loader'>
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de interiores</h1>
+      <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
+    </div>
+    <div id="sombra"></div>
+  </header>
+  <div id="booklet">
+    <header class="no-print container">
+      <!-- BTO IMPRIMIR -->
+      <div class="grupo-imprimir no-print">
+        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+          <span class="fa fa-print"></span> <span>Imprimir</span>
+        </button>
+      </div>
+      <!-- /BTO IMPRIMIR -->
+    </header>
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
+
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina">
+        <!-- <div class="parallax" data-parallax="scroll" data-image-src="imgs/paralaxe_1.png"></div>
+        <div class="rellax el el-esq bottom" data-rellax-speed="3" style="transform: translate3d(0px, -90px, 0px);">
+          <img src="imgs/lamp_parallax1.png" alt="">   </div>-->
+
+
+        <div class="bloco-1" id="bloco1">
+          <div class="container b1">
+            <div class="grupo-imprimir no-print">
+              <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                <span class="fa fa-print"></span> <span>Imprimir</span>
+              </button>
+            </div>
+            <div class="row">
+              <div class="col-lg-5">
+                <h2>Automação e tecnologia:</h2>
+                <h3>sensores, <i>dimmers</i>, conexão e integração via <i>wi-fi</i>, assistentes domiciliares
+                  inteligentes,
+                  aplicativos
+                </h3>
+                <h3> Introdução </h3>
+                <p>Este conteúdo tratará dos conceitos de automação predial e tecnologia, e de como utilizar isso nos
+                  projetos
+                  de <i>design</i> de interiores. Porém, antes, é preciso entender o que significa automação.</p>
+                <p>Quando se fala de automação, é comum uma palavra vir à mente: automático. Isso significa que a
+                  automação
+                  ocorre quando há processos automáticos (ou automatizados) nos equipamentos e nas máquinas. Quando há
+                  uma
+                  luz
+                  que acende sozinha ao escurecer, um alarme que toca quando uma porta é aberta, existe aí um processo
+                  de
+                  automação.</p>
+                <p>No caso da automação residencial, os últimos anos foram de bastante evolução nesse sentido.
+                  Iluminação,
+                  climatização, segurança, sonorização podem ter uma intervenção cada vez menor do ser humano, com
+                  processos
+                  que buscam trazer comodidade, economia de energia e redução de custos. Para tanto, existem controles
+                  por
+                  meio de sensores, dispositivos, aplicativos, redes etc.</p>
+                <p>Um dos controles mais utilizados atualmente para automação é o <i>smartphone</i>. A seguir você
+                  aprenderá
+                  mais
+                  sobre o assunto.</p>
+                <p>Clique nos ícones e conheça os principais itens de uma automatização predial:</p>
+              </div>
+              <div class="col-lg-7">
+                <div class="no-print" aria-hidden="true">
+                  <div class="painel painel1">
+                    <div class="row no-print">
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <button type="button" class="btn-m btn-1" data-toggle="modal" data-target="#btn-1"></button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <button type="button" class="btn-m btn-2" data-toggle="modal" data-target="#btn-2"></button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <button type="button" class="btn-m btn-3" data-toggle="modal" data-target="#btn-3"></button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <button type="button" class="btn-m btn-4" data-toggle="modal" data-target="#btn-4"></button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <button type="button" class="btn-m btn-5" data-toggle="modal" data-target="#btn-5"></button>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <button type="button" class="btn-m btn-6" data-toggle="modal" data-target="#btn-6"></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal modal-100 fade" id="btn-1" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body modal_01">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            </div>
+                            <h3 class="titulo_modal">Sensores</h3>
+                            <p>Você já deve ter chegado ao corredor de um edifício totalmente escuro e, ao se aproximar,
+                              as
+                              luzes acenderam-se. Como isso pode ter acontecido se não há nenhum interruptor ou alguém
+                              acionando a luz? Isso é possível por meio de sensores (nesse caso, os de movimento).</p>
+                            <p>Os sensores desempenham um papel importantíssimo na automação predial e residencial. É a
+                              partir deles que é possível detectar temperaturas, quantidade de luz, sons, movimentação e
+                              uma
+                              série de outros fatores. No exemplo citado anteriormente, o sensor de presença utiliza um
+                              feixe de luz que, ao “tocar” em algum item em movimento, detecta e aciona a luz
+                              automaticamente.</p>
+                            <figure>
+                              <img src="imgs/figura_01.png"
+                                class="center-block img-responsive hidden-sm hidden-xs print">
+                              <a href="imgs/figura_01.png" target="_blank" class="no-print visible-sm visible-xs"
+                                aria-hidden="true"><img src="imgs/figura_01.png"
+                                  class="center-block img-responsive"></a>
+                              <p class="legenda-imagem">
+                                Figura 1 – Sensor de movimento infravermelho Intelbras
+                                <br>
+                                Fonte: Intelbras (c2023a)
+                              </p>
+                              <p class="acessivel no-print">Imagem de um sensor infravermelho branco, medindo
+                                aproximadamente 7 cm de largura e 14 cm de altura. A base é um semicírculo e o resto do
+                                corpo é retangular. O sensor tem os cantos arredondados em todo o objeto. No centro dele
+                                está escrito “Intelbras”.</p>
+                            </figure>
+                            <p>Os sensores de presença são utilizados para acionamento tanto de luzes quanto de alarmes,
+                              servindo para a segurança de um local. Nesse caso, os sensores terão funcionamentos
+                              relativamente diferentes, mas todos com a função de detectar algum tipo de movimento ou
+                              presença.</p>
+                            <p>Outro sensor bastante utilizado atualmente são as <i>tags</i> para entrar em um edifício.
+                              Por
+                              exemplo, quando um sensor eletromagnético se aproxima de um leitor específico, é possível
+                              abrir uma porta condominial.</p>
+                            <figure>
+                              <img src="imgs/figura_02.png"
+                                class="center-block img-responsive hidden-sm hidden-xs print">
+                              <a href="imgs/figura_02.png" target="_blank" class="no-print visible-sm visible-xs"
+                                aria-hidden="true"><img src="imgs/figura_02.png"
+                                  class="center-block img-responsive"></a>
+                              <p class="legenda-imagem">
+                                Figura 2 – Sensor eletromagnético tipo <i>tag</i> Intelbras
+                                <br>
+                                Fonte: Intelbras (c2023b)
+                              </p>
+                              <p class="acessivel no-print">Imagem de um sensor eletromagnético cinza-escuro, no formato
+                                de uma gota e com cantos arredondados. Ele tem duas argolas metálicas na parte superior
+                                para ser conectado a um chaveiro. Está escrito “Intelbras” no centro do sensor.</p>
+                            </figure>
+                            <p>Sensores de luminosidade também são bastante populares em edifícios e condomínios, pois
+                              permitem que haja um controle de quando acionar ou desligar as luzes a partir da
+                              quantidade
+                              de
+                              luminosidade do local.</p>
+                            <p>Outro sensor que pode ser bastante utilizado é o de temperatura. Com ele, é possível
+                              automatizar o conforto térmico de um ambiente ou de equipamentos que precisam manter uma
+                              temperatura de água específica.</p>
+                            <p>Existe uma série de outros tipos de sensores que podem ser utilizados na automação
+                              residencial: sensor de consumo de energia elétrica, de monitoramento de gás, de umidade do
+                              solo, entre outros. Além de conhecer esses sensores, é sempre importante entender o que
+                              ele
+                              acionará em sequência e como isso deverá ser levado em conta no seu projeto de
+                              <i>design</i>
+                              e
+                              interiores.
+                            </p>
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="btn-2" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body modal_02">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            </div>
+                            <h3 class="titulo_modal">Dímeres</h3>
+                            <p>Você também encontrará a palavra <i>dimmer</i>, em inglês. Os dímeres são dispositivos
+                              que
+                              permitem
+                              controlar a quantidade de luz em um ambiente, sem estar a luz totalmente acesa ou
+                              totalmente
+                              apagada. Com um acionamento, é possível escolher a quantidade de luz que aquela luminária
+                              está
+                              fornecendo. Com isso, pode-se ter uma iluminação mais forte, para uma zona de trabalho
+                              específica, ou uma luz mais fraca, intimista. Inicialmente, o dímer era um interruptor
+                              “normal”, utilizado nas paredes.</p>
+                            <figure>
+                              <img src="imgs/figura_03.png"
+                                class="center-block img-responsive hidden-sm hidden-xs print">
+                              <a href="imgs/figura_03.png" target="_blank" class="no-print visible-sm visible-xs"
+                                aria-hidden="true"><img src="imgs/figura_03.png"
+                                  class="center-block img-responsive"></a>
+                              <p class="legenda-imagem">
+                                Figura 3 – Interruptor tipo dímer
+                                <br>
+                                Fonte: Leroy Merlin (c2023a)
+                              </p>
+                              <p class="acessivel no-print">Imagem de um interruptor do tipo dímer, na cor branca. É um
+                                retângulo medindo aproximadamente 6 cm de largura por 12 cm de altura. No centro, um
+                                botão
+                                branco redondo de girar controla a intensidade do dímer.</p>
+                            </figure>
+                            <p>Atualmente, é possível controlar as luminárias por meio de sistemas automatizados e
+                              diretamente em um celular ou <i>tablet</i>, com o chamado dímer digital. Além de você ter
+                              o
+                              controle
+                              no <i>smartphone</i>, também pode deixar que o aplicativo faça o controle automaticamente.
+                              Observe
+                              o
+                              GIF a seguir (SOARES JÚNIOR, c2020).</p>
+                            <figure>
+                              <img src="imgs/FIGURA 04.gif"
+                                class="center-block img-responsive hidden-sm hidden-xs print">
+                              <a href="imgs/FIGURA 04.gif" target="_blank" class="no-print visible-sm visible-xs"
+                                aria-hidden="true"><img src="imgs/FIGURA 04.gif"
+                                  class="center-block img-responsive"></a>
+                            </figure>
+                            <p class="acessivel no-print">Animação do funcionamento de um dímer pelo celular. No
+                              primeiro
+                              plano da imagem há um smartphone com o aplicativo de dímer aberto. Na tela está escrito
+                              “Abajur” e consta uma barra de rolagem da esquerda para direita, com um círculo. Ao fundo,
+                              há um abajur retangular desfocado. Um dedo pressiona o círculo da esquerda para a direita
+                              na
+                              barra de rolagem e, quando isso é feito, o abajur passa de desligado para ligado, variando
+                              a
+                              intensidade da luz.</p>
+                            <p>É preciso ter atenção ao fato de que apenas alguns tipos de lâmpadas aceitam esse
+                              controle.
+                              Para ter certeza de que a lâmpada ou luminária é “dimerizável”, procure informações na
+                              embalagem ou na própria luminária, ou converse com o fornecedor.</p>
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="btn-3" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body modal_03">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            </div>
+                            <h3 class="titulo_modal">Conexão e integração via <i>wi-fi</i></h3>
+                            <p>Em meados dos anos 2000, surgiu o conceito de “internet das coisas” (IoT). Esse conceito
+                              pregava que os equipamentos de uma residência, por exemplo, poderiam conectar-se à
+                              internet
+                              e,
+                              por extensão, entre si. A partir daí, toda essa ligação entre sensores, equipamentos e
+                              dispositivos se dá pela conexão e integração destes com a rede <i>wi-fi</i> do local, que
+                              permitiu
+                              uma revolução no controle e na automatização dos equipamentos.</p>
+                            <p>Hoje, é possível deixar predeterminado que as persianas automáticas se fechem a partir de
+                              um
+                              horário; que o ar-condicionado sempre ligue “sozinho” se a temperatura estiver muito fria
+                              ou
+                              muito quente etc. Também é possível ter esse controle de forma mais direta, porém
+                              remotamente,
+                              com o <i>smartphone</i>. E tudo isso barateou consideravelmente nos últimos anos com
+                              equipamentos de
+                              uso simples, sem necessidade de contratação de grandes equipamentos e centrais de
+                              controle.
+                            </p>
+                            <p>Há uma tendência crescente em assistentes domiciliares inteligentes, que possibilitam o
+                              controle de diversas funções da casa por meio de comandos de voz ou aplicativos,
+                              proporcionando ainda mais praticidade e conforto aos moradores. Conheça mais o assunto nos
+                              próximos tópicos deste conteúdo.</p>
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="btn-4" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body modal_04">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            </div>
+                            <h3 class="titulo_modal">Assistentes domiciliares inteligentes</h3>
+                            <p>“Alexa: acenda a luz da sala.”</p>
+                            <p> Se você já presenciou alguém falando isso e a luz sendo acesa em seguida, você já teve
+                              contato
+                              com um assistente domiciliar inteligente. Nos últimos anos, esses dispositivos
+                              popularizaram-se no mercado. Com o uso facilitado por comandos de voz, os assistentes
+                              “entendem” o que está sendo pedido ou perguntado e fornecem respostas ou ações nos
+                              equipamentos conectados, como o exemplo no qual o dispositivo acende a luz da sala com um
+                              comando de voz.</p>
+                            <figure>
+                              <img src="imgs/figura_04.png"
+                                class="center-block img-responsive hidden-sm hidden-xs print">
+                              <a href="imgs/figura_04.png" target="_blank" class="no-print visible-sm visible-xs"
+                                aria-hidden="true"><img src="imgs/figura_04.png"
+                                  class="center-block img-responsive"></a>
+                              <p class="legenda-imagem">
+                                Figura 4 – Assistentes domiciliares inteligentes
+                                <br>
+                                Fonte: JivoChat (2021)
+                              </p>
+                              <p class="acessivel no-print">Imagens de quatro assistentes domiciliares. O primeiro é o
+                                Echo Dot 4ª geração, que tem formato de globo com a parte inferior reta. É branco e tem
+                                um
+                                relógio digital indicando 10:35, com um detalhe inferior na cor azul por toda a volta do
+                                aparelho. O segundo é o Echo Show 5, que é retangular com cantos arredondados, apoiado
+                                como se fosse um porta retrato. É branco, com uma tela central mostrando a imagem de uma
+                                mulher chamada Maya conversando com outra mulher por videochamada. O terceiro assistente
+                                é
+                                o Echo Dot 3ª geração, que tem formato de disco, com aproximadamente 5 cm de altura, e
+                                cantos arredondados. É preto e tem quatro botões na parte superior e um detalhe superior
+                                na cor azul por toda a volta do aparelho. O quarto é o assistente Intelbras Izy Speak,
+                                em
+                                formato de cilindro, com 22 cm de altura. É preto e tem cinco pequenos botões na parte
+                                superior, e está escrito Intelbras na parte superior do objeto.</p>
+                            </figure>
+                            <p>Além do equipamento físico, o sistema tem o <i>software</i> de reconhecimento de voz, que
+                              interpreta
+                              o que foi dito e identifica quem disse e qual ação será feita em seguida. Os equipamentos
+                              das
+                              principais empresas são o Amazon Echo, o Google Home e o Apple linha HomePod.</p>
+                            <p>Os dispositivos de “saída”, como luminárias, alto-falantes, entre outros, podem
+                              conectar-se
+                              de
+                              forma relativamente simples com os assistentes inteligentes. Normalmente eles podem ser
+                              comprados com os dispositivos de conexão com a internet já “instalada”, ou é necessário um
+                              sensor específico para a conexão com os equipamentos. Com isso, a automação residencial
+                              tornou-se mais acessível tanto economicamente quanto em facilidade de uso.</p>
+                            <p>Alguns exemplos dos dispositivos de saída são lâmpadas, tomadas e interruptores
+                              inteligentes.
+                              As lâmpadas podem ser programadas para apagarem em um determinado horário, por exemplo. As
+                              tomadas podem ser acionadas à distância, ligando aparelhos e luminárias conectadas. Os
+                              interruptores também podem ser utilizados para acionarem à distância de acordo com a
+                              necessidade do cliente.</p>
+                            <figure>
+                              <img src="imgs/figura_05.png"
+                                class="center-block img-responsive hidden-sm hidden-xs print">
+                              <a href="imgs/figura_05.png" target="_blank" class="no-print visible-sm visible-xs"
+                                aria-hidden="true"><img src="imgs/figura_05.png"
+                                  class="center-block img-responsive"></a>
+                              <p class="legenda-imagem">
+                                Figura 5 – Lâmpada, tomada e interruptor inteligentes
+                                <br>
+                                Fonte: Leroy Merlin (c2023b)
+                              </p>
+                              <p class="acessivel no-print">Imagens de três equipamentos inteligentes, todos na cor
+                                branca. O primeiro é uma lâmpada, com a base metálica, o corpo em plástico branco e a
+                                parte superior em vidro branco. No centro há um símbolo de conexão com a internet. O
+                                segundo é uma tomada retangular, que tem o encaixe de tomada com 3 furos. Acima dos
+                                furos
+                                está um botão branco escrito “Power”, e abaixo dos furos há um símbolo de conexão com a
+                                internet. Na parte inferior consta a marca “Lider”. O terceiro é um interruptor
+                                retangular, que contém um acionamento central no formato de tecla. Na parte superior da
+                                tecla há um símbolo de conexão com a internet. Na parte inferior está a marca Intelbras.
+                              </p>
+                            </figure>
+                            <p>Essas possibilidades são muito interessantes também para auxiliar na acessibilidade. Uma
+                              pessoa com deficiência, por exemplo, consegue controlar com mais facilidade equipamentos e
+                              luminárias da sua residência.</p>
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="btn-5" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body modal_05">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            </div>
+                            <h3 class="titulo_modal">Aplicativos</h3>
+                            <p>Atualmente há uma grande variedade de aplicativos de <i>smartphones</i> e <i>tablets</i>
+                              que auxiliam na
+                              automação residencial. É a partir deles que se consegue controlar e monitorar sistemas de
+                              segurança, termostatos, câmeras, iluminação, entre outros. Alguns exemplos são o Google
+                              Home
+                              e
+                              o Amazon Alexa.</p>
+                            <figure>
+                              <img src="imgs/figura_06.png"
+                                class="center-block img-responsive hidden-sm hidden-xs print">
+                              <a href="imgs/figura_06.png" target="_blank" class="no-print visible-sm visible-xs"
+                                aria-hidden="true"><img src="imgs/figura_06.png"
+                                  class="center-block img-responsive"></a>
+                              <p class="legenda-imagem">
+                                Figura 6 – Capturas de telas dos aplicativos Google Home e Amazon Alexa.
+                                <br>
+                                Fonte: Valeri (2022)
+                              </p>
+                              <p class="acessivel no-print">A imagem mostra duas capturas das telas de aplicativos para
+                                automação residencial. Na primeira tela há duas capturas do Google Home indicando
+                                diversos
+                                controles, como controle de luzes, televisão, música etc. Na segunda tela há três
+                                capturas
+                                da Amazon Alexa indicando diversos controles, como controle de luzes, tomadas, robô
+                                aspirador etc.</p>
+                            </figure>
+                            <p>Além disso, as próprias empresas que produzem equipamentos como lâmpadas inteligentes e
+                              sistemas de segurança fornecem aplicativos grátis para acionamento e controle dos
+                              dispositivos, trazendo ainda mais facilidade para o uso.</p>
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="btn-6" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body modal_06">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            </div>
+                            <h3 class="titulo_modal">Encerramento</h3>
+                            <p> A automação e a tecnologia têm o potencial para estarem cada vez mais presentes no
+                              cotidiano
+                              das pessoas, trazendo comodidade e segurança. O custo dos equipamentos tem caído ao longo
+                              dos
+                              anos, fazendo com que a automação se popularize ainda mais. Para clientes de maior poder
+                              aquisitivo, existem empresas especializadas que poderão atender a todas as necessidades de
+                              projeto e trabalhar em conjunto com o <i>designer</i>. Além disso, a inteligência
+                              artificial
+                              e a
+                              inteligência de dados permitirão que esses controles fiquem ainda mais automatizados.</p>
+                            <figure>
+                              <img src="imgs/figura_07.png"
+                                class="center-block img-responsive hidden-sm hidden-xs print">
+                              <a href="imgs/figura_07.png" target="_blank" class="no-print visible-sm visible-xs"
+                                aria-hidden="true"><img src="imgs/figura_07.png"
+                                  class="center-block img-responsive"></a>
+                              <p class="legenda-imagem">
+                                Figura 7 – Exemplos de onde utilizar a automação residencial
+                                <br>
+                                Fonte: Viva Decora (2022)
+                              </p>
+                              <p class="acessivel no-print">Renderização de um ambiente de estar. Em tons de cinza,
+                                branco
+                                e preto, mostra sofá, televisão, lareira, jantar e cozinha. Sobre a imagem estão
+                                diversos
+                                ícones em tons de azul indicando as possibilidades de conexão e automação. Os exemplos
+                                indicados são ícones de áudio, televisão, iluminação, temperatura do ambiente e
+                                acionamento de chaleira elétrica. Sobre cada ícone está o símbolo de conexão wi-fi. Fica
+                                subentendido na imagem que tudo pode ser controlado por automação.</p>
+                            </figure>
+                            <p>Cabe a você, futuro <i>designer</i> de interiores, entender a tecnologia e saber quando
+                              utilizar
+                              da melhor maneira para o seu cliente. Se você sabe que seu cliente trabalha fora o dia
+                              todo
+                              e chega sempre no mesmo horário em casa, não seria interessante propor algum sistema de
+                              automatização para trazer a ele conforto e comodidade? Nesse caso, por que não propor um
+                              sistema que ligue as luzes alguns minutos antes de ele chegar e permita que esse cliente
+                              controle o ar-condicionado do próprio celular, para que, quando ele chegue em casa, a
+                              temperatura esteja perfeita? Com isso, você traz qualidade de vida para o cliente, fazendo
+                              com que ele aprove ainda mais as suas soluções estéticas e tecnológicas. </p>
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+    </section>
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <!--
+          <ul class="pagination">
+
+          </ul>
+          -->
+    </footer>
+
+  </div>
+
+
+  <!-- Modais -->
+
+
+  <!-- Modais 100% -->
+
+
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+	-->
+  <!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png">
+    <img src="../template/images/bg-content.jpg">
+    <img src="../template/images/bg-topo.jpg">
+    <img src="../template/images/black-zoom-in-256.png">
+    <img src="../template/images/concluindo.png">
+    <img src="../template/images/curtir.png">
+    <img src="../template/images/desafio.png">
+    <img src="../template/images/dica.png">
+    <img src="../template/images/doc.png">
+    <img src="../template/images/fundamental.png">
+    <img src="../template/images/icon-03.png">
+    <img src="../template/images/importante.png">
+    <img src="../template/images/lightbulb.png">
+    <img src="../template/images/link.png">
+    <img src="../template/images/link_pdf_hover.png">
+    <img src="../template/images/link_pdf_normal.png">
+    <img src="../template/images/logo-senac.png">
+    <img src="../template/images/mark-icon.png">
+    <img src="../template/images/mark-icon02.png">
+    <img src="../template/images/midia.png">
+    <img src="../template/images/monitor.png">
+    <img src="../template/images/nao_curtir.png">
+    <img src="../template/images/pergunta.png">
+    <img src="../template/images/pesquisa.png">
+    <img src="../template/images/play.png">
+    <img src="../template/images/radio_flat.png">
+    <img src="../template/images/refletir.png">
+    <img src="../template/images/saiba_mais.png">
+    <img src="../template/images/senac_loader.png">
+    <img src="../template/images/tanamidia.png">
+    <img src="../template/images/transcricao.png">
+    <img src="../template/images/transcricao_small.png">
+    <img src="../template/images/tv.png">
+    <img src="../template/images/tv_bottom.png">
+    <img src="../template/images/zoom.png">
+    <img src="../template/images/zoom_ie.cur">
+    <img src="../template/images/zoom_ie.png">
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/highlight.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+</body>
+
+</html>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('pre code').forEach((el) => {
+      hljs.highlightElement(el);
+    });
+  });
+  //inicializa zoom na imagem
+  $('.zoom-imagem').magnificPopup({
+    type: 'image',
+    mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+
+      duration: 300, // duration of the effect, in milliseconds
+      easing: 'ease-in-out', // CSS transition easing function
+
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function (openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+      }
+    },
+    image: {
+      markup: '<div class="mfp-figure">' +
+        '<div class="mfp-close"></div>' +
+        '<div class="mfp-img"></div>' + // Floated left
+        '<div class="mfp-bottom-bar">' + '<figcaption>' + '<div class="mfp-title" style="text-align:center"></div>' +
+        '<div class="mfp-counter"></div>' + '</figcaption>' +
+        '</div>' +
+        '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+      cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+      tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
+    }
+  });
+
+  //inicializa popover
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+  //inicializa tooltip
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
+  /*------- Script de animação do botão -------*/
+  var root = document.documentElement;
+  root.className += ' js';
+
+  function boxTop(idBox) {
+    var boxOffset = $(idBox).offset().top;
+    return boxOffset;
+  }
+
+  $(document).ready(function () {
+    var $target = $('.animeStart'),
+      $target2 = $('.animeStop'),
+      targetBox = $('.box'),
+      animationClass = 'anime-init',
+      windowHeight = $(window).height(),
+      offset = windowHeight - (windowHeight / 4);
+
+    function animeScroll() {
+      var documentTop = $(document).scrollTop();
+      $target.each(function () {
+        if (documentTop > boxTop(this) - offset) {
+          targetBox.addClass(animationClass);
+        } else {
+          targetBox.removeClass(animationClass);
+        }
+        if (documentTop > boxTop($target2) - offset) {
+          targetBox.removeClass(animationClass);
+        }
+      });
+    }
+    animeScroll();
+
+    $(document).scroll(function () {
+      animeScroll();
+    });
+  });
+
+
+</script>
+
+<script>
+  var scriptElem = document.createElement("script");
+  scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+    scriptElem.charset = "UTF-8",
+    scriptElem.onload = function () {
+      window.ht = new HT({
+        token: "bf5b7efb148a829a126a0e0c9fd533bf",
+        align: "top",
+        videoEnabled: true,
+        ytEmbedReplace: true,
+        mobileConfig: {
+          align: "right",
+          actionsAlign: "top",
+          customButtonStyle: {
+            borderRadius: "6px",
+            size: "38px",
+            horizontalMargin: "13px",
+            bottomMargin: "140px",
+            rightMargin: "40px"
+          }
+        }
+      });
+      $('.ht-skip').attr("aria-hidden", "true")
+    },
+    document.body.appendChild(scriptElem);
+</script>

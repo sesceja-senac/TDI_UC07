@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Cálculo luminotécnico simples: normas técnicas, requisitos, grandezas, ambientes e quantificação de lâmpadas e
+    luminárias; softwares, equipamentos e aplicativos
+  </title>
+
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
+  <link href="../template/css/cores.css" rel="stylesheet">
+  <link href="../template/css/modal-100.css" rel="stylesheet">
+  <link href="../template/css/devibeans.min.css" rel="stylesheet">
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css">
+  <link href="../template/css/sncload.css" rel="stylesheet">
+  <link href="../template/css/magnific-popup.css" rel="stylesheet">
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet">
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet">
+  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+
+  <!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Paulo Ricardo Soveral Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">46914400.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Paulo Ricardo Soveral Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
+  <!-- /MARCA D´ÁGUA -->
+
+  <div id='sncloader' class='over-loader'>
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de interiores</h1>
+      <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
+    </div>
+    <div id="sombra"></div>
+  </header>
+  <div id="booklet">
+    <header class="no-print container">
+      <!-- BTO IMPRIMIR -->
+      <div class="grupo-imprimir no-print">
+        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+          <span class="fa fa-print"></span> <span>Imprimir</span>
+        </button>
+      </div>
+      <!-- /BTO IMPRIMIR -->
+    </header>
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
+
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina">
+        <!-- <div class="parallax" data-parallax="scroll" data-image-src="imgs/paralaxe_1.png"></div>
+        <div class="rellax el el-esq bottom" data-rellax-speed="3" style="transform: translate3d(0px, -90px, 0px);">
+          <img src="imgs/lamp_parallax1.png" alt="">   </div>-->
+
+
+        <div class="bloco-1" id="bloco1">
+          <div class="container b1">
+            <div class="grupo-imprimir no-print">
+              <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                <span class="fa fa-print"></span> <span>Imprimir</span>
+              </button>
+            </div>
+            <h2>Cálculo luminotécnico simples:</h2>
+            <h3>normas técnicas, requisitos, grandezas, ambientes e quantificação de lâmpadas e luminárias;
+              <i>softwares</i>,
+              equipamentos e aplicativos
+            </h3>
+            <h3>Introdução</h3>
+            <p>O cálculo luminotécnico é uma importante etapa no projeto de iluminação de ambientes que visa garantir a
+              adequada distribuição de luz para atender às necessidades visuais, estéticas e de conforto dos usuários.
+              Existem normas técnicas e requisitos específicos que orientam esse processo, bem como grandezas e
+              parâmetros a serem considerados. Além disso, existem também <i>softwares</i>, equipamentos e aplicativos
+              que
+              podem auxiliar nessa tarefa, executando cálculos, projetos e medições de iluminação. Você terá aqui alguns
+              desses itens, bem como dois cálculos simples usados para projeto de iluminação.</p>
+          </div>
+        </div>
+
+        <div class="bloco-2" id="bloco2">
+          <div class="container b2">
+            <div class="row">
+              <div class="col-lg-6">
+                <h3 class="titulo-branco">Normas técnicas</h3>
+                <p>Iluminação é um assunto sério e existem normas que estabelecem os critérios necessários para que a
+                  iluminação do ambiente seja feita corretamente, sendo confortável ao usuário que esteja executando
+                  alguma
+                  determinada tarefa ou até mesmo descansando. Já existem diversos estudos que mostram como a iluminação
+                  afeta
+                  diretamente aspectos fisiológicos, interferindo na produtividade, no descanso e na recuperação da
+                  saúde de
+                  um indivíduo, podendo inclusive contribuir para a causa de algumas doenças.</p>
+                <p>Essas normas trazem todos os parâmetros que foram testados e considerados ideais para cada tipo de
+                  situação.</p>
+              </div>
+              <div class="col-lg-6 no-print nao-imprimir">
+                <p class="no-print">Clique ou toque para visualizar o conteúdo:</p>
+                <div class="no-print painel1" aria-hidden="true">
+                  <button type="button" class="btn-p btn-1" data-toggle="modal" data-target="#btn-1"></button>
+                  <button type="button" class="btn-p btn-2" data-toggle="modal" data-target="#btn-2"></button>
+                </div>
+                <div class="modal fade" id="btn-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                  aria-live="polite" aria-atomic="true" aria-hidden="false">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">NBR 5.413/1992</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Essa Norma Técnica Brasileira (NBR) estabelecia, entre outros parâmetros, os valores de
+                          iluminâncias médias mínimas em serviço para iluminação artificial em interiores nos quais se
+                          realizem atividades de comércio, indústria, ensino, esporte e outras. No entanto, ela foi
+                          substituída pela NBR/ISO 8995-1, de abril de 2013. </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="btn-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                  aria-live="polite" aria-atomic="true" aria-hidden="false">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">NBR/ISO 8.995/1</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>No Brasil, a NBR ISO/CIE 8.995-1 estabelece os critérios para o projeto de iluminação de
+                          ambientes internos e externos. Ela define valores mínimos de iluminância, que é a quantidade
+                          de
+                          luz incidente em uma superfície, considerando o tipo de atividade a ser realizada no ambiente.
+                          Essa norma também fornece diretrizes para o cálculo do fator de manutenção, que considera o
+                          decaimento da iluminância ao longo do tempo de uso do sistema de iluminação. Vale a leitura
+                          completa dessa norma para você estar a par da iluminância adequada para diferentes tipos de
+                          ambientes. </p>
+                        <p>Embora essa norma forneça parâmetros para diversos tipos de ambientes comerciais e
+                          corporativos,
+                          ela não inclui parâmetros específicos para projetos residenciais. No entanto, ao analisar os
+                          parâmetros mencionados, é possível extrair as seguintes diretrizes para projetos residenciais:
+                        </p>
+                        <div class="table-responsive">
+                          <table class="senac">
+                            <tbody>
+                              <tr>
+                                <th>Ambiente</th>
+                                <th>Iluminância mínima/média/máxima (lux)</th>
+                              </tr>
+                              <tr>
+                                <td>Sala – Luz geral</td>
+                                <td>100 – 150 – 200</td>
+                              </tr>
+                              <tr>
+                                <td>Sala – Ler, estudar, costurar</td>
+                                <td>300 – 500 – 750</td>
+                              </tr>
+                              <tr>
+                                <td>Sala de jantar</td>
+                                <td>150 – 200 – 300</td>
+                              </tr>
+                              <tr>
+                                <td>Dormitórios – Luz geral</td>
+                                <td>100 – 150 – 200</td>
+                              </tr>
+                              <tr>
+                                <td>Dormitórios – Cabeceira cama</td>
+                                <td>200 – 300 – 500</td>
+                              </tr>
+                              <tr>
+                                <td>Cozinha – Luz geral</td>
+                                <td>100 – 150 – 200</td>
+                              </tr>
+                              <tr>
+                                <td>Cozinha – Fogão, pia, mesa</td>
+                                <td>200 – 300 – 600</td>
+                              </tr>
+                              <tr>
+                                <td>Lavanderia</td>
+                                <td>300 – 400 – 450</td>
+                              </tr>
+                              <tr>
+                                <td>Banheiro – Luz geral</td>
+                                <td>100 – 150 – 200</td>
+                              </tr>
+                              <tr>
+                                <td>Banheiro – Luz espelho</td>
+                                <td>200 – 300 – 500</td>
+                              </tr>
+                              <tr>
+                                <td><i>Hall</i>/Circulação</td>
+                                <td>75 – 100 – 150</td>
+                              </tr>
+                              <tr>
+                                <td>Escadaria</td>
+                                <td>100 – 150</td>
+                              </tr>
+                              <tr>
+                                <td>Escritório – Mesa de trabalho</td>
+                                <td>300 – 500 – 700</td>
+                              </tr>
+                              <tr>
+                                <td>Garagem</td>
+                                <td>50 – 75 – 150</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <p class="legenda-imagem">
+                          Tabela 1 – Iluminância ambientes residenciais
+                          <br>
+                          Fonte: Senac EAD (2023)
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print visible-print">
+              <h4>NBR 5.413/1992</h4>
+              <p>Essa Norma Técnica Brasileira (NBR) estabelecia, entre outros parâmetros, os valores de
+                iluminâncias
+                médias mínimas em serviço para iluminação artificial em interiores nos quais se realizem atividades
+                de
+                comércio, indústria, ensino, esporte e outras. No entanto, ela foi substituída pela NBR/ISO 8995-1,
+                de
+                abril de 2013. </p>
+              <h4>NBR/ISO 8.995/1</h4>
+              <p>No Brasil, a NBR ISO/CIE 8.995-1 estabelece os critérios para o projeto de iluminação de ambientes
+                internos e externos. Ela define valores mínimos de iluminância, que é a quantidade de luz incidente
+                em
+                uma
+                superfície, considerando o tipo de atividade a ser realizada no ambiente. Essa norma também fornece
+                diretrizes para o cálculo do fator de manutenção, que considera o decaimento da iluminância ao longo
+                do
+                tempo de uso do sistema de iluminação. Vale a leitura completa dessa norma para você estar a par da
+                iluminância adequada para diferentes tipos de ambientes. </p>
+              <p>Embora essa norma forneça parâmetros para diversos tipos de ambientes comerciais e corporativos,
+                ela
+                não
+                inclui parâmetros específicos para projetos residenciais. No entanto, ao analisar os parâmetros
+                mencionados, é possível extrair as seguintes diretrizes para projetos residenciais: </p>
+              <div class="table-responsive">
+                <table class="senac">
+                  <tbody>
+                    <tr>
+                      <th>Ambiente</th>
+                      <th>Iluminância mínima/média/máxima (lux)</th>
+                    </tr>
+                    <tr>
+                      <td>Sala – Luz geral</td>
+                      <td>100 – 150 – 200</td>
+                    </tr>
+                    <tr>
+                      <td>Sala – Ler, estudar, costurar</td>
+                      <td>300 – 500 – 750</td>
+                    </tr>
+                    <tr>
+                      <td>Sala de jantar</td>
+                      <td>150 – 200 – 300</td>
+                    </tr>
+                    <tr>
+                      <td>Dormitórios – Luz geral</td>
+                      <td>100 – 150 – 200</td>
+                    </tr>
+                    <tr>
+                      <td>Dormitórios – Cabeceira cama</td>
+                      <td>200 – 300 – 500</td>
+                    </tr>
+                    <tr>
+                      <td>Cozinha – Luz geral</td>
+                      <td>100 – 150 – 200</td>
+                    </tr>
+                    <tr>
+                      <td>Cozinha – Fogão, pia, mesa</td>
+                      <td>200 – 300 – 600</td>
+                    </tr>
+                    <tr>
+                      <td>Lavanderia</td>
+                      <td>300 – 400 – 450</td>
+                    </tr>
+                    <tr>
+                      <td>Banheiro – Luz geral</td>
+                      <td>100 – 150 – 200</td>
+                    </tr>
+                    <tr>
+                      <td>Banheiro – Luz espelho</td>
+                      <td>200 – 300 – 500</td>
+                    </tr>
+                    <tr>
+                      <td><i>Hall</i>/Circulação</td>
+                      <td>75 – 100 – 150</td>
+                    </tr>
+                    <tr>
+                      <td>Escadaria</td>
+                      <td>100 – 150</td>
+                    </tr>
+                    <tr>
+                      <td>Escritório – Mesa de trabalho</td>
+                      <td>300 – 500 – 700</td>
+                    </tr>
+                    <tr>
+                      <td>Garagem</td>
+                      <td>50 – 75 – 150</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="legenda-imagem">
+                Tabela 1 – Iluminância ambientes residenciais
+                <br>
+                Fonte: Senac EAD (2023)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bloco-3" id="bloco3">
+          <div class="container b3">
+            <h3>Requisitos</h3>
+            <p>O cálculo de iluminação envolve uma série de requisitos que devem ser considerados para garantir a
+              eficiência, o conforto visual e a conformidade com as normas técnicas. Alguns dos requisitos mais
+              importantes são:</p>
+            <p>Clique ou toque para visualizar o conteúdo:</p>
+            <div class="no-print" aria-hidden="true">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Normas técnicas
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <p>É essencial seguir as normas técnicas estabelecidas por órgãos reguladores, como a ABNT
+                        (Associação Brasileira de Normas Técnicas) no Brasil. Como dito anteriormente, essas normas
+                        definem os critérios e parâmetros para iluminância, uniformidade e outros aspectos relacionados
+                        à iluminação de diferentes tipos de ambientes, visando garantir o conforto do usuário e evitar o
+                        ofuscamento no ambiente. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Tipo de ambiente
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <p>Cada tipo de ambiente tem requisitos específicos de iluminação. Por exemplo, um escritório
+                        requer uma iluminação adequada para tarefas de leitura e trabalho em computador; uma área de
+                        produção industrial precisa de iluminação mais intensa e direcionada; por outro lado, um
+                        dormitório precisa de uma iluminação menos intensa, que ajude a criar uma atmosfera acolhedora e
+                        aconchegante, que ajude o indivíduo a relaxar. É importante compreender as características e
+                        necessidades do ambiente em questão. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Iluminância
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                    aria-labelledby="headingThree">
+                    <div class="panel-body">
+                      <p>A iluminância é a quantidade de luz incidente em uma superfície e é medida em lux (lx). Ela
+                        varia de acordo com o tipo de atividade realizada no ambiente. As normas técnicas geralmente
+                        definem os níveis mínimos de iluminância exigidos para cada tipo de ambiente, considerando
+                        fatores como conforto visual, segurança e tarefas específicas. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
+                        aria-expanded="true" aria-controls="collapseFour">
+                        Características das fontes de luz
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel"
+                    aria-labelledby="headingFour">
+                    <div class="panel-body">
+                      <p>As características das lâmpadas e luminárias, como o fluxo luminoso (lm), a intensidade
+                        luminosa (cd) e a luminância (cd/m²), devem ser consideradas nos cálculos de iluminação. Essas
+                        características afetam a qualidade da luz, a percepção das cores e a atmosfera do ambiente.
+                        Alguns desses parâmetros são usados somente em cálculos mais específicos, outros são usados em
+                        cálculos mais simples, como você aprenderá em seguida. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive"
+                        aria-expanded="true" aria-controls="collapseFive">
+                        Distribuição de luz
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel"
+                    aria-labelledby="headingFive">
+                    <div class="panel-body">
+                      <p>Além da iluminância adequada, é importante garantir uma distribuição uniforme da luz no
+                        ambiente. Isso evita contrastes excessivos e áreas de sombra que possam prejudicar a
+                        visibilidade e o conforto visual. As normas técnicas geralmente estabelecem valores mínimos de
+                        uniformidade, definindo a relação entre as iluminâncias máxima e mínima em um determinado
+                        espaço, ou seja, informando quantos lux devem ser percebidos no ponto do ambiente no qual a luz
+                        será mais intensa, bem como no ponto no qual a luz será a mais fraca. Ambos os valores devem
+                        estar de acordo com as normas, a fim de garantir que a iluminação esteja distribuída de forma
+                        adequada em todo o ambiente. Uma iluminação mal distribuída gerará desconforto visual ao
+                        usuário. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingSix">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix"
+                        aria-expanded="true" aria-controls="collapseSix">
+                        Eficiência energética
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseSix" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSix">
+                    <div class="panel-body">
+                      <p>A eficiência energética é um requisito cada vez mais importante nos projetos de iluminação.
+                        Devem ser selecionadas lâmpadas e luminárias que proporcionem uma boa iluminação com o mínimo
+                        consumo de energia. O uso de tecnologias mais eficientes, como lâmpadas em LED (<i>light
+                          emitting
+                          diode</i>, ou diodo emissor de luz), tem sido cada vez mais recomendado para reduzir o consumo
+                        e os
+                        custos de energia, por terem essas lâmpadas uma vida útil mais longa e um consumo energético
+                        menor em comparação com outras. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h4> Normas técnicas </h4>
+              <p>É essencial seguir as normas técnicas estabelecidas por órgãos reguladores, como a ABNT (Associação
+                Brasileira de Normas Técnicas) no Brasil. Como dito anteriormente, essas normas definem os critérios e
+                parâmetros para iluminância, uniformidade e outros aspectos relacionados à iluminação de diferentes
+                tipos
+                de ambientes, visando garantir o conforto do usuário e evitar o ofuscamento no ambiente.</p>
+              <h4>Tipo de ambiente </h4>
+              <p>Cada tipo de ambiente tem requisitos específicos de iluminação. Por exemplo, um escritório requer uma
+                iluminação adequada para tarefas de leitura e trabalho em computador; uma área de produção industrial
+                precisa de iluminação mais intensa e direcionada; por outro lado, um dormitório precisa de uma
+                iluminação
+                menos intensa, que ajude a criar uma atmosfera acolhedora e aconchegante, que ajude o indivíduo a
+                relaxar.
+                É importante compreender as características e necessidades do ambiente em questão.</p>
+              <h4> Iluminância </h4>
+              <p>A iluminância é a quantidade de luz incidente em uma superfície e é medida em lux (lx). Ela varia de
+                acordo com o tipo de atividade realizada no ambiente. As normas técnicas geralmente definem os níveis
+                mínimos de iluminância exigidos para cada tipo de ambiente, considerando fatores como conforto visual,
+                segurança e tarefas específicas.</p>
+              <h4>Características das fontes de luz </h4>
+              <p>As características das lâmpadas e luminárias, como o fluxo luminoso (lm), a intensidade luminosa (cd)
+                e a
+                luminância (cd/m²), devem ser consideradas nos cálculos de iluminação. Essas características afetam a
+                qualidade da luz, a percepção das cores e a atmosfera do ambiente. Alguns desses parâmetros são usados
+                somente em cálculos mais específicos, outros são usados em cálculos mais simples, como você aprenderá em
+                seguida.</p>
+              <h4>Distribuição de luz </h4>
+              <p>Além da iluminância adequada, é importante garantir uma distribuição uniforme da luz no ambiente. Isso
+                evita contrastes excessivos e áreas de sombra que possam prejudicar a visibilidade e o conforto visual.
+                As
+                normas técnicas geralmente estabelecem valores mínimos de uniformidade, definindo a relação entre as
+                iluminâncias máxima e mínima em um determinado espaço, ou seja, informando quantos lux devem ser
+                percebidos no ponto do ambiente no qual a luz será mais intensa, bem como no ponto no qual a luz será a
+                mais fraca. Ambos os valores devem estar de acordo com as normas, a fim de garantir que a iluminação
+                esteja distribuída de forma adequada em todo o ambiente. Uma iluminação mal distribuída gerará
+                desconforto
+                visual ao usuário.</p>
+              <h4> Eficiência energética </h4>
+              <p>A eficiência energética é um requisito cada vez mais importante nos projetos de iluminação. Devem ser
+                selecionadas lâmpadas e luminárias que proporcionem uma boa iluminação com o mínimo consumo de energia.
+                O
+                uso de tecnologias mais eficientes, como lâmpadas em LED (light emitting diode, ou diodo emissor de
+                luz),
+                tem sido cada vez mais recomendado para reduzir o consumo e os custos de energia, por terem essas
+                lâmpadas
+                uma vida útil mais longa e um consumo energético menor em comparação com outras.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bloco-4" id="bloco4">
+          <div class="container b4">
+            <h3 class="titulo-branco">Grandezas</h3>
+            <p>Para realizar o cálculo luminotécnico, é necessário conhecer algumas grandezas fundamentais. </p>
+            <p>Como já dito anteriormente, a iluminância é medida em lux (lx) e indica a quantidade de luz que incide em
+              uma superfície. Para determinar essa grandeza, é preciso basear-se nas normas técnicas existentes, que
+              informam as quantidades mínimas, médias e máximas de lux para que o ambiente possa ser considerado
+              confortável.
+              O fluxo luminoso é medido em lumens (lm) e representa a quantidade total de luz emitida por uma fonte
+              luminosa. Essa é a grandeza que deve ser descoberta para que depois se possa escolher e distribuir as
+              luminárias necessárias no projeto.
+              Além dessas duas grandezas, é preciso também saber a área, em metros quadrados (m²), do espaço ou da
+              superfície a ser iluminada, bem como a altura, medindo a distância da superfície até a fonte luminosa que
+              está sendo proposta. A altura deve ser medida em metros (m). </p>
+          </div>
+        </div>
+
+        <div class="bloco-5" id="bloco5">
+          <div class="container b5">
+            <h3>Cálculos luminotécnicos</h3>
+            <p>Existem diversos tipos de cálculos de iluminação diferentes, desde os métodos mais simples até os mais
+              completos, que consideram os fatores de utilização, depreciação e perda de luz da lâmpada. Por isso, é
+              possível aprofundar-se bastante nesta área de iluminação, sendo essa uma especialidade das áreas do
+              <i>design</i>
+              e da arquitetura.
+            </p>
+            <p>Neste conhecimento, você verá dois métodos simples de cálculo, que já contribuirão para um projeto de
+              iluminação bem projetado e com parâmetros adequados: método dos lumens e método ponto a ponto. Observe-os
+              a seguir: </p>
+            <div class="animacao center-block img-responsive no-print"></div>
+            <div class="acessivel print">
+              <h4>Método dos lúmens simplificado</h4>
+              <p>O método dos lúmens é um cálculo luminotécnico simplificado, que procura descobrir o fluxo luminoso
+                (lm),
+                ou seja, a quantidade de luz emitida pelas lâmpadas, necessário para um determinado ambiente. Para
+                utilizá-lo, é necessário conhecer a iluminância média desejada para o ambiente em lux (lx) e a área a
+                ser
+                iluminada em metros quadrados (m²).</p>
+              <p> Para realizar esse cálculo, é preciso seguir os seguintes passos:</p>
+              <p>1. Calcular a área (m²) do ambiente ou da superfície a ser iluminada.</p>
+              <p>2. Buscar na norma (NBR/ISSO 8.995-1) qual é a iluminância adequada para o tipo de ambiente ou para o
+                tipo
+                de atividade que acontecerá nesse ambiente.</p>
+              <p>3. Aplicar esses dados na fórmula a seguir:</p>
+              <p>E = I x M²</p>
+              <p>Fluxo luminoso (em lumens) é igual à iluminância (em lux) multiplicada pela área em metros
+                quadrados.</p>
+              <p> Onde:</p>
+              <p>E = fluxo luminoso em lm</p>
+              <p>I = iluminância em lx</p>
+              <p>M² = área em metros quadrados</p>
+              <p>Após descobrir o valor de E, será possível determinar quantas luminárias deverão ser usadas no
+                ambiente,
+                de acordo com a quantidade de lumens emitida pelas luminárias escolhidas.</p>
+            </div>
+            <div class="animacao center-block img-responsive no-print"></div>
+            <div class="acessivel print">
+              <h4>Método ponto a ponto</h4>
+              <p>O método ponto a ponto é mais detalhado e considera pontos específicos no ambiente. Ele é mais adequado
+                para ambientes complexos ou que requeiram uma distribuição de luz mais precisa. Nesse método, calcula-se
+                a
+                iluminância em pontos selecionados do ambiente, considerando a altura de montagem das luminárias. Esse
+                cálculo é o mais indicado para calcular iluminação direcionada a bancadas e superfícies de trabalho, e é
+                especialmente utilizado com lâmpadas de foco direcionável, como PAR (parabolic aluminized reflector, ou
+                refletor parabólico aluminizado), AR (aluminum reflector, ou refletor de alumínio) e dicroicas.</p>
+              <p>Para realizar esse cálculo são necessárias as informações sobre a intensidade luminosa da lâmpada em
+                candelas (cd) e a distância da fonte de luz até a superfície de trabalho, medida em metros (m) em uma
+                linha vertical. Com base nesses parâmetros, é possível determinar a iluminância resultante (lx) na
+                superfície e verificar se está em conformidade com a norma estabelecida.</p>
+              <p>Para este cálculo, é preciso seguir o seguinte passo a passo:</p>
+              <p> 1. Escolher a lâmpada desejada e verificar no catálogo dela qual o valor da intensidade luminosa (cd).
+              </p>
+              <p> 2. Medir a distância da fonte de luz (lâmpada) até a superfície de trabalho. Se você estiver
+                calculando,
+                por exemplo, em uma bancada de estudos, com altura de 78 cm, em um ambiente com 2,6 m de pé direito, a
+                distância entre a lâmpada e a superfície pode ser calculada subtraindo a altura da mesa pela altura do
+                pé
+                direito, desta forma: 2,6 – 0,78 = 1,82m. Assim, descobre-se que 1,82 m é a distância entre a fonte de
+                luz, considerando que ela esteja instalada embutida no forro.</p>
+              <p> 3. Aplicar esses dados nesta fórmula:</p>
+              <p>I = cd / d²</p>
+              <p> Iluminância em lux é igual à intensidade luminosa em candelas dividida pela distância entre
+                fonte de luz e superfície de trabalho ao quadrado.</p>
+              <p> Onde:</p>
+              <p> I = iluminância em lx</p>
+              <p> cd = intensidade luminosa em candelas</p>
+              <p> d = distância entre a fonte de luz e a superfície de trabalho</p>
+              <p>Esse método é mais utilizado para realizar a conferência do nível de iluminação em uma determinada
+                superfície. Ao fazer esse cálculo, você cruza com as informações presentes na norma e pode verificar
+                efetivamente se a superfície está iluminada o suficiente para uma determinada tarefa. Já o método dos
+                lumens é utilizado para quantificar efetivamente o número de lâmpadas que serão necessárias para
+                iluminar
+                o ambiente.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bloco-6" id="bloco6">
+          <div class="container b6">
+            <h3 class="titulo-branco">Ambientes e quantificação de lâmpadas e luminárias </h3>
+            <p>Cada tipo de ambiente requer uma iluminação específica. Por exemplo, áreas de trabalho exigem uma
+              iluminação mais intensa, enquanto áreas de descanso ou de lazer podem demandar uma iluminação mais suave e
+              aconchegante. A quantificação de lâmpadas e luminárias depende da potência das fontes luminosas
+              escolhidas, da altura de montagem, da distribuição do fluxo luminoso e da área a ser iluminada. </p>
+            <p>Clique ou toque para visualizar o conteúdo.</p>
+            <div class="no-print" aria-hidden="true">
+              <div class="painel painel2">
+                <button type="button" class="btn-exemplo center-block" data-toggle="modal"
+                  data-target="#btn-exemplo"></button>
+              </div>
+            </div>
+            <div class="modal modal-100 fade" id="btn-exemplo" aria-hidden="false">
+              <div class="modal-dialog">
+                <div class="modal-content print">
+                  <div class="modal-body modal-diferente">
+                    <div class="container">
+                      <div class="modal-header" style="padding-top: 30px;">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      </div>
+                      <h3>Exemplo</h3>
+                      <div class="titulo_modal"></div>
+                      <p>Como exemplo, considere que você está realizando o projeto luminotécnico de uma cozinha que
+                        tenha
+                        9,5 m². Pela norma, sabe-se que, para essa cozinha, serão necessários 200 lx no máximo para o
+                        espaço geral e 600 lx para a iluminação específica de bancada. Considere também que a bancada
+                        terá
+                        área de 2,7 m² (considerando as medidas de 1,6 m de largura e 0,6 m de profundidade), e haverá
+                        uma
+                        distância de 65 cm entre bancada e fonte luminosa.</p>
+                      <p> Com essas informações, pode-se realizar primeiro dois cálculos com o método dos lumens para a
+                        cozinha no geral e para a bancada:</p>
+                      <p class="no-print">Clique ou toque para visualizar o conteúdo.</p>
+                      <div class="no-print" aria-hidden="true">
+                        <ul class="nav nav-tabs" role="tablist">
+                          <li role="presentation" class="active"><a href="#cozinha1" aria-controls="cozinha1" role="tab"
+                              data-toggle="tab">COZINHA GERAL</a>
+                          </li>
+                          <li role="presentation"><a href="#cozinha2" aria-controls="cozinha2" role="tab"
+                              data-toggle="tab">COZINHA BANCADA</a></li>
+                        </ul>
+                        <div class="tab-content">
+                          <div role="tabpanel" class="tab-pane active" id="cozinha1">
+                            <h3>COZINHA GERAL:</h3>
+                            <div class="caixa-destaque">
+                              <p>E = 200 x 9,5</p>
+                              <p>E = 1.900lm</p>
+                            </div>
+                            <p>Ou seja, para o ambiente geral, serão necessários no máximo 1900 lumens.</p>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="cozinha2">
+                            <h3>COZINHA BANCADA: </h3>
+                            <div class="caixa-destaque">
+                              <p>E = 600 x 1,6</p>
+                              <p>E = 960lm</p>
+                            </div>
+                            <p>Ou seja, para iluminar a bancada, serão necessários pelo menos 960 lm.</p>
+                            <p> Agora, considere as seguintes escolhas de luminárias:</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="acessivel print">
+                        <h3>COZINHA GERAL:</h3>
+                        <div class="caixa-destaque">
+                          <p>E = 200 x 9,5</p>
+                          <p>E = 1.900lm</p>
+                        </div>
+                        <p>Ou seja, para o ambiente geral, serão necessários no máximo 1900 lumens. </p>
+                        <h3>COZINHA BANCADA:</h3>
+                        <div class="caixa-destaque">
+                          <p>E = 600 x 1,6</p>
+                          <p>E = 960lm</p>
+                        </div>
+                        <p>Ou seja, para iluminar a bancada, serão necessários pelo menos 960 lm. </p>
+                        <p> Agora, considere as seguintes escolhas de luminárias:</p>
+                      </div>
+                      <h3 class="titulo-normal">Luminária para a bancada</h3>
+                      <p>Clique ou toque na imagem para ampliar a visualização.</p>
+                      <figure>
+                        <img src="imgs/figura_01.png"
+                          class="center-block img-responsive hidden-lg hidden-md hidden-sm hidden-xs print">
+                        <a href="imgs/figura_01_ZOOM.JPG" target="_blank"
+                          class="no-print visible-lg visible-md visible-sm visible-xs" aria-hidden="true"><img
+                            src="imgs/figura_01.png" class="center-block img-responsive"></a>
+                        <p class="legenda-imagem">
+                          Figura 1 – Luminária Archi
+                          <br>
+                          Fonte: Stella (c2019a)
+                        </p>
+                        <p class="acessivel no-print">A imagem apresenta uma luminária do tipo perfil de embutir na cor
+                          branca, com as informações do catálogo identificando a luminária como Archi e com os seguintes
+                          dados: “Archi, perfil de embutir recuado 24V 24MM, Realce As Cores Naturais | IRC 93; Archi:
+                          uma linha completa de perfis, totalmente nova. Bordas sutis. Corpo de alumínio com abas e
+                          lentes retas. Estética limpa e discreta no teto. Design pensado para proporcionar conforto
+                          visual. Opções com recuo da fonte luminosa. Disponível em modelos de embutir e sobrepor, todos
+                          com três opções de acabamento. Potência 1m: 11,5W; Potência 2m: 23W; Tensão: 24Vcc; Fluxo
+                          Luminoso 1m: 470lm; Fluxo Luminoso 2m: 940lm; Ângulo de Abertura: 90°; IRC: >93; R9: >60; Vida
+                          útil (L70): 25.000h; Garantia: 2 anos; Material predominante: Alumínio. Inclusos terminais de
+                          acabamento e presilhas para fixação”.</p>
+                      </figure>
+                      <h3 class="titulo-normal">Luminária para iluminação geral</h3>
+                      <p>Clique ou toque na imagem para ampliar a visualização. </p>
+                      <figure>
+                        <img src="imgs/figura_02.png"
+                          class="center-block img-responsive hidden-lg hidden-md hidden-sm hidden-xs print">
+                        <a href="imgs/figura_02_ZOOM.jpg" target="_blank"
+                          class="no-print visible-lg visible-md visible-sm visible-xs" aria-hidden="true"><img
+                            src="imgs/figura_02.png" class="center-block img-responsive"></a>
+                        <p class="legenda-imagem">
+                          Figura 2 – Luminária painel de embutir
+                          <br>
+                          Fonte: Stella (c2019b)
+                        </p>
+                        <p class="acessivel no-print">A imagem mostra uma luminária tipo painel de embutir na cor
+                          branca, com as informações do catálogo identificando a luminária como Painel de Embutir Eco 6W
+                          e com os seguintes dados: “Criadas para garantir praticidade e alto padrão de qualidade, as
+                          luminárias LED Stella são soluções integradas, sintonizadas às tendências mundiais em
+                          tecnologia. Aliam design moderno e minimalista em produtos que deixam a luz em total
+                          evidência; Tensão: 100-240V; Fator de Potência: >0,5; Corrente: 0,08A(127V) / 0,05A(220V);
+                          Fluxo Luminoso: 400lm; Eficiência Luminosa: 67lm/W; Ângulo de Abertura: 120°; IRC: >80; Vida
+                          útil (L70): 25.000h; Temp. de Operação: 10°C ~ 40°C; Garantia: 2 anos; Material Predominante:
+                          Policarbonato; Fonte integrada; Inclusas presilhas para fixação; OBS. Este painel passou por
+                          melhoria no IRC, que até então era >70. Os produtos com esse aperfeiçoamento estão chegando às
+                          lojas conforme os estoques anteriores esgotam”.</p>
+                      </figure>
+                      <p>Conforme o cálculo feito anteriormente, para iluminar a bancada da cozinha adequadamente serão
+                        necessários no máximo 960 lm e, para iluminar o ambiente geral, no máximo 1.900 lm. </p>
+                      <p>A luminária escolhida para a bancada, conforme informado pelo fabricante, emite 470 lm em seu
+                        formato de 1 metro de largura, e a luminária escolhida para o ambiente geral emite 400 lm. </p>
+                      <p>Com essas informações, é possível realizar agora os seguintes cálculos para descobrir quantas
+                        dessas luminárias serão necessárias: </p>
+                      <p>Clique ou toque para acessar o conteúdo: </p>
+                      <div class="no-print" aria-hidden="true">
+                        <p>Clique ou toque para visualizar o conteúdo.</p>
+                        <ul class="nav nav-tabs" role="tablist">
+                          <li role="presentation" class="active"><a href="#cozinha1" aria-controls="cozinha3" role="tab"
+                              data-toggle="tab">COZINHA GERAL</a>
+                          </li>
+                          <li role="presentation"><a href="#cozinha2" aria-controls="cozinha4" role="tab"
+                              data-toggle="tab">COZINHA BANCADA</a></li>
+                        </ul>
+                        <div class="tab-content">
+                          <div role="tabpanel" class="tab-pane active" id="cozinha3">
+                            <h3>COZINHA GERAL:</h3>
+                            <div class="caixa-destaque">
+                              <p>1.900 / 400 = 4,75.</p>
+                            </div>
+                            <p>Serão necessárias de 4 a 5 luminárias dessas para iluminar a cozinha.</p>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="cozinha4">
+                            <h3>COZINHA BANCADA:</h3>
+                            <div class="caixa-destaque">
+                              <p>960 / 470 = 2,04.</p>
+                            </div>
+                            <p>Serão necessárias 2 luminárias dessas para iluminar a bancada da cozinha adequadamente.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="acessivel print">
+                        <h3>COZINHA GERAL:</h3>
+                        <div class="caixa-destaque">
+                          <p>1.900 / 400 = 4,75.</p>
+                        </div>
+                        <p>Serão necessárias de 4 a 5 luminárias dessas para iluminar a cozinha.</p>
+
+                        <h3>COZINHA BANCADA:</h3>
+                        <div class="caixa-destaque">
+                          <p>960 / 470 = 2,04.</p>
+                        </div>
+                        <p>Serão necessárias 2 luminárias dessas para iluminar a bancada da cozinha adequadamente.
+                        </p>
+                      </div>
+                      <p>Então, após realizar esses cálculos, conclui-se que serão necessárias 7 luminárias para
+                        iluminar toda a cozinha corretamente. Após realizar os cálculos, deve-se organizar as luminárias
+                        de forma que a luz fique distribuída uniformemente em todo o ambiente, sem concentrar toda a luz
+                        em um mesmo ponto. Uma regra que pode ser seguida neste momento é a de deixar um espaçamento
+                        entre as luminárias que seja igual ao dobro da distância da primeira e da última luminária até
+                        alguma parede. Dessa forma, consegue-se garantir a boa distribuição da luz, fator importante
+                        para um bom projeto luminotécnico. </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+
+        <div class="bloco-7" id="bloco7">
+          <div class="container b7">
+            <h3><i>Softwares</i>, equipamentos e aplicativos</h3>
+            <p>No que diz respeito aos <i>softwares</i>, equipamentos e aplicativos utilizados no cálculo luminotécnico,
+              existem
+              diversas opções disponíveis no mercado. Essas ferramentas auxiliam na determinação das grandezas
+              luminotécnicas, na seleção de lâmpadas e luminárias adequadas e na visualização dos resultados por meio de
+              simulações e representações gráficas. Confira agora algumas dessas ferramentas.</p>
+            <h4 class="titulo-normal"><i>Softwares</i> de cálculo luminotécnico</h4>
+            <p> Existem vários <i>softwares</i> que realizam o cálculo de iluminação, bem como o projeto luminotécnico.
+              Conheça
+              alguns deles: </p>
+            <img src="imgs/infografico1.png" class="center-block img-responsive hidden-sm hidden-xs no-print">
+            <img src="imgs/mob_info1_1.png" class="center-block img-responsive hidden-lg hidden-md print">
+            <img src="imgs/mob_info1_2.png" class="center-block img-responsive hidden-lg hidden-md print">
+            <img src="imgs/mob_info1_3.png" class="center-block img-responsive hidden-lg hidden-md print">
+            <img src="imgs/mob_info1_4.png" class="center-block img-responsive hidden-lg hidden-md print">
+            <p>O DIALux é um <i>software</i> livre e gratuito, que, para quem tiver vontade de se aprofundar na área de
+              iluminação, vale a pena experimentar. </p>
+            <p class="no-print">Para saber mais detalhes sobre o <i>software</i> DIALux, assista aos vídeos a seguir.
+            </p>
+            <div class="row no-print">
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+            </div>
+            <div class="row no-print">
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+            </div>
+            <div class="row no-print">
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+            </div>
+            <div class="row no-print">
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+            </div>
+            <div class="row no-print">
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+              <div class="col-lg-6">
+                <div class="espera-video img-responsive center-block"></div>
+              </div>
+            </div>
+            <h4 class="titulo-normal">Equipamentos para medição de iluminação</h4>
+            <p>Existem também alguns equipamentos, usados para medir os níveis de iluminância em um ambiente. São eles:
+            </p>
+            <p>Clique ou toque para visualizar o conteúdo.</p>
+            <div class="no-print" aria-hidden="true">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingSeven">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven"
+                        aria-expanded="true" aria-controls="collapseSeven">
+                        Luxímetros
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseSeven" class="panel-collapse collapse in" role="tabpanel"
+                    aria-labelledby="headingSeven">
+                    <div class="panel-body">
+                      <p>São dispositivos portáteis utilizados para medir a iluminância em diferentes locais. Eles têm
+                        um
+                        sensor que captura a quantidade de luz incidente em uma superfície e fornecem leituras em
+                        unidades
+                        de lux. Os luxímetros são úteis para verificar a iluminância em diferentes pontos de um ambiente
+                        e
+                        validar os resultados obtidos nos cálculos luminotécnicos.</p>
+                      <figure>
+                        <img src="imgs/figura_03.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                        <a href="imgs/figura_03.png" target="_blank" class="no-print visible-sm visible-xs"
+                          aria-hidden="true"><img src="imgs/figura_03.png" class="center-block img-responsive"></a>
+                        <p class="legenda-imagem">
+                          Figura 3 – Luxímetro
+                          <br>
+                          Fonte: Hepta Instrumentos (c2023)
+                        </p>
+                        <p class="acessivel no-print">A imagem mostra um equipamento de medição no formato de um
+                          controle
+                          remoto, com uma tela na qual se lê os números 0,000. O luxímetro tem três botões amarelos e
+                          cinco botões cinzas abaixo da tela, além de uma extensão com um pequeno equipamento em formato
+                          de lupa, na cor preta e com um círculo claro no meio, que realiza a leitura da Iluminância do
+                          ambiente.</p>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingEight">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        Esferas integradoras
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseEight" class="panel-collapse collapse" role="tabpanel"
+                    aria-labelledby="headingEight">
+                    <div class="panel-body">
+                      <p>São dispositivos que permitem medir o fluxo luminoso emitido por uma fonte de luz. Eles
+                        consistem
+                        em uma esfera revestida com material refletivo no interior, no qual a fonte de luz é
+                        posicionada.
+                        A esfera integra a luz emitida e direciona para um fotodetector, permitindo a medição precisa do
+                        fluxo luminoso.</p>
+                      <figure>
+                        <img src="imgs/figura_04.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                        <a href="imgs/figura_04.png" target="_blank" class="no-print visible-sm visible-xs"
+                          aria-hidden="true"><img src="imgs/figura_04.png" class="center-block img-responsive"></a>
+                        <p class="legenda-imagem">
+                          Figura 4 – Esfera Integradora
+                          <br>
+                          Fonte: Cahler (2021)
+                        </p>
+                        <p class="acessivel no-print">A imagem mostra um equipamento em formato de esfera, com exterior
+                          em
+                          verde escuro. A esfera está aberta, mostrando seu interior em branco, com um suporte no qual
+                          se
+                          conectam as lâmpadas para teste.</p>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h4>Luxímetros</h4>
+              <p>São dispositivos portáteis utilizados para medir a iluminância em diferentes locais. Eles têm um
+                sensor que captura a quantidade de luz incidente em uma superfície e fornecem leituras em unidades
+                de lux. Os luxímetros são úteis para verificar a iluminância em diferentes pontos de um ambiente e
+                validar os resultados obtidos nos cálculos luminotécnicos.</p>
+              <figure>
+                <img src="imgs/figura_03.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <a href="imgs/figura_03.png" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_03.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 3 – Luxímetro
+                  <br>
+                  Fonte: Hepta Instrumentos (c2023)
+                </p>
+                <p class="acessivel no-print">A imagem mostra um equipamento de medição no formato de um controle
+                  remoto, com uma tela na qual se lê os números 0,000. O luxímetro tem três botões amarelos e
+                  cinco botões cinzas abaixo da tela, além de uma extensão com um pequeno equipamento em formato
+                  de lupa, na cor preta e com um círculo claro no meio, que realiza a leitura da Iluminância do
+                  ambiente.</p>
+              </figure>
+              <h4>Esferas integradoras</h4>
+              <p>
+              <p>São dispositivos que permitem medir o fluxo luminoso emitido por uma fonte de luz. Eles consistem
+                em uma esfera revestida com material refletivo no interior, no qual a fonte de luz é posicionada.
+                A esfera integra a luz emitida e direciona para um fotodetector, permitindo a medição precisa do
+                fluxo luminoso.</p>
+              <figure>
+                <img src="imgs/figura_04.png" class="center-block img-responsive hidden-sm hidden-xs print">
+                <a href="imgs/figura_04.png" target="_blank" class="no-print visible-sm visible-xs"
+                  aria-hidden="true"><img src="imgs/figura_04.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 4 – Esfera Integradora
+                  <br>
+                  Fonte: Cahler (2021)
+                </p>
+                <p class="acessivel no-print">A imagem mostra um equipamento em formato de esfera, com exterior em
+                  verde escuro. A esfera está aberta, mostrando seu interior em branco, com um suporte no qual se
+                  conectam as lâmpadas para teste.</p>
+              </figure>
+            </div>
+            <h4 class="titulo-normal">Aplicativos móveis </h4>
+            <p>Além dos <i>softwares</i> mencionados, existem também aplicativos móveis que oferecem funcionalidades
+              básicas para cálculos luminotécnicos e seleção de luminárias. Alguns exemplos incluem: </p>
+            <img src="imgs/infografico2.png" class="center-block img-responsive hidden-sm hidden-xs no-print">
+            <img src="imgs/mob_info2_1.png" class="center-block img-responsive hidden-lg hidden-md print">
+            <img src="imgs/mob_info2_2.png" class="center-block img-responsive hidden-lg hidden-md print">
+            <p>É importante ressaltar que, embora essas ferramentas sejam úteis e facilitem o processo de cálculo
+              luminotécnico, é fundamental ter conhecimento das normas técnicas, das características das fontes de luz e
+              das necessidades específicas do ambiente para obter resultados precisos e satisfatórios. </p>
+          </div>
+        </div>
+
+        <div class="bloco-8" id="bloco8">
+          <div class="container b8">
+            <div class="row">
+              <div class="col-lg-7">
+                <h3 class="titulo-branco">Encerramento</h3>
+                <p>O cálculo luminotécnico é uma etapa fundamental no projeto de iluminação, envolvendo normas técnicas,
+                  requisitos específicos, grandezas luminotécnicas, considerações sobre diferentes ambientes e a
+                  quantificação
+                  adequada de lâmpadas e luminárias. Além disso, existem hoje em dia diversos <i>softwares</i>,
+                  equipamentos
+                  e
+                  aplicativos especializados que desempenham um papel importante nesse processo, facilitando a análise,
+                  simulação e seleção dos componentes de iluminação corretos. Essas ferramentas, aliadas ao conhecimento
+                  técnico e ao entendimento das necessidades do projeto, proporcionam a possibilidade de criar ambientes
+                  iluminados de forma eficiente, confortável e em conformidade com as normas vigentes. É fundamental
+                  buscar
+                  a
+                  <i>expertise</i> adequada e utilizar as ferramentas disponíveis para garantir a excelência na execução
+                  de
+                  projetos
+                  luminotécnicos.
+                </p>
+              </div>
+              <div class="col-lg-5">
+                <img src="imgs/img_conclusao.png" class="img-responsive center-block no-print" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <!--
+          <ul class="pagination">
+
+          </ul>
+          -->
+    </footer>
+
+  </div>
+
+
+  <!-- Modais -->
+
+
+  <!-- Modais 100% -->
+
+
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+	-->
+  <!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png">
+    <img src="../template/images/bg-content.jpg">
+    <img src="../template/images/bg-topo.jpg">
+    <img src="../template/images/black-zoom-in-256.png">
+    <img src="../template/images/concluindo.png">
+    <img src="../template/images/curtir.png">
+    <img src="../template/images/desafio.png">
+    <img src="../template/images/dica.png">
+    <img src="../template/images/doc.png">
+    <img src="../template/images/fundamental.png">
+    <img src="../template/images/icon-03.png">
+    <img src="../template/images/importante.png">
+    <img src="../template/images/lightbulb.png">
+    <img src="../template/images/link.png">
+    <img src="../template/images/link_pdf_hover.png">
+    <img src="../template/images/link_pdf_normal.png">
+    <img src="../template/images/logo-senac.png">
+    <img src="../template/images/mark-icon.png">
+    <img src="../template/images/mark-icon02.png">
+    <img src="../template/images/midia.png">
+    <img src="../template/images/monitor.png">
+    <img src="../template/images/nao_curtir.png">
+    <img src="../template/images/pergunta.png">
+    <img src="../template/images/pesquisa.png">
+    <img src="../template/images/play.png">
+    <img src="../template/images/radio_flat.png">
+    <img src="../template/images/refletir.png">
+    <img src="../template/images/saiba_mais.png">
+    <img src="../template/images/senac_loader.png">
+    <img src="../template/images/tanamidia.png">
+    <img src="../template/images/transcricao.png">
+    <img src="../template/images/transcricao_small.png">
+    <img src="../template/images/tv.png">
+    <img src="../template/images/tv_bottom.png">
+    <img src="../template/images/zoom.png">
+    <img src="../template/images/zoom_ie.cur">
+    <img src="../template/images/zoom_ie.png">
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/highlight.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+</body>
+
+</html>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('pre code').forEach((el) => {
+      hljs.highlightElement(el);
+    });
+  });
+  //inicializa zoom na imagem
+  $('.zoom-imagem').magnificPopup({
+    type: 'image',
+    mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+
+      duration: 300, // duration of the effect, in milliseconds
+      easing: 'ease-in-out', // CSS transition easing function
+
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function (openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+      }
+    },
+    image: {
+      markup: '<div class="mfp-figure">' +
+        '<div class="mfp-close"></div>' +
+        '<div class="mfp-img"></div>' + // Floated left
+        '<div class="mfp-bottom-bar">' + '<figcaption>' + '<div class="mfp-title" style="text-align:center"></div>' +
+        '<div class="mfp-counter"></div>' + '</figcaption>' +
+        '</div>' +
+        '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+      cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+      tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
+    }
+  });
+
+  //inicializa popover
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+  //inicializa tooltip
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
+  /*------- Script de animação do botão -------*/
+  var root = document.documentElement;
+  root.className += ' js';
+
+  function boxTop(idBox) {
+    var boxOffset = $(idBox).offset().top;
+    return boxOffset;
+  }
+
+  $(document).ready(function () {
+    var $target = $('.animeStart'),
+      $target2 = $('.animeStop'),
+      targetBox = $('.box'),
+      animationClass = 'anime-init',
+      windowHeight = $(window).height(),
+      offset = windowHeight - (windowHeight / 4);
+
+    function animeScroll() {
+      var documentTop = $(document).scrollTop();
+      $target.each(function () {
+        if (documentTop > boxTop(this) - offset) {
+          targetBox.addClass(animationClass);
+        } else {
+          targetBox.removeClass(animationClass);
+        }
+        if (documentTop > boxTop($target2) - offset) {
+          targetBox.removeClass(animationClass);
+        }
+      });
+    }
+    animeScroll();
+
+    $(document).scroll(function () {
+      animeScroll();
+    });
+  });
+
+
+</script>
+
+<script>
+  var scriptElem = document.createElement("script");
+  scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+    scriptElem.charset = "UTF-8",
+    scriptElem.onload = function () {
+      window.ht = new HT({
+        token: "bf5b7efb148a829a126a0e0c9fd533bf",
+        align: "top",
+        videoEnabled: true,
+        ytEmbedReplace: true,
+        mobileConfig: {
+          align: "right",
+          actionsAlign: "top",
+          customButtonStyle: {
+            borderRadius: "6px",
+            size: "38px",
+            horizontalMargin: "13px",
+            bottomMargin: "140px",
+            rightMargin: "40px"
+          }
+        }
+      });
+      $('.ht-skip').attr("aria-hidden", "true")
+    },
+    document.body.appendChild(scriptElem);
+</script>

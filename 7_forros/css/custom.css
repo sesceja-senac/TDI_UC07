@@ -1,0 +1,219 @@
+h1,
+h2,
+h3,
+h4 {
+  color: #66a1a1;
+  font-weight: bold;
+}
+
+.titulo_normal {
+  color: #000;
+}
+
+.bloco-1 {
+  background: url("../imgs/bg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bloco-2 {
+  background: url("../imgs/bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bloco-3 {
+  background: url("../imgs/bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.bloco-4 {
+  background-color: #4c4c4c;
+  color: #fff;
+}
+
+.b2,
+.b3 {
+  background-color: #fff;
+}
+
+.divisoria1 {
+  background-color: #aeadab;
+  width: 100%;
+  height: 30px;
+}
+
+.divisoria2 {
+  background-color: #c3c3c3;
+  width: 100%;
+  height: 30px;
+}
+
+.divisoria3 {
+  background-color: #807f7d;
+  width: 100%;
+  height: 15px;
+}
+
+.parallax {
+  height: 380px;
+  width: 100%;
+}
+
+/* Personalização painel gaitinha */
+.panel-group {
+  color: #000;
+  border-radius: 20px;
+}
+
+.panel-body {
+  background-color: #fff;
+}
+
+.panel-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.panel-default {
+  border-color: #bd3d33;
+}
+
+.panel-heading {
+  background-color: #bd3d33 !important;
+  padding: 10px 10px !important;
+  border-bottom: 1px solid #bd3d33 !important;
+  border-top-left-radius: none !important;
+  border-top-right-radius: none !important;
+}
+
+.collapsed:hover {
+  color: none;
+  text-decoration: none;
+}
+
+/* Fim personalização painel gaitinha */
+.painel1 {
+  display: flex;
+  background: url(../imgs/painel_bg.png);
+  width: 962px;
+  height: 647px;
+  border: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 265px;
+  height: 281px;
+  border: none;
+}
+
+.bt-1 {
+  background: url("../imgs/painel_bt1.png");
+  height: 559px;
+}
+
+.bt-2 {
+  background: url("../imgs/painel_bt2.png");
+}
+
+.bt-3 {
+  background: url("../imgs/painel_bt3.png");
+}
+
+.bt-4 {
+  background: url("../imgs/painel_bt4.png");
+}
+
+.bt-5 {
+  background: url("../imgs/painel_bt5.png");
+}
+
+.bt-1:hover {
+  background: url("../imgs/painel_bt1_hover.png");
+  height: 559px;
+}
+
+.bt-2:hover {
+  background: url("../imgs/painel_bt2_hover.png");
+}
+
+.bt-3:hover {
+  background: url("../imgs/painel_bt3_hover.png");
+}
+
+.bt-4:hover {
+  background: url("../imgs/painel_bt4_hover.png");
+}
+
+.bt-5:hover {
+  background: url("../imgs/painel_bt5_hover.png");
+}
+
+li {
+  list-style-image: url(../imgs/marcador.png);
+}
+
+.seta-topo {
+  background: url(../imgs/ico_topo.png);
+  background-repeat: no-repeat;
+  width: 129px;
+  height: 130px;
+  border: none;
+  transition: ease-in;
+}
+
+.modal-body {
+  background: url("../imgs/bg_modal.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titulo_modal {
+  border-bottom: 1px solid #66a1a1;
+}
+
+.close>button.close {
+  background: url("../imgs/ico_fechar.png");
+  width: 102px;
+  height: 101px;
+}
+
+.botao {
+  color: #fff;
+  background-color: #66a1a1;
+}
+
+.botao:hover {
+  color: #fff;
+  background-color: #66a1a1;
+}
+
+.bg_360 {
+  background-color: #000;
+  opacity: 30%;
+  color: #fff;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .painel1 {
+    display: flex;
+    background: none;
+    border: none;
+  }
+}
+
+
