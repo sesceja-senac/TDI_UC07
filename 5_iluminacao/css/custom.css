@@ -6,7 +6,9 @@ h4 {
   font-weight: bold;
   font-size: 46px;
 }
-
+p{
+  font-size: 20px;
+}
 h2 {
   color: #66a1a1;
   font-weight: bold;
@@ -30,6 +32,7 @@ h2 {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-top: 50px;
+  margin: 15px;
 }
 
 .bloco-2 {
@@ -39,6 +42,7 @@ h2 {
   padding-top: 50px;
   color: #fff;
   background-attachment: fixed;
+  margin: 15px;
 }
 
 .bloco-3 {
@@ -47,6 +51,7 @@ h2 {
   background-repeat: no-repeat;
   padding-top: 50px;
   background-attachment: fixed;
+  margin: 15px;
 }
 
 .bloco-4 {
@@ -55,6 +60,7 @@ h2 {
   background-repeat: no-repeat;
   padding-top: 50px;
   color: #fff;
+  margin: 15px;
 }
 
 .divisoria1 {

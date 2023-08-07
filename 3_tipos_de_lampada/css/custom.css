@@ -1,9 +1,19 @@
 h1,
-h2,
 h3,
 h4 {
   color: #688c85;
   font-weight: bold;
+  font-size: 46px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  color: #66a1a1;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .titulo-claro {
@@ -13,9 +23,10 @@ h4 {
 
 .bloco-1 {
   background-image: url("../imgs/BG1.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-top: 108px;
+
 }
 
 .bloco-2 {
@@ -23,6 +34,7 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+
 }
 
 .bloco-3 {
@@ -30,17 +42,20 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 }
 
 .bloco-4 {
   background-image: url("../imgs/bg_modal.png");
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .bloco-5 {
   background: linear-gradient(#663a2f, #2e6866);
   color: #fff;
+
 }
 
 .bloco-6 {
@@ -48,12 +63,14 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 }
 
 .bloco-7 {
   background-image: url("../imgs/BG5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .divisoria-1 {
@@ -76,26 +93,17 @@ h4 {
 
 }
 
-.b1 {}
-
 .b2 {
   background-color: #000;
   opacity: 90%;
 }
 
-.b3 {}
-
-.b4 {}
-
-.b5 {}
 
 .b6 {
   background-color: #fff;
-  opacity: 60%;
+  opacity: 90%;
   padding-top: 20px;
 }
-
-.b7 {}
 
 .seta-topo {
   background: url("../imgs/ico_topo.png");
@@ -149,11 +157,7 @@ h4 {
 }
 
 /* Fim personalização painel gaitinha */
-.parallax {
-  background: url("../imgs/lamp_parallax1.png");
-  min-height: 400px;
-  width: 100%;
-}
+
 
 /* Botões do painel clicável com modal 100% */
 .painel1 {
@@ -294,22 +298,115 @@ h4 {
   background: url('../imgs/bt_objeto_hover.png') no-repeat;
 }
 
+.bto_mob {
+  width: 288px;
+  height: 147px;
+  border: none;
+}
+
+.bt-objeto_mob {
+  background: url('../imgs/mob_bt_objeto.png') no-repeat;
+}
+
+.bt-objeto_mob:hover {
+  background: url('../imgs/mob_bt_objeto_hover.png') no-repeat;
+}
+
 /* Fim botão espera objeto */
 
+.rellax-1 {
+  left: 290px;
+}
 
+.rellax-2 {
+  left: -38px;
+  top: 1080px;
+}
 
+.rellax-3 {
+  left: 142px;
+  top: 1092px;
+}
 
+.rellax {
+  width: 16%;
+  position: absolute;
+  z-index: 10;
+}
 
+.rellax-4 {
+  right: 385px;
+}
 
+.rellax-5 {
+  width: 19%;
+  right: -20px;
+  top: 1090px;
+}
 
+.rellax-6 {
+  right: 344px;
+  width: 12%;
+  top: 1088px;
+}
 
+.rellax-7 {
+  width: 10%;
+  right: 214px;
+  top: 1092px;
+}
 
+.painel1 {
+  background-image: url(../imgs/painel_fundo.png);
+  width: 992px;
+  height: 590px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
+@media screen and (max-width: 1920px) {
+  .rellax-1 {
+    left: -9px;
+  }
 
+  .rellax-3 {
+    left: 19px;
+    top: 1089px;
+  }
 
+  .rellax-2 {
+    left: -41px;
+    top: 1088px;
+  }
 
+  .rellax-5 {
+    width: 15%;
+    right: 10px;
+    top: 1090px;
+  }
 
+  .rellax-6 {
+    right: 49px;
+    width: 12%;
+    top: 1088px;
+  }
 
+  .rellax-7 {
+    width: 10%;
+    right: -5px;
+    top: 1092px;
+  }
+
+  .rellax-4 {
+    width: 10%;
+    right: 80px;
+  }
+
+}
 
 @media screen and (max-width: 780px) {
   .parallax {
@@ -317,18 +414,44 @@ h4 {
   }
 }
 
-@media screen and (max-width: 414px) {
-  .bto {
-    margin-left: -100px;
-    scale: 0.6;
-  }
-
+@media screen and (max-width: 768px) {
   .painel1 {
+    background-image: unset;
     display: flex;
+    width: unset;
+    height: 100%;
     flex-direction: column;
-    flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
   }
+
+  .bloco-3 {
+    background-image: unset;
+    background-size: unset;
+    background-repeat: unset;
+    background-attachment: unset;
+    background-color: #faf8f7;
+
+  }
+
+  .bloco-1 {
+    background-image: unset;
+    background-size: unset;
+    background-repeat: unset;
+    padding-top: 108px;
+    background-color: #fff;
+    opacity: 90%;
+  }
+
+
+
+
+
+
+
+
+
+
 }

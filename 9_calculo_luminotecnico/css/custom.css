@@ -1,10 +1,21 @@
 h1,
-h2,
 h3,
 h4 {
-  color: #206060;
+  color: #66a1a1;
   font-weight: bold;
+  font-size: 46px;
 }
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  color: #66a1a1;
+  font-weight: bold;
+  font-size: 50px;
+}
+
 
 .pagina {
   margin-top: 30px;
@@ -53,20 +64,23 @@ h4 {
 
 .bloco-1 {
   background: url("../imgs/BG_1.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 15px;
 }
-
+.img-final{
+  margin-top: 200px;
+}
 .bloco-2 {
   background-color: #206060;
   color: #fff;
   margin: 15px;
+  padding-top: 50px;
 }
 
 .bloco-3 {
   background: url("../imgs/BG_2.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 15px;
 }
@@ -306,15 +320,11 @@ table.senac td {
   .btn-2:hover {
     background: url("../imgs/mob_bt2_hover.png") no-repeat;
   }
+}
 
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 420px) {
+  .bloco-1 {
+    background: #fff;
+  }
 
 }
