@@ -1,8 +1,134 @@
+h1,
+h3,
+h4 {
+  /* color: #fdfcf5; */
+  color: #66a1a1;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+h2 {
+  color: #66a1a1;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.titulo_branco {
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.titulo_escuro {
+  color: #854c3c;
+  font-weight: bold;
+  font-size: 36px;
+}
+
 .bloco-1 {
-  background: url("../imgs/BG.png");
+  background: url("../imgs/BG1.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-top: 50px;
+}
+
+.bloco-2 {
+  background: url("../imgs/BG2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.bloco-3 {
+  background: url("../imgs/BG3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  background-attachment: fixed;
+}
+
+.bloco-4 {
+  background: url("../imgs/BG4.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.divisoria1 {
+  width: 100%;
+  height: 20px;
+  background-color: #9d7d47;
+}
+
+.parallax {
+  min-height: 400px;
+  background: transparent;
+  width: 100% !important;
+}
+
+.parallax1 {
+  min-height: 300px;
+  background: transparent;
+  width: 100% !important;
+}
+
+.legenda1 {
+  background-color: #3f1e12;
+}
+
+.legenda2 {
+  background-color: #e8e0d1;
+}
+
+.barra1 {
+  width: 100%;
+  height: 110px;
+  background-color: #230d06;
+  text-align: center;
+  padding-right: 577px;
+  margin-top: -48px;
+  padding-top: 30px;
+}
+
+.barra2 {
+  width: 100%;
+  height: 110px;
+  background-color: #d9d1c1;
+  text-align: center;
+  padding-right: 577px;
+  margin-top: -48px;
+  padding-top: 30px;
+}
+
+.bg-painel1 {
+  background-color: #000;
+  opacity: 90%;
+}
+
+.bg-painel2 {
+  background-color: #c9bfb3;
+  opacity: 90%;
+}
+
+.painel_1 {
+  background: #542918;
+  background: linear-gradient(90deg,#000 20%, #542918 60%, #000 20%);
+  color: #fff !important;
+  height: 80px;
+  opacity: 70%;
+  border: 1px solid #ad803e !important;
+}
+
+.painel_2 {
+  background: #542918;
+  background: linear-gradient(90deg,#c5a98e 20%, #542918 60%, #000 20%);
+  color: #fff !important;
+  height: 80px;
+  opacity: 70%;
+  border: 1px solid #491b02 !important;
 }
 
 
@@ -15,23 +141,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 600px) {
+  .legenda1 {
+    background-color: unset;
+  }
+
+  .legenda2 {
+    background-color: unset;
+  }
 }
