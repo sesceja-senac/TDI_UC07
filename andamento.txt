@@ -20,7 +20,7 @@ html 10
 
 html 11
 
-tela inicial
+tela inicial tudo certo, só atualizar os que não tem links ainda
 
 
 
