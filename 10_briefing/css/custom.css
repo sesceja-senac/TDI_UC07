@@ -1,7 +1,75 @@
 .bloco-1 {
-  background: url("../imgs/BG_1.png");
-  background-size: cover;
+  background: url("../imgs/bg1.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  margin: 15px;
 }
 
+.bloco-2 {
+  background-color: #358080;
+  opacity: 90%;
+}
+
+.bloco-3 {
+  background: url("../imgs/bg1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bloco-4 {
+  background: linear-gradient(to right, #662721, #b0372d);
+}
+
+.bloco-5 {
+  background: url("../imgs/bg2.png");
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+}
+
+.bloco-6 {
+  background: url("../imgs/bg3.png");
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+.bloco-7 {
+  background: url("../imgs/bg2.png");
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+}
+
+.bloco-8 {
+  background: url("../imgs/bg4.png");
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+.bloco-9 {
+  background: url("../imgs/bg5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bto-trans {
+  background: url("../imgs/ico_transcrição_small.png");
+  width: 94px;
+  height: 94px;
+  border: none;
+  background-repeat: no-repeat;
+  margin: 5px;
+}
+
+.player {
+  background: url("../imgs/podcast.png");
+  background-repeat: no-repeat;
+  width: 257px;
+  height: 53px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.player1 {
+  margin-top: 175px;
+  margin-left: -58px;
+}
+
+.player2 {
+  margin-top: 142px;
+}
