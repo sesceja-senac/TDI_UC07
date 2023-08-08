@@ -42,11 +42,13 @@
   background-size: contain;
   background-repeat: repeat-y;
 }
+
 .bloco-9 {
   background: url("../imgs/bg5.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 .bto-trans {
   background: url("../imgs/ico_transcrição_small.png");
   width: 94px;
