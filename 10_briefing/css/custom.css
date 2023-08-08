@@ -219,6 +219,7 @@ a.active {
     position: fixed;
     min-height: 100%;
     max-width: 300px;
+    margin-left: -18px;
     padding: 100px 20px;
     left: 0;
     top: 0;
@@ -308,12 +309,30 @@ a.active {
   .indice .titulo {
     display: none !important;
   }
+
+  .grupo-imprimir button.bto-imprimir {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .bloco-1 {
     margin-top: 40px;
   }
+
+  h1,
+  h3,
+  h4,
+  h5 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #66a1a1;
+  }
+
 }
 
 @media screen and (max-width: 560px) {

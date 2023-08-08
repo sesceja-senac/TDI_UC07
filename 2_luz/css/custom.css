@@ -17,6 +17,9 @@ h4,
 p {
   color: #ffffff;
 }
+p{
+  word-wrap: break-word;
+}
 
 .menu {
   margin: 10px;

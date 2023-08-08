@@ -1,8 +1,9 @@
 .bloco-1 {
-  background: url("../imgs/BG.png");
+  background: url(../imgs/BG.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  margin-top: 35px;
+  margin-top: 37px;
+  background-attachment: fixed;
 }
 p {
   word-wrap: break-word;
@@ -21,4 +22,22 @@ h2 {
   font-size: 50px;
   font-weight: bold;
   color: #66a1a1;
+  word-wrap: break-word;
+}
+
+
+
+
+
+
+
+@media (max-width:1100px) {
+  .bloco-1 {
+    background: unset;
+    background-size: unset;
+    background-repeat: unset;
+    margin-top: 37px;
+    background-attachment: unset;
+    background-color: #fff;
+  }
 }

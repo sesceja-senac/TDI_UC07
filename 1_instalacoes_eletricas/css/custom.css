@@ -7,6 +7,7 @@ h4 {
 }
 p{
   font-size: 20px;
+  word-wrap: break-word;
 }
 h2{
   color: #66a1a1;
@@ -377,7 +378,8 @@ table.senac td {
   }
 
   .menu-btn {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     margin-bottom: 8px;
   }
 
@@ -386,7 +388,7 @@ table.senac td {
     position: fixed;
     height: 63px;
     width: 63px;
-    background-image: url('../../images/bt_menu.png');
+    background-image: url('../imgs/menu-alt.png');
     background-position: center;
     background-size: contain;
     background-color: white;

@@ -7,6 +7,7 @@ h4 {
 }
 p{
   font-size: 20px;
+  word-wrap: break-word;
 }
 h2{
   color: #66a1a1;
@@ -18,7 +19,7 @@ h2{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-top: 50px;
-  margin: 15px;
+  padding-bottom: 243px;
 }
 
 .btn-m {
@@ -92,16 +93,18 @@ h2{
 
 
 .modal_01 {
-  background: url("../imgs/bg_modal1.png");
-  background-size: 100% 100%;
+  background: url("../imgs/bg_modal1.png"),
+  url("../imgs/bg_modal1.png");
+  background-size: 100%, cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
 }
 
 .modal_02 {
-  background: url("../imgs/bg_modal2.png");
-  background-size: 100% 100%;
+  background: url("../imgs/bg_modal2.png"),
+  url("../imgs/bg_modal2.png");
+  background-size: 100%, cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
@@ -116,8 +119,9 @@ h2{
 }
 
 .modal_04 {
-  background: url("../imgs/bg_modal4.png");
-  background-size: 100% 100%;
+  background: url("../imgs/bg_modal4.png"),
+  url("../imgs/bg_modal4.png");
+  background-size: 100%, cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
@@ -132,8 +136,9 @@ h2{
 }
 
 .modal_06 {
-  background: url("../imgs/bg_modal6.png");
-  background-size: 100% 100%;
+  background: url("../imgs/bg_modal6.png"),
+  url("../imgs/bg_modal6.png");
+  background-size: 100%, cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;

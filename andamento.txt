@@ -1,25 +1,25 @@
-html 1 arrumar menu ancorado desktop e mobile.
+html 1 tudo certo!**
 
-html 2 tudo certo!
+html 2 tudo certo!**
 
 html 3 arrumar slideshow
 
-html 4 tudo certo!
+html 4 tudo certo!**
 
 html 5 verificar mobile, painel gaitinha
 
-html 6 bloco-1 e bg das modais
+html 6 tudo certo!**
 
 html 7 container do 360
 
-html 8 tudo certo!
+html 8 tudo certo!**
 
-html 9 tudo certo!
+html 9 tudo certo!**
 
-html 10 verificar mobile
+html 10 tudo certo!**
 
-referencias arrumar bg
+referencias tudo certo!**
 
-tela inicial tudo certo!
+tela inicial tudo certo!**
 
 uc05 cont 09 slideshow

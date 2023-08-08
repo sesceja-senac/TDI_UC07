@@ -14,6 +14,8 @@ if(pageNo=="?page=1"){
     $('.menu-btn-5').addClass('ativo')
 } else if(pageNo=="?page=6"){
     $('.menu-btn-6').addClass('ativo')
+} else if(pageNo=="?page=7"){
+    $('.menu-btn-8').addClass('ativo')
 }
  
 $('.mobile-menu-btn').click(function(){
