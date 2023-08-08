@@ -75,3 +75,15 @@
 .player2 {
   margin-top: 142px;
 }
+
+/* caixa destaque */
+.caixa-destaque {
+  background-color: #d98868;
+  color: #000;
+}
+
+.icone.dica {
+  background-image: url("../imgs/dica.png");
+}
+
+/* caixa destaque */
