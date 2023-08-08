@@ -12,6 +12,13 @@
   </title>
 
   <!-- Bootstrap -->
+
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <!--<link href="../template/custom.css" type="text/css" rel="stylesheet"> -->
+  <!-- css necessario para o print -->
+
+  <link href="../template/css/sncload.css" rel="stylesheet">
+  <link href="../template/css/magnific-popup.css" rel="stylesheet">
   <link href="../template/css/bootstrap.min.css" rel="stylesheet">
   <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
   <link href="../template/css/cores.css" rel="stylesheet">
@@ -27,6 +34,7 @@
   <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
   <link href="../template/css/print.css" type="text/css" rel="stylesheet">
   <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet">
+  <link href="../template/css/overide.css" type="text/css" rel="stylesheet" />
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,6 +71,33 @@
     </div>
     <div id="sombra"></div>
   </header>
+
+  <div class="background-fixed"></div>
+
+  <div aria-hidden="true" class="menu indice navPartes no-print" id="navPartes">
+    <h3 class="titulo-regular">Briefing:</h3>
+    <!-- fazer o btn para mostrar o menu mobile -->
+    <label for="openMenu" class="labelIndice">
+      <span class="indiceMobile"><span class="glyphicon glyphicon-menu-hamburger"></span></span>
+    </label>
+    <input type="checkbox" id="openMenu">
+    <ul id="scrollSpyNav" class="indiceLista">
+      <li><a data-target="parte0" data-section="parte0" class="btoMenu active">Introdução</a></li>
+      <li><a data-target="parte1" data-section="parte1" class="btoMenu">Objetivos e metas</a></li>
+      <li><a data-target="parte2" data-section="parte2" class="btoMenu">Escopo</a></li>
+      <li><a data-target="parte3" data-section="parte3" class="btoMenu">Leiaute</a></li>
+      <li><a data-target="parte4" data-section="parte4" class="btoMenu">Dimensionamento</a></li>
+      <li><a data-target="parte5" data-section="parte5" class="btoMenu">Circuitos</a></li>
+      <li><a data-target="parte6" data-section="parte6" class="btoMenu">Fornecedores</a></li>
+      <li><a data-target="parte7" data-section="parte7" class="btoMenu">Orçamento</a></li>
+      <li><a data-target="parte8" data-section="parte8" class="btoMenu">Especificação técnica</a></li>
+      <li><a data-target="parte9" data-section="parte9" class="btoMenu">Planta de forro</a></li>
+      <li><a data-target="parte10" data-section="parte10" class="btoMenu">Apresentação</a></li>
+      <li><a data-target="parte11" data-section="parte11" class="btoMenu">Memorial descritivo</a></li>
+      <li><a data-target="parte12" data-section="parte12" class="btoMenu">Encerramento</a></li>
+    </ul>
+  </div>
+
   <div id="booklet">
     <header class="no-print container">
       <!-- BTO IMPRIMIR -->
@@ -78,11 +113,6 @@
 
       <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
       <div class="pagina">
-        <!-- <div class="parallax" data-parallax="scroll" data-image-src="imgs/paralaxe_1.png"></div>
-        <div class="rellax el el-esq bottom" data-rellax-speed="3" style="transform: translate3d(0px, -90px, 0px);">
-          <img src="imgs/lamp_parallax1.png" alt="">   </div>-->
-
-
         <div class="bloco-1" id="bloco1">
           <div class="container b1">
             <div class="grupo-imprimir no-print">
@@ -93,8 +123,7 @@
             <h2><i>Briefing</i>: </h2>
             <h3>objetivos e metas, escopo, leiaute, dimensionamento, circuitos, fornecedores, orçamento, especificação,
               planta de forro, apresentação e memorial descritivo</h3>
-            <h3>Introdução</h3>
-
+            <h3 id="parte0" class="ancora">Introdução</h3>
             <div class="row">
               <div class="col-lg-6">
                 <p>Desde que a luz artificial começou a fazer parte da vida humana, é imensurável o impacto que ela
@@ -140,7 +169,7 @@
 
         <div class="bloco-2" id="bloco2">
           <div class="container b2">
-            <p>No <i>design</i> de interiores, existe um ramo da profissão que é especializado em desenvolver projetos
+            <p class="titulo-azul">No <i>design</i> de interiores, existe um ramo da profissão que é especializado em desenvolver projetos
               luminotécnicos? </p>
             <p class="no-print">Clique ou toque para ouvir o conteúdo: </p>
             <div class="container">
@@ -271,7 +300,7 @@
                   o
                   desenvolvimento de projetos luminotécnicos, confira a seguir do que trata cada uma delas.</p>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 margem">
                 <figure>
                   <img src="imgs/figura_03.png" class="center-block img-responsive hidden-sm hidden-xs print">
                   <a href="imgs/figura_03.png" target="_blank" class="no-print visible-sm visible-xs"
@@ -291,7 +320,7 @@
 
         <div class="bloco-5" id="bloco5">
           <div class="container b5">
-            <h3>Objetivos e metas</h3>
+            <h3 id="parte1" class="ancora">Objetivos e metas</h3>
             <p> Na etapa de objetivos e metas, o profissional busca identificar o resultado que se deseja obter no
               ambiente
               por meio do projeto de iluminação. É fundamental que se tenha clareza no propósito do espaço, para que o
@@ -318,7 +347,7 @@
             </figure>
             <p>Dependendo do tipo de espaço ou da necessidade, os objetivos e as metas podem variar muito. Porém, é
               importante traçá-los para que se obtenha um bom resultado com o projeto de iluminação. </p>
-            <h3>Escopo</h3>
+            <h3 id="parte2" class="ancora">Escopo</h3>
             <p>Na etapa de escopo são definidos os parâmetros do projeto a ser realizado, de forma que se obtenha uma
               definição clara do limite e da extensão dos processos a serem desenvolvidos. </p>
             <p>As definições são estabelecidas quando se delimitam os ambientes que serão contemplados pelo projeto
@@ -345,7 +374,7 @@
 
         <div class="bloco-6" id="bloco6">
           <div class="container b6">
-            <h3>Leiaute</h3>
+            <h3 id="parte3" class="ancora titulo-claro">Leiaute</h3>
             <p>Na etapa de leiaute (ou <i>layout</i>), o projetista determina a composição espacial dos elementos de
               iluminação, o que ocorre por meio da posição dos pontos de luz e das luminárias, respeitando os objetivos
               preestabelecidos. </p>
@@ -370,7 +399,7 @@
               brilho e cores variadas. </p>
             <p>A definição da disposição espacial dos elementos de iluminação no leiaute deve ser guiada pelas
               necessidades do espaço e pelas boas práticas de iluminação. </p>
-            <h3>Dimensionamento</h3>
+            <h3 id="parte4" class="ancora titulo-claro">Dimensionamento</h3>
             <p>A etapa de dimensionamento refere-se aos cálculos luminotécnicos que possibilitam determinar as grandezas
               físicas da iluminação. Esse procedimento contabiliza a quantidade de luz necessária para determinada área,
               atendendo às normas técnicas. </p>
@@ -399,7 +428,7 @@
               ferramentas ou <i>softwares</i> específicos.</p>
             <p>A determinação das zonas de iluminação permite adaptar os usos e criar cenários, a fim de resultar em um
               ambiente funcional, esteticamente agradável e eficiente no consumo de energia elétrica.</p>
-            <h3>Circuitos</h3>
+            <h3 id="parte5" class="ancora titulo-claro">Circuitos</h3>
             <p>A etapa de circuitos ocorre quando o <i>lighting designer</i> desenvolve o planejamento dos circuitos
               elétricos
               referente ao projeto luminotécnico, e sua adequada implementação é de suma importância para garantir um
@@ -431,7 +460,7 @@
 
         <div class="bloco-7" id="bloco7">
           <div class="container b7">
-            <h3>Fornecedores</h3>
+            <h3 id="parte6" class="ancora">Fornecedores</h3>
             <p>A etapa de definição dos fornecedores é importante para que os produtos escolhidos atendam aos requisitos
               técnicos, estéticos e de qualidade, por meio de uma seleção de fornecedores de equipamentos, materiais
               elétricos, lâmpadas e luminárias que comporão o projeto luminotécnico. </p>
@@ -454,7 +483,7 @@
             <p>A comunicação entre o <i>lighting designer</i> e os fornecedores precisa ser clara e direta durante o
               desenvolvimento do projeto, de forma a fazer escolhas assertivas em relação aos requisitos técnicos e a
               disponibilidade dos produtos selecionados. </p>
-            <h3>Orçamento</h3>
+            <h3 id="parte7" class="ancora">Orçamento</h3>
             <p>A etapa de orçamento está diretamente relacionada com os fornecedores, pois são estes que oferecem opções
               que atendam às restrições financeiras estabelecidas. O orçamento disponível no projeto é referente às
               compras de luminárias e equipamentos luminotécnicos, a fim de garantir equilíbrio entre qualidade,
@@ -475,7 +504,7 @@
 
         <div class="bloco-8" id="bloco8">
           <div class="container b8">
-            <h3>Especificação técnica </h3>
+            <h3 id="parte8" class="ancora titulo-claro">Especificação técnica </h3>
             <p>A etapa de especificação delimita os requisitos técnicos dos materiais que compõem o projeto de
               iluminação, como as luminárias, as lâmpadas e os equipamentos elétricos. É fundamental uma definição
               detalhada a fim de garantir que as escolhas luminotécnicas atendam com êxito às demandas funcionais,
@@ -502,7 +531,7 @@
               “característica técnica”.</p>
             <p>Com a disponibilidade dessas informações, é possível garantir ao cliente as orientações adequadas na
               aquisição das luminárias, de forma a atender aos requisitos do projeto. </p>
-            <h3>Planta de forro</h3>
+            <h3 id="parte9" class="ancora titulo-claro">Planta de forro</h3>
             <p>A etapa de desenvolvimento da planta de forro possibilita o planejamento do forro por meio de adequada
               distribuição das luminárias. </p>
             <p>Nesse processo, é necessário que o projetista tenha em mãos as informações métricas espaciais, como
@@ -529,7 +558,7 @@
               infraestrutura. Nesses casos, é necessário que exista uma compatibilização entre os sistemas.</p>
             <p>O desenho técnico contendo as informações da planta de forro é um guia para que as instalações
               luminotécnicas sejam adequadas, harmoniosas e eficientes. </p>
-            <h3>Apresentação</h3>
+            <h3 id="parte10" class="ancora titulo-claro">Apresentação</h3>
             <p>A etapa de apresentação representa a comunicação entre a proposta de projeto do <i>lighting designer</i>
               e o cliente, sendo um momento importante para compartilhar ideias, discutir informações e alinhar
               expectativas. </p>
@@ -564,7 +593,7 @@
               iluminação. A
               colaboração e a comunicação efetiva entre cliente e profissional são cruciais para atender aos requisitos
               do projeto com sucesso. </p>
-            <h3>Memorial descritivo</h3>
+            <h3 id="parte11" class="ancora titulo-claro">Memorial descritivo</h3>
             <p>A etapa de memorial descritivo é o registro formal das especificações técnicas do projeto luminotécnico,
               a fim de orientar os profissionais envolvidos para que a proposta projetual seja executada corretamente.
             </p>
@@ -590,7 +619,7 @@
 
         <div class="bloco-9" id="bloco9">
           <div class="container b9">
-            <h3>Encerramento</h3>
+            <h3 id="parte12" class="ancora titulo-claro">Encerramento</h3>
             <p>Um bom projeto luminotécnico faz toda a diferença no resultado final de um projeto de interiores, não é
               mesmo?</p>
             <p>Uma iluminação adequada possibilita que os usuários desfrutem o ambiente de diferentes maneiras, criando
@@ -611,15 +640,6 @@
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
-
-
 
         <div class="modal fade" id="transc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
           <div class="modal-dialog " role="document">
@@ -717,6 +737,7 @@
   <script src="../template/js/images.loader.js"></script>
   <script src="../template/js/highlight.min.js"></script>
   <script src="js/parallax.min.js"></script>
+  <script src="js/custom.js"></script>
   <noscript>
     <style media="screen">
       .over-loader {

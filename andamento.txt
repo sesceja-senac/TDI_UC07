@@ -6,7 +6,7 @@ html 3 arrumar slideshow, verificar versão impressa
 
 html 4 tudo certo!
 
-html 5
+html 5 verificar mobile e versão impressa, painel gaitinha
 
 html 6 verificar versão impressa , bloco-1 e bg das modais
 
@@ -16,10 +16,10 @@ html 8 tudo certo!
 
 html 9 verificar versão impressa
 
-html 10
+html 10 verificar mobile e versão impressa
 
-html 11
+referencias verificar mobile e versão impressa
 
-tela inicial tudo certo, só atualizar os que não tem links ainda
+tela inicial tudo certo!
 
 uc05 cont 09 slideshow
