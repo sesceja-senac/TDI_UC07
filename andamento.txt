@@ -10,7 +10,7 @@ html 5 verificar mobile, painel gaitinha
 
 html 6 tudo certo!**
 
-html 7 container do 360
+html 7 container do 360, as imagens estão ok
 
 html 8 tudo certo!**
 
