@@ -1,24 +1,24 @@
-html 1 arrumar menu ancorado desktop e mobile e verificar versão para impressão.
+html 1 arrumar menu ancorado desktop e mobile.
 
 html 2 tudo certo!
 
-html 3 arrumar slideshow, verificar versão impressa
+html 3 arrumar slideshow
 
 html 4 tudo certo!
 
-html 5 verificar mobile e versão impressa, painel gaitinha
+html 5 verificar mobile, painel gaitinha
 
-html 6 verificar versão impressa , bloco-1 e bg das modais
+html 6 bloco-1 e bg das modais
 
-html 7 container do 360, verificar impressão
+html 7 container do 360
 
 html 8 tudo certo!
 
-html 9 verificar versão impressa
+html 9 tudo certo!
 
-html 10 verificar mobile e versão impressa
+html 10 verificar mobile
 
-referencias verificar mobile e versão impressa
+referencias arrumar bg
 
 tela inicial tudo certo!
 

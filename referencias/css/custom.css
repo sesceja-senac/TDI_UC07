@@ -4,3 +4,21 @@
   background-repeat: no-repeat;
   margin-top: 35px;
 }
+p {
+  word-wrap: break-word;
+  font-size: 20px;
+}
+h1,
+h3,
+h4,
+h5 {
+  font-size: 46px;
+  font-weight: bold;
+  color: #66a1a1;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #66a1a1;
+}

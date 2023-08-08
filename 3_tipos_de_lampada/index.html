@@ -505,7 +505,7 @@
               lâmpadas, suas características distintas e principais usos?</p>
             <div class="no-print" aria-hidden="true">
               <p>Clique ou toque para visualizar o conteúdo.</p>
-              <div class="painel painel1">
+              <div class="painel painel1 no-print" aria-hidden="true">
                 <button type="button" class="btn bt-1" data-toggle="modal" data-target="#modal-1"></button>
                 <button type="button" class="btn bt-2" data-toggle="modal" data-target="#modal-2"></button>
                 <button type="button" class="btn bt-3" data-toggle="modal" data-target="#modal-3"></button>
@@ -1599,9 +1599,11 @@
                         possível ter acesso a gráficos que mostram essa curva, como no exemplo a seguir: </p>
                       <p>Clique ou toque na imagem para ampliar a visualização: </p>
                       <figure>
-                        <img src="imgs/figura_22.png" class="center-block img-responsive hidden-sm hidden-xs print">
-                        <a href="imgs/figura_22.png" target="_blank" class="no-print visible-sm visible-xs"
-                          aria-hidden="true"><img src="imgs/figura_22.png" class="center-block img-responsive"></a>
+                        <img src="imgs/figura_22.png"
+                          class="center-block img-responsive hidden-lg hidden-md hidden-sm hidden-xs print">
+                        <a href="imgs/figura_22_zoom.jpg" target="_blank"
+                          class="no-print visible-lg visible-md visible-sm visible-xs" aria-hidden="true"><img
+                            src="imgs/figura_22.png" class="center-block img-responsive"></a>
                         <p class="legenda-imagem">
                           Figura 22 – Curva de distribuição
                           <br>
@@ -1697,10 +1699,25 @@
                 seja, qual é o formato que essa luz terá ao sair da fonte. Em sites de fabricantes de lâmpadas é
                 possível ter acesso a gráficos que mostram essa curva, como no exemplo a seguir: </p>
               <p>Clique ou toque na imagem para ampliar a visualização: </p>
-              <figure>
-                <img src="imgs/figura_22.png" class="center-block img-responsive hidden-sm hidden-xs print">
-                <a href="imgs/figura_22_zoom.jpg" target="_blank" class="no-print visible-sm visible-xs"
-                  aria-hidden="true"><img src="imgs/figura_22_zoom.jpg" class="center-block img-responsive"></a>
+              <figure class="no-print">
+                <img src="imgs/figura_22.png"
+                  class="center-block img-responsive hidden-lg hidden-md hidden-sm hidden-xs print">
+                <a href="imgs/figura_22.png_ZOOM.jpg" target="_blank"
+                  class="no-print visible-lg visible-md visible-sm visible-xs" aria-hidden="true"><img
+                    src="imgs/figura_22.png" class="center-block img-responsive"></a>
+                <p class="legenda-imagem">
+                  Figura 22 – Curva de distribuição
+                  <br>
+                  Fonte: Stella (c2019b)
+                </p>
+                <p class="acessivel no-print">A imagem apresenta um gráfico do tipo radar, mostrando como a luz
+                  de uma lâmpada bulbo 7W comporta-se ao sair da fonte. No gráfico, a luz da lâmpada bulbo se
+                  distribui em um formato arredondado, com um ângulo de abertura de aproximadamente 90° e
+                  podendo atingir uma intensidade luminosa acima de 96 candelas em seu ponto mais distante da
+                  fonte luminosa, se medido no centro do facho.</p>
+              </figure>
+              <figure class="only-print">
+                <img src="imgs/figura_22_zoom.jpg" class="center-block img-responsive print">
                 <p class="legenda-imagem">
                   Figura 22 – Curva de distribuição
                   <br>
