@@ -211,11 +211,11 @@ li {
   background-color: #66a1a1;
 }
 
-.bg_360 {
+/* .bg-360 {
   background-color: #000;
   opacity: 30%;
   color: #fff;
-}
+} */
 
 button.close {
   background: url(../imgs/ico_fechar.png) no-repeat;
