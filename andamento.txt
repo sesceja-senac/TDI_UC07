@@ -6,7 +6,7 @@ html 3 arrumar slideshow
 
 html 4 tudo certo!**
 
-html 5 verificar legenda das imagens, arrumar cor do botão do painel, verificar nobile e impressão
+html 5 verificar legenda das imagens, arrumar cor do botão do painel
 
 html 6 tudo certo!**
 

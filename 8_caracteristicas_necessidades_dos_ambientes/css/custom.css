@@ -2,7 +2,8 @@
   padding-top: 100px;
   background: url("../imgs/bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 .bloco2 {
