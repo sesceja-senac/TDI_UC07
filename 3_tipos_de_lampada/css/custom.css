@@ -23,7 +23,8 @@ h3 {
 h4 {
   font-size: 20px;
 }
-.margem-b1{
+
+.margem-b1 {
   margin-bottom: 80px;
 }
 
@@ -35,33 +36,63 @@ h4 {
 .grupo-imprimir button.bto-imprimir {
   margin-top: 40px;
 }
-.img-flutuante{
+
+.img-flutuante {
   animation: flutua infinite 2s ease-in-out;
   position: absolute;
   width: 15%;
   top: 50px;
 }
-.img-flutuante.direita{
+
+.img-flutuante.direita {
   right: 0;
-top:-30px;
+  top: -30px;
 }
-.img-flutuante.esquerda{left: 0;
-  top:-30px;
-}
-.img-flutuante.inferior{
-  top: unset;
-  bottom: 50px;
-}
-.img-flutuante.centro{
-  top: 40%;
+
+.img-flutuante.esquerda {
+  left: 0;
+  top: -30px;
 }
 
 @keyframes flutua {
-  50% { transform: translateY(30px) }
+  50% {
+    transform: translateY(30px)
+  }
 }
 
-.rotate-center{animation:rotate-center 60s linear infinite both}
-@keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+.rotate-center {
+  animation: rotate-center 60s linear infinite both
+}
+.modal-body {
+  background: url("../imgs/bg_modal.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.modal-body h3 {
+  border-bottom: 2px solid #66a1a1;
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
+}
+.botao {
+  background: url("../imgs/modal_fechar.png");
+  width: 238px;
+  height: 76px;
+  border: none;
+}
+
+.botao:hover {
+  background: url("../imgs/modal_fechar_hover.png");
+  width: 238px;
+  height: 76px;
+  border: none;
+}
 
 
 .bloco-1 {
@@ -72,19 +103,20 @@ top:-30px;
   padding-bottom: 10px;
   z-index: 90;
   position: relative;
- 
+
 }
 
 .b1 {
   background-color: #fff4e8;
   max-width: 1200px;
-  padding:20px 0;
+  padding: 20px 0;
   margin-bottom: 80px;
-  box-shadow: 10px 10px 0px 0px rgba(219,199,178,0.75);
--webkit-box-shadow: 10px 10px 0px 0px rgba(219,199,178,0.75);
--moz-box-shadow: 10px 10px 0px 0px rgba(219,199,178,0.75);
+  box-shadow: 10px 10px 0px 0px rgba(219, 199, 178, 0.75);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(219, 199, 178, 0.75);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(219, 199, 178, 0.75);
 }
-.b1 .container{
+
+.b1 .container {
   max-width: 700px;
   margin-right: 40px;
 }
@@ -94,10 +126,10 @@ top:-30px;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  background-position: top  center;
+  background-position: top center;
   position: relative;
   padding: 30px 0;
-  
+
 }
 
 .bloco-3 {
@@ -110,11 +142,12 @@ top:-30px;
 }
 
 .bloco-4 {
-  background-image: url("../imgs/bg_modal.png");
+  background-image: url("../imgs/BG3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-attachment: fixed;
+  background-position: top center;
+  padding: 30px 0;
 }
 
 .bloco-5 {
@@ -166,26 +199,32 @@ top:-30px;
   min-height: 500px;
 
 }
+
 .panel-body {
   padding: 15px 30px;
 }
+
 .b2 {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   max-width: 1200px !important;
   padding: 100px;
 }
-
-.b6 {
-  background-color: #fff;
-  opacity: 90%;
-  padding-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+button.close {
+  background: url(../imgs/ico_fechar.png) no-repeat;
+  width: 101px;
+  height: 101px;
+  opacity: unset;
 }
-.vertical-align{
+.b6 {
+  background-color:rgba(255,255,255,0.9);
+  padding: 100px;
+}
+
+.vertical-align {
   display: flex;
   align-items: center;
 }
+
 .seta-topo {
   background: url("../imgs/ico_topo.png");
   background-repeat: no-repeat;
@@ -193,9 +232,11 @@ top:-30px;
   height: 130px;
   border: none;
 }
+
 .panel-group {
   margin: 50px 0;
 }
+
 /* Personalização slideshow */
 .carousel {
   background-color: #fff;
@@ -224,18 +265,19 @@ top:-30px;
 .panel-default {
   border-color: #bd3d33;
 }
- .collapsed {
+
+.collapsed {
   content: "";
   width: 14px;
   height: 7px;
   background: url(../imgs/painel_abre.png) no-repeat;
   margin-right: 10px;
   background-position: right;
-} 
+}
 
-  background: url(../imgs/painel_recolhe.png) no-repeat;
+/* background: url(../imgs/painel_recolhe.png) no-repeat;
   margin-right: 10px;
-  background-position: right;
+  background-position: right; */
 
 
 .panel-heading {
@@ -459,6 +501,7 @@ top:-30px;
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 @media screen and (min-width: 2000px) {
   .b1 {
     max-width: 60%;

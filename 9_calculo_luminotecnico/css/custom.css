@@ -23,6 +23,7 @@ h3 {
 h4 {
   font-size: 20px;
 }
+
 .collapsed {
   content: "";
   width: 14px;
@@ -31,6 +32,7 @@ h4 {
   margin-right: 10px;
   background-position: right;
 }
+
 .botao-fechar {
   background: url("../imgs/modal_fechar.png");
   width: 238px;
@@ -237,6 +239,13 @@ table.senac td {
 .modal-content {
   margin-left: -150px;
   margin-right: -150px;
+}
+
+button.close.close1 {
+  background: url(../imgs/ico_fechar.png) no-repeat;
+  width: 101px;
+  height: 101px;
+  opacity: unset;
 }
 
 /* modal simples*/
