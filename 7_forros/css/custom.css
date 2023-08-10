@@ -196,7 +196,9 @@ li {
   height: 76px;
   border: none;
 }
-
+iframe{
+  z-index: 16;
+}
 .botao-fechar:hover {
   background: url("../imgs/modal_fechar_hover.png");
   width: 238px;
