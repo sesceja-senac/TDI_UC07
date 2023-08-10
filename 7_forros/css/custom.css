@@ -1,52 +1,58 @@
 h1,
 h3,
+h2,
 h4 {
   color: #66a1a1;
   font-weight: bold;
-  font-size: 46px;
 }
 p{
   font-size: 20px;
   word-wrap: break-word;
 }
-h2{
-  color: #66a1a1;
-  font-weight: bold;
-  font-size: 50px;
+h2 {
+  font-size: 38px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
 .titulo_normal {
   color: #000;
 }
-
 .bloco-1 {
   background: url(../imgs/bg1.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: 80px;
 }
-
+.panel-group {
+  margin: 50px;
+}
 .bloco-2 {
   background: url("../imgs/bg2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 15px;
 }
-
+.titulo-claro{
+  color: #fff;
+}
 .bloco-3 {
   background: url("../imgs/bg2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 15px;
+  padding-bottom: 50px;
 
 }
 
 .bloco-4 {
   background-color: #4c4c4c;
   color: #fff;
-  margin: 15px;
 }
 
 .b2,
@@ -184,11 +190,23 @@ li {
   border: none;
   transition: ease-in;
 }
+.botao-fechar {
+  background: url("../imgs/modal_fechar.png");
+  width: 238px;
+  height: 76px;
+  border: none;
+}
 
+.botao-fechar:hover {
+  background: url("../imgs/modal_fechar_hover.png");
+  width: 238px;
+  height: 76px;
+  border: none;
+}
 .modal-body {
-  background: url("../imgs/bg_modal.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../imgs/bg_modal.png);
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
 }
 
 .titulo_modal {
@@ -211,11 +229,11 @@ li {
   background-color: #66a1a1;
 }
 
-/* .bg-360 {
+.bg-360 {
   background-color: #000;
   opacity: 30%;
   color: #fff;
-} */
+} 
 
 button.close {
   background: url(../imgs/ico_fechar.png) no-repeat;
@@ -228,7 +246,7 @@ button.close {
 
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 420x) {
   .painel1 {
     display: flex;
     background: none;
@@ -239,7 +257,6 @@ button.close {
     height: 182px;
     border: none;
   }
-  
   .bt-1 {
     background: url("../imgs/mob_painel_bt1.png") no-repeat;
     width: 332px;
@@ -279,5 +296,4 @@ button.close {
     background: #fff;
   }
 }
-
 

@@ -1,18 +1,24 @@
 h1,
 h3,
+h2,
 h4 {
   color: #66a1a1;
   font-weight: bold;
-  font-size: 46px;
 }
 p{
   font-size: 20px;
   word-wrap: break-word;
 }
-h2{
-  color: #66a1a1;
-  font-weight: bold;
-  font-size: 50px;
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 .margem {
@@ -37,42 +43,60 @@ h2{
   background: url("../imgs/bg_1.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
 }
 
 .bloco-2 {
   background: url("../imgs/bg_2.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
 }
 
 .bloco-3 {
   background: url("../imgs/bg_1.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
 }
 
 .bloco-4 {
   background: url("../imgs/bg_2.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
 }
 
 .bloco-5 {
   background: url("../imgs/bg_1.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .bloco-6 {
   background: url("../imgs/bg_2.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .bloco-7 {
   background: url("../imgs/bg_1.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .divisoria {
@@ -141,7 +165,7 @@ h2{
   width: 378px;
   height: 90px;
   border: none;
-  margin-right: 5px;
+  margin-right: 50px;
 }
 
 .bt-1 {
@@ -287,9 +311,9 @@ h2{
 table.senac th {
   background-color: #bc3630;
   color: #fff;
+  text-align: left;
   border: 1px solid #bc3630;
 }
-
 table.senac {
   border-color: #bc3630;
 }

@@ -1,19 +1,26 @@
 h1,
 h3,
+h2,
 h4 {
-  color: #688c85;
+  color: #66a1a1;
   font-weight: bold;
-  font-size: 46px;
 }
 
 p {
   font-size: 20px;
   word-wrap: break-word;
 }
+
 h2 {
-  color: #66a1a1;
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 .titulo-claro {
@@ -21,20 +28,31 @@ h2 {
   font-weight: bold;
 }
 
+.grupo-imprimir button.bto-imprimir {
+  margin-top: 40px;
+}
+
 .bloco-1 {
-  background-image: url("../imgs/BG1.jpg");
+  background-image: url("../imgs/bg1_full.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-top: 108px;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+.b1 {
+  background-color: #fff4e8;
+}
+
 
 .bloco-2 {
   background-image: url("../imgs/BG2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bloco-3 {
@@ -42,20 +60,23 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bloco-4 {
   background-image: url("../imgs/bg_modal.png");
   background-size: cover;
   background-repeat: no-repeat;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bloco-5 {
   background: linear-gradient(#663a2f, #2e6866);
   color: #fff;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bloco-6 {
@@ -63,14 +84,20 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bloco-7 {
-  background-image: url("../imgs/BG5.jpg");
+  background-image: url("../imgs/BG5_full.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+.b7 {
+  background-color: #fff4e8;
 }
 
 .divisoria-1 {
@@ -96,13 +123,15 @@ h2 {
 .b2 {
   background-color: #000;
   opacity: 90%;
+  max-width: 1200px !important;
 }
-
 
 .b6 {
   background-color: #fff;
   opacity: 90%;
   padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .seta-topo {
@@ -113,7 +142,9 @@ h2 {
   border: none;
   transition: ease-in;
 }
-
+.panel-group {
+  margin: 50px;
+}
 /* Personalização slideshow */
 .carousel {
   background-color: #fff;
@@ -122,6 +153,7 @@ h2 {
   border-radius: 30px;
   margin-bottom: 80px;
 }
+
 /* Fim personalização slideshow */
 /* Personalização painel gaitinha */
 .panel-group {

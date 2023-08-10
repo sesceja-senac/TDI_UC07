@@ -1,19 +1,46 @@
 h1,
 h3,
+h2,
 h4 {
   color: #66a1a1;
   font-weight: bold;
-  font-size: 46px;
 }
-p{
+
+p {
   font-size: 20px;
   word-wrap: break-word;
 }
-h2{
-  color: #66a1a1;
-  font-weight: bold;
-  font-size: 50px;
+
+h2 {
+  font-size: 38px;
 }
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.modal-c {
+  padding-right: 170px;
+}
+
+.botao-fechar {
+  background: url("../imgs/modal_fechar.png");
+  width: 238px;
+  height: 76px;
+  border: none;
+}
+
+.botao-fechar:hover {
+  background: url("../imgs/modal_fechar_hover.png");
+  width: 238px;
+  height: 76px;
+  border: none;
+}
+
 .bloco-1 {
   background: url("../imgs/BG.png");
   background-size: 100% 100%;
@@ -22,25 +49,32 @@ h2{
   padding-bottom: 243px;
 }
 
+.b1 {
+  max-width: 1200px !important;
+}
+
 .btn-m {
   width: 126px;
   height: 163px;
   border: none;
+  margin-top: 60px;
   transition: all .4s;
   cursor: url(../imgs/cursor_painel.png), auto;
 }
 
 .painel1 {
-  background: url("../imgs/img_mobile.png");
+  background: url(../imgs/img_mobile.png);
   display: flex;
   width: 765px;
+  position: relative;
+  z-index: auto;
   height: 897px;
   margin-top: 112px;
   padding-right: 191px;
   padding-left: 225px;
+  margin-left: -22px;
   align-items: center;
   cursor: url(../imgs/cursor_painel.png), auto;
-
 }
 
 .btn-1 {
@@ -94,7 +128,7 @@ h2{
 
 .modal_01 {
   background: url("../imgs/bg_modal1.png"),
-  url("../imgs/bg_modal1.png");
+    url("../imgs/bg_modal1.png");
   background-size: 100%, cover;
   background-repeat: no-repeat;
   color: #000;
@@ -103,7 +137,7 @@ h2{
 
 .modal_02 {
   background: url("../imgs/bg_modal2.png"),
-  url("../imgs/bg_modal2.png");
+    url("../imgs/bg_modal2.png");
   background-size: 100%, cover;
   background-repeat: no-repeat;
   color: #000;
@@ -120,7 +154,7 @@ h2{
 
 .modal_04 {
   background: url("../imgs/bg_modal4.png"),
-  url("../imgs/bg_modal4.png");
+    url("../imgs/bg_modal4.png");
   background-size: 100%, cover;
   background-repeat: no-repeat;
   color: #000;
@@ -137,7 +171,7 @@ h2{
 
 .modal_06 {
   background: url("../imgs/bg_modal6.png"),
-  url("../imgs/bg_modal6.png");
+    url("../imgs/bg_modal6.png");
   background-size: 100%, cover;
   background-repeat: no-repeat;
   color: #000;
@@ -156,6 +190,12 @@ button.close {
   opacity: unset;
 }
 
+@media screen and (max-width: 1024px) {
+
+  .modal-c {
+    padding-right: 263px;
+  }
+}
 
 @media screen and (max-width: 600px) {
 
@@ -172,6 +212,9 @@ button.close {
 
   }
 
+  .modal-c {
+    padding-right: unset;
+  }
 
 
 
