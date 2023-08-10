@@ -62,8 +62,7 @@ h4 {
 }
 
 .bloco-2 {
-  background-color: #358080;
-  opacity: 10%;
+  background-color: rgba(53, 128, 128, 0.1);
   padding-bottom: 50px;
 }
 
