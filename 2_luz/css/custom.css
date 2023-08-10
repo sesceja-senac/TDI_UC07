@@ -6,34 +6,34 @@
   background-attachment: fixed;
 }
 
+
 h2 {
-  font-weight: 38px;
-  font-size: bold;
+  font-size: 38px;
+  font-weight: bold;
 }
 
 h3 {
-  font-weight: 24px;
-  font-size: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 h4 {
-  font-weight: 20px;
-  font-size: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-p {
-  font-weight: 20px;
-}
 h1,
 h2,
 h3,
-h4,
-p {
+h4 {
   color: #ffffff;
+      font-weight: bold;
 }
 
 p {
   word-wrap: break-word;
+  color: #ffffff;
+   font-size: 20px;
 }
 
 .menu {

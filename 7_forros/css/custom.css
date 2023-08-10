@@ -45,14 +45,17 @@ h4 {
   margin-right: 10px;
   background-position: right;
 }
-.collapsed:actived{
+
+
+
+/* . {
   content: "";
   width: 14px;
   height: 7px;
   background: url(../imgs/painel_recolhe.png) no-repeat;
   margin-right: 10px;
   background-position: right;
-}
+} */
 
 .bloco-2 {
   background: url("../imgs/bg2.png");
