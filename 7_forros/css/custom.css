@@ -23,6 +23,11 @@ h4 {
 .titulo_normal {
   color: #000;
 }
+.bg-360 {
+  background-color: #000;
+  opacity: 30%;
+  color: #fff;
+} 
 .bloco-1 {
   background: url(../imgs/bg1.png);
   background-size: 100% 100%;
@@ -32,6 +37,23 @@ h4 {
 .panel-group {
   margin: 50px;
 }
+.collapsed {
+  content: "";
+  width: 14px;
+  height: 7px;
+  background: url(../imgs/painel_abre.png) no-repeat;
+  margin-right: 10px;
+  background-position: right;
+}
+.collapsed:actived{
+  content: "";
+  width: 14px;
+  height: 7px;
+  background: url(../imgs/painel_recolhe.png) no-repeat;
+  margin-right: 10px;
+  background-position: right;
+}
+
 .bloco-2 {
   background: url("../imgs/bg2.png");
   background-size: cover;
@@ -196,9 +218,6 @@ li {
   height: 76px;
   border: none;
 }
-iframe{
-  z-index: 16;
-}
 .botao-fechar:hover {
   background: url("../imgs/modal_fechar_hover.png");
   width: 238px;
@@ -231,11 +250,7 @@ iframe{
   background-color: #66a1a1;
 }
 
-.bg-360 {
-  background-color: #000;
-  opacity: 30%;
-  color: #fff;
-} 
+
 
 button.close {
   background: url(../imgs/ico_fechar.png) no-repeat;

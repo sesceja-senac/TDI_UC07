@@ -1,33 +1,33 @@
 h1,
 h3,
+h2,
 h4 {
-  /* color: #fdfcf5; */
   color: #66a1a1;
   font-weight: bold;
-  font-size: 46px;
 }
-
-p {
+p{
   font-size: 20px;
   word-wrap: break-word;
 }
-
 h2 {
-  color: #66a1a1;
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 38px;
 }
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
 
 .titulo_branco {
   color: #fff;
-  font-weight: bold;
-  font-size: 36px;
 }
 
 .titulo_escuro {
   color: #854c3c;
-  font-weight: bold;
-  font-size: 36px;
 }
 
 .bloco-1 {
@@ -35,6 +35,7 @@ h2 {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .bloco-2 {
@@ -44,6 +45,7 @@ h2 {
   padding-top: 50px;
   color: #fff;
   background-attachment: fixed;
+  padding-bottom: 50px;
 }
 
 .bloco-3 {
@@ -98,7 +100,7 @@ h2 {
   background-color: #230d06;
   text-align: center;
   padding-right: 577px;
-  margin-top: -48px;
+  margin-top: -52px;
   padding-top: 30px;
 }
 
@@ -108,35 +110,35 @@ h2 {
   background-color: #d9d1c1;
   text-align: center;
   padding-right: 577px;
-  margin-top: -48px;
+  margin-top: -52px;
   padding-top: 30px;
 }
 
 .bg-painel1 {
   background-color: #000;
-  opacity: 90%;
+  /* opacity: 90%; */
 }
 
 .bg-painel2 {
   background-color: #c9bfb3;
-  opacity: 90%;
+  /* opacity: 90%; */
 }
 
 .painel_1 {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 30%, rgba(84, 41, 24, 1) 30%, rgba(0, 0, 0, 1) 100%);
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(84,41,24,1) 12%, rgba(0,0,0,1) 110%);
   color: #fff !important;
   height: 80px;
-  opacity: 80%;
+  /* opacity: 80%; */
   border: 4px solid #ad803e !important;
 }
 
 .painel_2 {
-  background: rgb(197, 169, 142);
-  background: linear-gradient(90deg, rgba(197, 169, 142, 1) 30%, rgba(84, 41, 24, 1) 30%, rgba(0, 0, 0, 1) 100%);
+  background: rgb(197,169,142);
+  background: linear-gradient(90deg, rgba(197,169,142,1) 16%, rgba(84,41,24,1) 16%, rgba(0,0,0,1) 150%);
   color: #fff !important;
   height: 80px;
-  opacity: 80%;
+   opacity: 90%; 
   border: 4px solid #491b02 !important;
 }
 
@@ -189,6 +191,7 @@ a:active {
   .b1 {
     width: 800px;
   }
+ 
 }
 
 @media screen and (max-width: 1024px) {
@@ -242,12 +245,17 @@ a:active {
     padding-top: unset;
   }
 
-  .bg-painel1 {
-    opacity: unset;
+  .painel_1 {
+    background: unset;
+    background: linear-gradient(90deg, rgba(84,41,24,1) 16%, rgba(84,41,24,1) 16%, rgba(84,41,24,1) 150%);
+    opacity: 80%; 
   }
-
-  .bg-painel2 {
-    opacity: unset;
+  
+  .painel_2 {
+    background: unset;
+    background-color:#542918;
+    background: linear-gradient(90deg, rgba(84,41,24,1) 16%, rgba(84,41,24,1) 16%, rgba(84,41,24,1) 150%);
+    opacity: none; 
   }
 
 }

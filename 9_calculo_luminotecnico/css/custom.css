@@ -1,9 +1,9 @@
 h1,
 h3,
+h2,
 h4 {
   color: #66a1a1;
   font-weight: bold;
-  font-size: 46px;
 }
 
 p {
@@ -12,11 +12,30 @@ p {
 }
 
 h2 {
-  color: #66a1a1;
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 38px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.botao-fechar {
+  background: url("../imgs/modal_fechar.png");
+  width: 238px;
+  height: 76px;
+  border: none;
+}
+
+.botao-fechar:hover {
+  background: url("../imgs/modal_fechar_hover.png");
+  width: 238px;
+  height: 76px;
+  border: none;
+}
 
 .pagina {
   margin-top: 30px;
@@ -67,15 +86,15 @@ h2 {
   background: url("../imgs/BG_1.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  margin: 15px;
 }
-.img-final{
+
+.img-final {
   margin-top: 200px;
 }
+
 .bloco-2 {
   background-color: #206060;
   color: #fff;
-  margin: 15px;
   padding-top: 50px;
 }
 
@@ -83,39 +102,34 @@ h2 {
   background: url("../imgs/BG_2.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  margin: 15px;
 }
 
 .bloco-4 {
   background-color: #80392c;
   color: #fff;
-  margin: 15px;
 }
 
 .bloco-5 {
   background: url("../imgs/BG_2.png");
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 15px;
 }
 
 .bloco-6 {
   background-color: #206060;
   color: #fff;
-  margin: 15px;
+  padding-bottom: 50px;
 }
 
 .bloco-7 {
   background: url("../imgs/BG_2.png");
   background-size: contain;
   background-repeat: repeat-y;
-  margin: 15px;
 }
 
 .bloco-8 {
   background-color: #4c4c4c;
   color: #fff;
-  margin: 15px;
 }
 
 /* tabela */
@@ -138,6 +152,7 @@ table.senac td {
 .panel-group {
   color: #000;
   border-radius: 20px;
+  margin: 50px;
 }
 
 .panel-body {
@@ -171,7 +186,7 @@ table.senac td {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin: 15px;
+  padding-top: 50px;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
@@ -181,6 +196,7 @@ table.senac td {
   width: 381px;
   height: 142px;
   border: none;
+  margin: 50px;
 }
 
 .btn-1 {
@@ -210,7 +226,10 @@ table.senac td {
   background: url("../imgs/bt_exemplo_hover.png") no-repeat;
 }
 
-
+.modal-content {
+  margin-left: -150px;
+  margin-right: -150px;
+}
 
 /* modal simples*/
 .modal-title {
@@ -227,7 +246,7 @@ table.senac td {
 /* personalização modal 100% */
 .modal-diferente {
   background: url("../imgs/BG_modal.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   color: #000;
 }
@@ -277,33 +296,23 @@ table.senac td {
 }
 
 /* painel abas */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1110px) {
+  .modal-content {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .btn-p {
     width: 237px;
     height: 82px;
     border: none;
+  }
+
+  .modal-content {
+    margin-left: unset;
+    margin-right: unset;
   }
 
   .btn-1 {
@@ -328,4 +337,8 @@ table.senac td {
     background: #fff;
   }
 
+  .modal-content {
+    margin-left: unset;
+    margin-right: unset;
+  }
 }
