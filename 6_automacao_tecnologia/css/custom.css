@@ -40,13 +40,14 @@ h4 {
   height: 76px;
   border: none;
 }
-
+.grupo-imprimir button.bto-imprimir {
+  margin-top: 20px;
+}
 .bloco-1 {
   background: url("../imgs/BG.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding-top: 50px;
-  padding-bottom: 243px;
+  
 }
 
 .b1 {

@@ -55,4 +55,42 @@ $(".btn-exercicio07").click(function(){
 
 
 
-
+window.addEventListener('load', function(){  
+    $('.bts_exemplo').on('click', function(){
+        $(this).toggleClass('ativo');
+    })
+  })
+  
+  $(function() {
+    $(".card").click(function() {
+      if ($(this).hasClass("exibe-frente")) {
+        $(this)
+          .children()
+          .first()
+          .hide();
+        $(this)
+          .children()
+          .last()
+          .show();
+        $(this).removeClass("exibe-frente");
+      } else {
+        $(".card .verso").hide();
+        $(".card .frente").show();
+        $(this).addClass("exibe-frente");
+      }
+    });
+  });
+  
+  $( document ).ready(function() {
+    $(".card .verso").hide();
+  });
+  
+  window.onscroll = function() {myFunction()};
+  
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
+  

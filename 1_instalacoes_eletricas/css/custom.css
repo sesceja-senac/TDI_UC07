@@ -1,3 +1,78 @@
+.menu-topo {
+  height: 145px;
+  background-color: #6e2e2a;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-top: 30px;
+
+}
+.menu-topo-ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+.menu-topo-ul li {
+  list-style: none;
+  display:flex;
+}
+ /* .menu-topo-ul li a {
+  color: white;
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 0 10px;
+  font-size: 26px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: fira_codelight;
+  
+}  */
+.menu-topo-ul li a.bto-m1 {
+  background: url(../imgs/menu_bt1.png) no-repeat center center;
+  width: 99px;
+height: 84px;
+} 
+.menu-topo-ul li a.bto-m2 {
+  background: url(../imgs/menu_bt2.png) no-repeat center center;
+  width: 51px;
+height: 88px;
+} 
+.menu-topo-ul li a.bto-m3 {
+  background: url(../imgs/menu_bt3.png) no-repeat center center;
+  width: 102px;
+height: 89px;
+} 
+.menu-topo-ul li a.bto-m4 {
+  background: url(../imgs/menu_bt4.png) no-repeat center center;
+  width: 51px;
+height: 92px;
+} 
+.menu-topo-ul li a.bto-m5 {
+  background: url(../imgs/menu_bt5.png) no-repeat center center;
+  width: 118px;
+height: 86px;
+} 
+.menu-topo-ul li a.bto-m6 {
+  background: url(../imgs/menu_bt6.png) no-repeat center center;
+  width: 85px;
+height: 86px;
+} 
+.menu-topo-ul li a.bto-m7 {
+  background: url(../imgs/menu_bt7.png) no-repeat center center;
+  width: 127px;
+height: 84px;
+} 
+.home {
+  height: 37px;
+}
+
+
+.grupo-imprimir button.bto-imprimir {
+  margin-top: 34px;
+}
+
 h1,
 h3,
 h2,
@@ -390,6 +465,32 @@ table.senac td {
     margin-right: unset;
   }
 }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 600px) {
   .menu-links {
