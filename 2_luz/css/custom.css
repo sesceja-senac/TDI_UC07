@@ -38,8 +38,7 @@ p {
 }
 
 .menu {
-  width: 300px;
-  padding-right: 40px;
+  width: 320px;
   padding-top: 0px;
   margin: 10px;
 }
@@ -63,7 +62,10 @@ p {
 }
 
 li {
-  list-style-image: url(../imgs/icone-play.png);
+  background: url(../imgs/icone-play.png) no-repeat left top;
+  list-style:none;
+  padding-left: 40px;
+  min-height: 31px;
   font-size: 18px;
   color: #ffffff;
   font-weight: bold;
@@ -113,7 +115,11 @@ a:active {
   border-left: 1px solid #ffffff;
   padding-left: 50px;
 }
-
+@media screen and (max-width: 780px) {
+ .bloco1 {
+  background-position: center;
+}
+}
 @media screen and (max-width: 480px) {
   .titulo {
     font-size: 40px;
