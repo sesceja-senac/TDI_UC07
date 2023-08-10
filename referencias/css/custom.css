@@ -5,31 +5,31 @@
   margin-top: 37px;
   background-attachment: fixed;
 }
-p {
-  word-wrap: break-word;
-  font-size: 20px;
-}
 h1,
 h3,
-h4,
-h5 {
-  font-size: 46px;
-  font-weight: bold;
+h2,
+h4 {
   color: #66a1a1;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+  word-wrap: break-word;
 }
 
 h2 {
-  font-size: 50px;
-  font-weight: bold;
-  color: #66a1a1;
-  word-wrap: break-word;
+  font-size: 38px;
+  margin-bottom: -30px;
 }
 
+h3 {
+  font-size: 24px;
+}
 
-
-
-
-
+h4 {
+  font-size: 20px;
+}
 
 @media (max-width:1100px) {
   .bloco-1 {
