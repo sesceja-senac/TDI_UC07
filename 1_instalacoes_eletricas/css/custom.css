@@ -29,6 +29,15 @@
   font-family: fira_codelight;
   
 }  */
+.menu-topo-ul li a:hover {
+  border-bottom: 2px solid white;
+}
+.menu-topo-ul li a::after {
+  border-bottom: 2px solid white;
+}
+.menu-topo-ul li a:active {
+  border-bottom: 2px solid white;
+}
 .menu-topo-ul li a.bto-m1 {
   background: url(../imgs/menu_bt1.png) no-repeat center center;
   width: 99px;

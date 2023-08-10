@@ -174,7 +174,14 @@ h4 {
 .panel-default {
   border-color: #bd3d33;
 }
-
+.collapsed {
+  content: "";
+  width: 14px;
+  height: 7px;
+  background: url(../imgs/painel_abre.png) no-repeat;
+  margin-right: 10px;
+  background-position: right;
+}
 .panel-heading {
   background-color: #bd3d33 !important;
   padding: 10px 10px !important;
