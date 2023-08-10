@@ -104,7 +104,12 @@ h4 {
   height: 15px;
 }
 
-.parallax{
+.parallax1{
+  min-height: 400px;
+  background: transparent;
+  width: 100% !important;
+}
+.parallax2{
   min-height: 400px;
   background: transparent;
   width: 100% !important;
