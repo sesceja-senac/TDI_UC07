@@ -94,10 +94,12 @@ h4 {
 
 .btn-3 {
   background: url("../imgs/painel_bt3.png") no-repeat;
+  height: 210px;
 }
 
 .btn-4 {
   background: url("../imgs/painel_bt4.png") no-repeat;
+  height: 210px;
 }
 
 .btn-5 {
@@ -118,10 +120,12 @@ h4 {
 
 .btn-3:hover {
   background: url("../imgs/painel_bt3_hover.png") no-repeat;
+  height: 210px;
 }
 
 .btn-4:hover {
   background: url("../imgs/painel_bt4_hover.png") no-repeat;
+  height: 210px;
 }
 
 .btn-5:hover {
