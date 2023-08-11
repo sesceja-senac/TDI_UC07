@@ -3,7 +3,7 @@
   background-color: #6e2e2a;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 80px;
   z-index: 999;
   padding-top: 30px;
 

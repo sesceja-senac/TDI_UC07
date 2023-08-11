@@ -169,15 +169,17 @@ h4 {
 }
 
 .parallax1 {
+  background: url("../imgs/parallax1.jpg") no-repeat center;
   min-height: 400px;
-  background: transparent;
-  width: 100% !important;
+  width: 100%;
+  background-attachment: fixed;
 }
 
 .parallax2 {
+  background: url("../imgs/parallax2.jpg") no-repeat center;
   min-height: 400px;
-  background: transparent;
-  width: 100% !important;
+  width: 100%;
+  background-attachment: fixed;
 }
 
 /* Personalização painel gaitinha */
