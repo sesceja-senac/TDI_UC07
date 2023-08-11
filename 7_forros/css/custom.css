@@ -38,6 +38,32 @@ h4 {
 .panel-group {
   margin: 50px;
 }
+
+.grupo-imprimir button.bto-imprimir {
+  margin-top: 6px;
+}
+.b1 {
+  background-color: #fff;
+  max-width: 1300px;
+  padding: 20px 0;
+  padding-bottom: 80px;
+  margin: auto;
+  box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.75);
+-webkit-box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.75);
+-moz-box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.75);
+}
+
+.b1 .container {
+  max-width: 1000px;
+}
+
+
+
+
+
+
+
+
 .collapsed {
   content: "";
   width: 14px;
@@ -305,7 +331,7 @@ button.close {
 
 
 
-@media screen and (max-width: 420x) {
+@media screen and (max-width: 700px) {
   .painel1 {
     display: flex;
     background: none;

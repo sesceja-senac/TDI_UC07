@@ -9,29 +9,16 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.menu a{
+.menu a {
   color: #fff;
-    text-decoration: none;
-
-}
-.menu a:hover{
-  border-bottom:1px solid #FFF;
+  text-decoration: none;
 
 }
 
+.menu a:hover {
+  border-bottom: 1px solid #FFF;
+
+}
 
 .mob-m {
   display: flex;
@@ -109,43 +96,6 @@
   margin-top: 0px;
   transform: rotate(-405deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .menu-topo-ul {
   display: flex;
@@ -677,7 +627,7 @@ table.senac td {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-      background-color: #6e2e2a;
+    background-color: #6e2e2a;
   }
 
   .menu>li:not(:last-child) {
