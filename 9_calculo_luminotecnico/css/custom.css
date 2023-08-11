@@ -162,11 +162,11 @@ table.senac td {
 .panel-group {
   color: #000;
   border-radius: 20px;
-  margin: 50px;
+  margin: 50px 0;
 }
-
 .panel-body {
   background-color: #fff;
+  padding: 15px 30px;
 }
 
 .panel-title {
@@ -177,13 +177,21 @@ table.senac td {
 .panel-default {
   border-color: #bd3d33;
 }
-
 .panel-heading {
   background-color: #bd3d33 !important;
   padding: 10px 10px !important;
   border-bottom: 1px solid #bd3d33 !important;
   border-top-left-radius: none !important;
   border-top-right-radius: none !important;
+}
+
+.collapsed {
+  content: "";
+  width: 14px;
+  height: 7px;
+  background: url(../imgs/painel_abre.png) no-repeat;
+  margin-right: 10px;
+  background-position: right;
 }
 
 .collapsed:hover {

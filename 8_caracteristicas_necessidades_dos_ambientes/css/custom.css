@@ -28,14 +28,15 @@ h2,
 h3,
 h4 {
   color: #ffffff;
-      font-weight: bold;
+  font-weight: bold;
 }
 
 p {
   word-wrap: break-word;
   color: #ffffff;
-   font-size: 20px;
+  font-size: 20px;
 }
+
 .menu {
   margin: 10px;
   width: 300px;
@@ -61,8 +62,11 @@ p {
   font-weight: bold;
 }
 
-.play {
-  list-style-image: url(../imgs/icone-play.png);
+li {
+  background: url(../imgs/icone-play.png) no-repeat left top;
+  list-style: none;
+  padding-left: 40px;
+  min-height: 31px;
   font-size: 18px;
   color: #ffffff;
   font-weight: bold;
@@ -71,7 +75,8 @@ p {
 }
 
 .normal {
-  list-style-image: unset;
+  background: none;
+  list-style: disc;
   font-size: 18px;
   color: #ffffff;
   font-weight: bold;
@@ -118,6 +123,12 @@ a:active {
 .linha {
   border-left: 1px solid #ffffff;
   padding-left: 50px;
+}
+
+@media screen and (max-width: 780px) {
+  .bloco1 {
+    background-position: center;
+  }
 }
 
 @media screen and (max-width: 480px) {

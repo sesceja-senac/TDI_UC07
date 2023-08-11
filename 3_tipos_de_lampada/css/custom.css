@@ -200,10 +200,6 @@ h4 {
 
 }
 
-.panel-body {
-  padding: 15px 30px;
-}
-
 .b2 {
   background-color: rgba(0, 0, 0, 0.9);
   max-width: 1200px !important;
@@ -233,9 +229,7 @@ button.close {
   border: none;
 }
 
-.panel-group {
-  margin: 50px 0;
-}
+
 
 /* Personalização slideshow */
 .carousel {
@@ -251,10 +245,11 @@ button.close {
 .panel-group {
   color: #000;
   border-radius: 20px;
+  margin: 50px 0;
 }
-
 .panel-body {
   background-color: #fff;
+  padding: 15px 30px;
 }
 
 .panel-title {
@@ -264,6 +259,13 @@ button.close {
 
 .panel-default {
   border-color: #bd3d33;
+}
+.panel-heading {
+  background-color: #bd3d33 !important;
+  padding: 10px 10px !important;
+  border-bottom: 1px solid #bd3d33 !important;
+  border-top-left-radius: none !important;
+  border-top-right-radius: none !important;
 }
 
 .collapsed {
@@ -280,13 +282,7 @@ button.close {
   background-position: right; */
 
 
-.panel-heading {
-  background-color: #bd3d33 !important;
-  padding: 10px 10px !important;
-  border-bottom: 1px solid #bd3d33 !important;
-  border-top-left-radius: none !important;
-  border-top-right-radius: none !important;
-}
+
 
 .collapsed:hover {
   color: none;

@@ -27,14 +27,15 @@ h2,
 h3,
 h4 {
   color: #ffffff;
-      font-weight: bold;
+  font-weight: bold;
 }
 
 p {
   word-wrap: break-word;
   color: #ffffff;
-   font-size: 20px;
+  font-size: 20px;
 }
+
 .bto-trans {
   background: url("../imgs/ico_transcrição_small.png");
   width: 94px;
@@ -108,7 +109,10 @@ p {
 }
 
 li {
-  list-style-image: url(../imgs/icone-play.png);
+  background: url(../imgs/icone-play.png) no-repeat left top;
+  list-style: none;
+  padding-left: 40px;
+  min-height: 31px;
   font-size: 18px;
   color: #ffffff;
   font-weight: bold;
@@ -157,6 +161,12 @@ a:active {
 .linha {
   border-left: 1px solid #ffffff;
   padding-left: 50px;
+}
+
+@media screen and (max-width: 780px) {
+  .bloco1 {
+    background-position: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
