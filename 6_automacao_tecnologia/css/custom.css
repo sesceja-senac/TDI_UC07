@@ -129,18 +129,16 @@ h4 {
 
 
 .modal_01 {
-  background: url("../imgs/bg_modal1.png"),
-    url("../imgs/bg_modal1.png");
-  background-size: 100%, cover;
+  background: url("../imgs/bg_modal1.png");
+  background-size: cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
 }
 
 .modal_02 {
-  background: url("../imgs/bg_modal2.png"),
-    url("../imgs/bg_modal2.png");
-  background-size: 100%, cover;
+  background: url("../imgs/bg_modal2.png");
+  background-size: cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
@@ -148,7 +146,7 @@ h4 {
 
 .modal_03 {
   background: url("../imgs/bg_modal3.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
@@ -157,7 +155,7 @@ h4 {
 .modal_04 {
   background: url("../imgs/bg_modal4.png"),
     url("../imgs/bg_modal4.png");
-  background-size: 100%, cover;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
@@ -165,16 +163,15 @@ h4 {
 
 .modal_05 {
   background: url("../imgs/bg_modal5.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
 }
 
 .modal_06 {
-  background: url("../imgs/bg_modal6.png"),
-    url("../imgs/bg_modal6.png");
-  background-size: 100%, cover;
+  background: url("../imgs/bg_modal6.png");
+  background-size: cover;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
