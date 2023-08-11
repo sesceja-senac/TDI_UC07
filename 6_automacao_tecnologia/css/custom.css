@@ -1,3 +1,4 @@
+body{overflow-x: hidden;}
 h1,
 h3,
 h2,
@@ -46,13 +47,17 @@ h4 {
 }
 .bloco-1 {
   background: url("../imgs/BG.png");
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  
 }
-
-.b1 {
-  max-width: 1200px !important;
+.b1{
+  margin-top: 60px;
+  padding-bottom: 60px;
+  background: rgba(255,255,255,0.6);
+  max-width: 95%;
+  margin-right: 0;
+  margin-left: auto;
 }
 
 .btn-m {
@@ -189,8 +194,17 @@ button.close {
   opacity: unset;
 }
 
+@media screen and (max-width: 1500px) {
+  .painel1{
+    transform: scale(0.7);
+    margin-left: -20%;
+  }
+}
 @media screen and (max-width: 1024px) {
-
+  .painel1{
+    transform: scale(0.8);
+    margin-left: auto;
+  }
   .modal-c {
     padding-right: 263px;
   }
