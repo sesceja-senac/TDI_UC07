@@ -50,14 +50,14 @@ h4 {
 }
 
 .b1 {
-  background-color: #e6e6e6;
+  background-color: rgba(255,255,255,0.6);
   max-width: 1300px;
   padding: 20px 0;
   padding-bottom: 80px;
   margin: auto;
-  box-shadow: 10px 10px 0px 0px rgba(230, 230, 230, 0.75);
-  -webkit-box-shadow: 10px 10px 0px 0px rgba(230, 230, 230, 0.75);
-  -moz-box-shadow: 10px 10px 0px 0px rgba(230, 230, 230, 0.75);
+  box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.6);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.6);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.6);
 }
 
 .b1 .container {
