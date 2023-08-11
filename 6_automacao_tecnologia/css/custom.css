@@ -139,7 +139,7 @@ h4 {
 
 .modal_01 {
   background: url("../imgs/bg_modal1.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
@@ -164,7 +164,7 @@ h4 {
 .modal_04 {
   background: url("../imgs/bg_modal4.png"),
     url("../imgs/bg_modal4.png");
-  background-size: cover;
+    background-size: 100% 100%;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;

@@ -149,7 +149,7 @@ h4 {
 
 .bloco-7 {
   background: url("../imgs/BG_2.png");
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: repeat-y;
 }
 
