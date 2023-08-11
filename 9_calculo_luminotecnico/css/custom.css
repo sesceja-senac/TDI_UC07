@@ -24,6 +24,22 @@ h4 {
   font-size: 20px;
 }
 
+.grupo-imprimir button.bto-imprimir {
+  margin-top: 6px;
+}
+
+.b1 {
+  background-color: rgba(255, 255, 255, 0.3);
+  max-width: 900px;
+  padding: 20px 0;
+  padding-bottom: 80px;
+  margin: auto;
+}
+
+.b1 .container {
+  max-width: 800px;
+}
+
 .collapsed {
   content: "";
   width: 14px;
@@ -94,7 +110,7 @@ h4 {
 
 .bloco-1 {
   background: url("../imgs/BG_1.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -164,6 +180,7 @@ table.senac td {
   border-radius: 20px;
   margin: 50px 0;
 }
+
 .panel-body {
   background-color: #fff;
   padding: 15px 30px;
@@ -177,6 +194,7 @@ table.senac td {
 .panel-default {
   border-color: #bd3d33;
 }
+
 .panel-heading {
   background-color: #bd3d33 !important;
   padding: 10px 10px !important;
