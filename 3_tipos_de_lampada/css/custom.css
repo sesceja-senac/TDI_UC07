@@ -10,9 +10,11 @@ p {
   font-size: 20px;
   word-wrap: break-word;
 }
-.item p{
+
+.item p {
   color: #000;
 }
+
 h2 {
   font-size: 40px;
   margin-bottom: -30px;
@@ -63,14 +65,17 @@ h4 {
 .rotate-center {
   animation: rotate-center 60s linear infinite both
 }
+
 .modal-body {
   background: url("../imgs/bg_modal.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .modal-body h3 {
   border-bottom: 2px solid #66a1a1;
 }
+
 @keyframes rotate-center {
   0% {
     transform: rotate(0)
@@ -80,6 +85,7 @@ h4 {
     transform: rotate(360deg)
   }
 }
+
 .botao {
   background: url("../imgs/modal_fechar.png");
   width: 238px;
@@ -205,14 +211,16 @@ h4 {
   max-width: 1200px !important;
   padding: 100px;
 }
+
 button.close {
   background: url(../imgs/ico_fechar.png) no-repeat;
   width: 101px;
   height: 101px;
   opacity: unset;
 }
+
 .b6 {
-  background-color:rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 100px;
 }
 
@@ -240,6 +248,38 @@ button.close {
   margin-bottom: 80px;
 }
 
+.btn-right {
+  background: url("../imgs/ico_direita.png") no-repeat;
+  width: 46px;
+  height: 46px;
+  border: none;
+  top: 300px;
+  left: 845px;
+}
+
+.btn-right:hover {
+  background: url("../imgs/ico_direita_hover.png") no-repeat;
+  width: 46px;
+  height: 46px;
+  border: none;
+}
+
+.btn-left:hover {
+  background: url("../imgs/ico_esquerda_hover.png") no-repeat;
+  width: 46px;
+  height: 46px;
+  border: none;
+}
+
+.btn-left {
+  background: url("../imgs/ico_esquerda.png") no-repeat;
+  width: 46px;
+  height: 46px;
+  left: -80px;
+  border: none;
+  top: 300px;
+}
+
 /* Fim personalização slideshow */
 /* Personalização painel gaitinha */
 .panel-group {
@@ -247,6 +287,7 @@ button.close {
   border-radius: 20px;
   margin: 50px 0;
 }
+
 .panel-body {
   background-color: #fff;
   padding: 15px 30px;
@@ -260,6 +301,7 @@ button.close {
 .panel-default {
   border-color: #bd3d33;
 }
+
 .panel-heading {
   background-color: #bd3d33 !important;
   padding: 10px 10px !important;
@@ -539,19 +581,8 @@ button.close {
   }
 
 }
-@media screen and (min-width: 1209px) and (max-width:1520) {
 
-
-
-
-
-
-
-
-
-  
-
-}
+@media screen and (min-width: 1209px) and (max-width:1520) {}
 
 @media screen and (max-width: 780px) {
   .parallax {
@@ -587,7 +618,6 @@ button.close {
     background-repeat: unset;
     padding-top: 108px;
     background-color: #fff;
-    opacity: 90%;
   }
 
 

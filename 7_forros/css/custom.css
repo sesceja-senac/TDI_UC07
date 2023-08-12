@@ -50,21 +50,25 @@ h4 {
 }
 
 .b1 {
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   max-width: 1300px;
   padding: 20px 0;
   padding-bottom: 80px;
   margin: auto;
-  box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.6);
-  -webkit-box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.6);
-  -moz-box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.6);
+  box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.6);
 }
 
 .b1 .container {
   max-width: 1000px;
 }
+.collapsed:hover {
+  color: none;
+  text-decoration: none;
+}
 
-.collapsed {
+.collapsed  {
   content: "";
   width: 14px;
   height: 7px;
@@ -72,6 +76,17 @@ h4 {
   margin-right: 10px;
   background-position: right;
 }
+
+.collapse &[open]  {
+  content: "";
+  width: 14px;
+  height: 7px;
+  background: url(../imgs/painel_recolhe.png) no-repeat;
+  margin-right: 10px;
+  background-position: right;
+}
+
+
 
 .panel-group {
   color: #000;
@@ -101,14 +116,7 @@ h4 {
   border-top-right-radius: none !important;
 }
 
-.collapsed {
-  content: "";
-  width: 14px;
-  height: 7px;
-  background: url(../imgs/painel_abre.png) no-repeat;
-  margin-right: 10px;
-  background-position: right;
-}
+
 
 
 /* . {
@@ -209,10 +217,7 @@ h4 {
   border-top-right-radius: none !important;
 }
 
-.collapsed:hover {
-  color: none;
-  text-decoration: none;
-}
+
 
 /* Fim personalização painel gaitinha */
 .painel1 {

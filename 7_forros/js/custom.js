@@ -51,3 +51,6 @@ $(".btn-exercicio07").click(function(){
     $(this).addClass("resposta-certa");
     FXManager.snd_certo.play();
 });
+
+
+
