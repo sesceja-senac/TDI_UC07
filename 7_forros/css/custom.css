@@ -5,10 +5,12 @@ h4 {
   color: #66a1a1;
   font-weight: bold;
 }
-p{
+
+p {
   font-size: 20px;
   word-wrap: break-word;
 }
+
 h2 {
   font-size: 38px;
   margin-bottom: -30px;
@@ -21,24 +23,52 @@ h3 {
 h4 {
   font-size: 20px;
 }
+
 .titulo_normal {
   color: #000;
 }
+
 .bg-360 {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
   padding-bottom: 30px;
 }
+
 .bloco-1 {
   background: url(../imgs/bg1.png);
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-top: 80px;
 }
+
 .panel-group {
   margin: 50px;
 }
-.collapsed {
+
+.grupo-imprimir button.bto-imprimir {
+  margin-top: 6px;
+}
+
+.b1 {
+  background-color: rgba(255, 255, 255, 0.6);
+  max-width: 1300px;
+  padding: 20px 0;
+  padding-bottom: 80px;
+  margin: auto;
+  box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.6);
+}
+
+.b1 .container {
+  max-width: 1000px;
+}
+.collapsed:hover {
+  color: none;
+  text-decoration: none;
+}
+
+.collapsed  {
   content: "";
   width: 14px;
   height: 7px;
@@ -46,11 +76,24 @@ h4 {
   margin-right: 10px;
   background-position: right;
 }
+
+.collapse &[open]  {
+  content: "";
+  width: 14px;
+  height: 7px;
+  background: url(../imgs/painel_recolhe.png) no-repeat;
+  margin-right: 10px;
+  background-position: right;
+}
+
+
+
 .panel-group {
   color: #000;
   border-radius: 20px;
   margin: 50px 0;
 }
+
 .panel-body {
   background-color: #fff;
   padding: 15px 30px;
@@ -64,6 +107,7 @@ h4 {
 .panel-default {
   border-color: #bd3d33;
 }
+
 .panel-heading {
   background-color: #bd3d33 !important;
   padding: 10px 10px !important;
@@ -72,14 +116,7 @@ h4 {
   border-top-right-radius: none !important;
 }
 
-.collapsed {
-  content: "";
-  width: 14px;
-  height: 7px;
-  background: url(../imgs/painel_abre.png) no-repeat;
-  margin-right: 10px;
-  background-position: right;
-}
+
 
 
 /* . {
@@ -97,9 +134,11 @@ h4 {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.titulo-claro{
+
+.titulo-claro {
   color: #fff;
 }
+
 .bloco-3 {
   background: url("../imgs/bg2.png");
   background-size: cover;
@@ -137,15 +176,18 @@ h4 {
   height: 15px;
 }
 
-.parallax1{
+.parallax1 {
+  background: url("../imgs/parallax1.jpg") no-repeat center;
   min-height: 400px;
-  background: transparent;
-  width: 100% !important;
+  width: 100%;
+  background-attachment: fixed;
 }
-.parallax2{
+
+.parallax2 {
+  background: url("../imgs/parallax2.jpg") no-repeat center;
   min-height: 400px;
-  background: transparent;
-  width: 100% !important;
+  width: 100%;
+  background-attachment: fixed;
 }
 
 /* Personalização painel gaitinha */
@@ -175,10 +217,7 @@ h4 {
   border-top-right-radius: none !important;
 }
 
-.collapsed:hover {
-  color: none;
-  text-decoration: none;
-}
+
 
 /* Fim personalização painel gaitinha */
 .painel1 {
@@ -254,18 +293,21 @@ li {
   border: none;
   transition: ease-in;
 }
+
 .botao-fechar {
   background: url("../imgs/modal_fechar.png");
   width: 238px;
   height: 76px;
   border: none;
 }
+
 .botao-fechar:hover {
   background: url("../imgs/modal_fechar_hover.png");
   width: 238px;
   height: 76px;
   border: none;
 }
+
 .modal-body {
   background: url(../imgs/bg_modal.png);
   background-size: 100% 100%;
@@ -305,31 +347,37 @@ button.close {
 
 
 
-@media screen and (max-width: 420x) {
+@media screen and (max-width: 700px) {
   .painel1 {
     display: flex;
     background: none;
     border: none;
   }
+
   .btn {
     width: 171px;
     height: 182px;
     border: none;
   }
+
   .bt-1 {
     background: url("../imgs/mob_painel_bt1.png") no-repeat;
     width: 332px;
     height: 171px;
   }
+
   .bt-2 {
     background: url("../imgs/mob_painel_bt2.png") no-repeat;
   }
+
   .bt-3 {
     background: url("../imgs/mob_painel_bt3.png") no-repeat;
   }
+
   .bt-4 {
     background: url("../imgs/mob_painel_bt4.png") no-repeat;
   }
+
   .bt-5 {
     background: url("../imgs/mob_painel_bt5.png") no-repeat;
   }
@@ -339,20 +387,20 @@ button.close {
     width: 332px;
     height: 171px;
   }
- .bt-2:hover {
+
+  .bt-2:hover {
     background: url("../imgs/mob_painel_bt2_hover.png") no-repeat;
   }
+
   .bt-3:hover {
     background: url("../imgs/mob_painel_bt3_hover.png") no-repeat;
   }
+
   .bt-4:hover {
     background: url("../imgs/mob_painel_bt4_hover.png") no-repeat;
   }
+
   .bt-5:hover {
     background: url("../imgs/mob_painel_bt5_hover.png") no-repeat;
   }
-  .bloco-1 {
-    background: #fff;
-  }
 }
-

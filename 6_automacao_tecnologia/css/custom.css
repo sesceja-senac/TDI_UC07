@@ -94,10 +94,12 @@ h4 {
 
 .btn-3 {
   background: url("../imgs/painel_bt3.png") no-repeat;
+  height: 210px;
 }
 
 .btn-4 {
   background: url("../imgs/painel_bt4.png") no-repeat;
+  height: 210px;
 }
 
 .btn-5 {
@@ -118,10 +120,12 @@ h4 {
 
 .btn-3:hover {
   background: url("../imgs/painel_bt3_hover.png") no-repeat;
+  height: 210px;
 }
 
 .btn-4:hover {
   background: url("../imgs/painel_bt4_hover.png") no-repeat;
+  height: 210px;
 }
 
 .btn-5:hover {
@@ -135,7 +139,7 @@ h4 {
 
 .modal_01 {
   background: url("../imgs/bg_modal1.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;
@@ -160,7 +164,7 @@ h4 {
 .modal_04 {
   background: url("../imgs/bg_modal4.png"),
     url("../imgs/bg_modal4.png");
-  background-size: cover;
+    background-size: 100% 100%;
   background-repeat: no-repeat;
   color: #000;
   background-attachment: fixed;

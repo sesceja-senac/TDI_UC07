@@ -85,7 +85,7 @@ p {
 }
 
 .menu {
-  width: 300px;
+  width: 460px;
   padding-right: 40px;
   padding-top: 0px;
 }
@@ -176,5 +176,6 @@ a:active {
 
   .menu {
     margin: 50px;
+    width: 300px;
   }
 }
