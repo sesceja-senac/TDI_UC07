@@ -267,7 +267,7 @@ table.senac td {
   margin-right: -150px;
 }
 
-button.close.close1 {
+.close.close1 {
   background: url(../imgs/ico_fechar.png) no-repeat;
   width: 101px;
   height: 101px;
