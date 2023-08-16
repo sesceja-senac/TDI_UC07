@@ -148,7 +148,7 @@ h4 {
 
 .painel_2 {
   background: rgb(197,169,142);
-  background: linear-gradient(90deg, rgba(197,169,142,1) 16%, rgba(84,41,24,1) 16%, rgba(0,0,0,1) 150%);
+  background: linear-gradient(90deg, rgba(197,169,142,1) 10%, rgba(84,41,24,1) 10%, rgba(0,0,0,1) 150%);
   color: #fff !important;
   height: 80px;
    opacity: 90%; 
@@ -208,6 +208,12 @@ a:active {
   .painel_1{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(84,41,24,1) 0%, rgba(0,0,0,1) 110%);
+  }
+  .bloco-4 {
+    background: unset;
+    background-size: unset;
+    background-repeat: unset;
+    background-color: #333333;
   }
 }
 
