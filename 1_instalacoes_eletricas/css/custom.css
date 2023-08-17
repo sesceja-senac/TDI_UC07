@@ -3,7 +3,8 @@
   background-color: #6e2e2a;
   position: -webkit-sticky;
   position: sticky;
-  top: 80px;
+  top: 0;
+  margin-top: 80px;
   z-index: 999;
   padding-top: 30px;
 
@@ -15,10 +16,11 @@
 
 }
 
-.menu a:hover {
+.menu a:hover, .ativo {
   border-bottom: 1px solid #FFF;
 
 }
+
 .mob-m {
   display: flex;
   flex-direction: row;
