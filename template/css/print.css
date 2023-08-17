@@ -21,7 +21,13 @@
     font-size: 12px;
     font-weight: bold;
 
-}
+  }
+  .img-menor{
+    width: 10%;
+  }
+  .img-maior{
+    width: 230%;
+  }
 .grupo-imprimir button.bto-imprimir {
   /*border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;*/

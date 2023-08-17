@@ -248,37 +248,6 @@ button.close {
   margin-bottom: 80px;
 }
 
-.btn-right {
-  background: url("../imgs/ico_direita.png") no-repeat;
-  width: 46px;
-  height: 46px;
-  border: none;
-  top: 300px;
-  left: 845px;
-}
-
-.btn-right:hover {
-  background: url("../imgs/ico_direita_hover.png") no-repeat;
-  width: 46px;
-  height: 46px;
-  border: none;
-}
-
-.btn-left:hover {
-  background: url("../imgs/ico_esquerda_hover.png") no-repeat;
-  width: 46px;
-  height: 46px;
-  border: none;
-}
-
-.btn-left {
-  background: url("../imgs/ico_esquerda.png") no-repeat;
-  width: 46px;
-  height: 46px;
-  left: -80px;
-  border: none;
-  top: 300px;
-}
 
 /* Fim personalização slideshow */
 /* Personalização painel gaitinha */
