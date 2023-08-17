@@ -358,8 +358,11 @@ header.senac {
 @media screen and (max-width: 768px) {
   .bloco-1 {
     margin-top: 40px;
+    background: #f1ece7;
   }
-
+  .bloco-9 {
+    background: #605752;
+  }
   h1,
   h3,
   h4,
