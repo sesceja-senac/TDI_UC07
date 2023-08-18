@@ -286,12 +286,20 @@ header.senac {
 @media screen and (max-width: 1024px) {
 
   .bloco-1 {
+    background: #f1ece7;
     padding-left: unset;
   }
 
   .bloco-9 {
+    background: #605752;
     padding-left: unset;
   }
+  .indice {
+    padding: 14px;
+}
+.grupo-imprimir {
+  margin-top: 0px;
+}
 }
 
 
