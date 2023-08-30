@@ -81,14 +81,11 @@ li {
   color: #ffffff;
   font-weight: bold;
 }
-
 iframe {
-  background: url("../imgs/icone-play-pequeno.png") no-repeat center;
-  background-color: #81473b;
   margin: auto;
-  border: none;
-  width: 400px;
-  height: 600px;
+  display: block;
+  width: 560px;
+  height: 315px;
 }
 
 a {
@@ -139,5 +136,11 @@ a:active {
   .menu {
     margin: 50px;
     width: 300px;
+  }
+  iframe {
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 400px;
   }
 }
