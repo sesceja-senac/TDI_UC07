@@ -5,6 +5,9 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.preto {
+  color: #000 !important;
+}
 
 h2 {
   font-size: 38px;
