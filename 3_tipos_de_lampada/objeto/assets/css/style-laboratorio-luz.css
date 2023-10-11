@@ -29,7 +29,7 @@ body {
     --p-paisagem-text-color: white;
     --modo-smart-bg-color: #F5866C;
 
-     --font-size-title-principal: 60px;
+    --font-size-title-principal: 60px;
     --font-size-title-secundario: 40px;
     --font-size-titulo: 30px;
     --font-size-subtitulo: 25px;
@@ -87,8 +87,13 @@ body {
 #comecar {
     width: 90%;
     background-color: var(--cor-secundaria-bg) !important;
+<<<<<<< HEAD
     height: 25%;
     font-size: 35px;
+=======
+    height: 17%;
+    font-size: 33px;
+>>>>>>> 67702a32833289cee54b6033ed08e21a43c271c7
     margin-top: 56px;
     color: var(--cor-secundaria-font);
     text-transform: uppercase;
@@ -332,8 +337,8 @@ svg {
 
 .onoff-modal input.toggle {
     display: none;
-}
 
+}
 
 .onoff-modal input.toggle+label {
     display: inline-block;
@@ -401,7 +406,6 @@ svg {
         left: calc(28vw - 6vw);
     }
 }
-
 
 #instrucao {
     height: 70px;
