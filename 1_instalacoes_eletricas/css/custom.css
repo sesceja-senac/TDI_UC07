@@ -17,9 +17,8 @@ html{scroll-behavior: smooth;}
 
 }
 
-.menu a:hover, .ativo {
+.active{
   border-bottom: 1px solid #FFF;
-
 }
 
 .mob-m {

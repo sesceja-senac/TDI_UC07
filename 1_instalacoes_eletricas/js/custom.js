@@ -1,31 +1,20 @@
-// Função para verificar se uma seção está visível na janela de visualização
-function isElementInViewport(el) {
-  var rect = el.getBoundingClientRect();
-  return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
+$(document).ready(function(){
+  // Função para verificar quando o usuário rola a página
+  $(window).scroll(function() {
+    // Obtém a posição vertical da página
+    var scrollPos = $(window).scrollTop();
 
-// Função para destacar o item de menu correspondente à seção visível
-function highlightMenuOnScroll() {
-  var sections = document.querySelectorAll('.section');
-  var menuItems = document.querySelectorAll('.menu-topo-ul a');
+    // Verifica a posição das seções e destaca o item do menu correspondente
+    $('.section').each(function() {
+      var offsetTop = $(this).offset().top;
+      var sectionId = $(this).attr('id');
 
-  sections.forEach(function (section, index) {
-      if (isElementInViewport(section)) {
-          // Remove a classe 'active' de todos os itens de menu
-          menuItems.forEach(function (menuItem) {
-              menuItem.classList.remove('ativo');
-          });
-
-          // Adiciona a classe 'active' ao item de menu correspondente
-          menuItems[index].classList.add('ativo');
+      if (scrollPos >= offsetTop - 70) {
+        // Remove a classe 'active' de todos os itens do menu
+        $('.menu-topo-ul > li').removeClass('active');
+        // Adiciona a classe 'active' ao item do menu correspondente à seção atual
+        $('a[href="#' + sectionId + '"]').parent().addClass('active');
       }
+    });
   });
-}
-
-// Chama a função de destaque quando a página é rolada
-window.addEventListener('scroll', highlightMenuOnScroll);
+});
