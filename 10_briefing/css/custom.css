@@ -76,6 +76,7 @@ h4 {
 .bloco-4 {
   background: linear-gradient(to right, #662721, #b0372d);
   color: #fff;
+  padding-left: 355px;
 }
 
 .bloco-5 {
@@ -83,6 +84,7 @@ h4 {
   background-size: 100% 100%;
   background-repeat: repeat-y;
   background-attachment: fixed;
+  padding-left: 355px;
 }
 
 .bloco-6 {
@@ -91,6 +93,7 @@ h4 {
   background-repeat: repeat-y;
   background-attachment: fixed;
   color: #fff;
+  padding-left: 355px;
 }
 
 .bloco-7 {
@@ -98,6 +101,7 @@ h4 {
   background-size: 100% 100%;
   background-repeat: repeat-y;
   background-attachment: fixed;
+  padding-left: 355px;
 }
 
 .bloco-8 {
@@ -106,6 +110,7 @@ h4 {
   background-repeat: repeat-y;
   background-attachment: fixed;
   color: #fff;
+  padding-left: 355px;
 }
 
 .bloco-9 {
@@ -289,7 +294,7 @@ header.senac {
     background: #f1ece7;
     padding-left: unset;
   }
-
+  .bloco-2, .bloco-3, .bloco-4, .bloco-5, .bloco-6, .bloco-7, .bloco-8{padding-left: unset;}
   .bloco-9 {
     background: #605752;
     padding-left: unset;
