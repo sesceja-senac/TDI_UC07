@@ -15,7 +15,6 @@
   <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
   <link href="../template/css/cores.css" rel="stylesheet">
   <link href="../template/css/modal-100.css" rel="stylesheet">
-  <link href="../template/css/devibeans.min.css" rel="stylesheet">
   <!--Extras - novas classes para facilitar-->
   <link rel="stylesheet" href="../template/css/extras.css">
   <link href="../template/css/sncload.css" rel="stylesheet">
@@ -78,8 +77,7 @@
           <row class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <div aria-hidden="true">
               <ul class="menu-topo-ul no-print">
-                <!-- <li><a><img class="home" src="images/home.png"></a></li> -->
-                <li><a class="btoMenu bto-m1" data-target="menu1" href="#bloco1"></a></li>
+                <li><a class="btoMenu bto-m1 ativo" data-target="menu1" href="#bloco1"></a></li>
                 <li><a class="btoMenu bto-m2" data-target="menu2" href="#bloco2"></a></li>
                 <li><a class="btoMenu bto-m3" data-target="menu3" href="#bloco3"></a></li>
                 <li><a class="btoMenu bto-m4" data-target="menu4" href="#bloco4"></a></li>
@@ -123,7 +121,7 @@
 
 
 
-        <div class="bloco-1" id="bloco1">
+        <div class="section bloco-1" id="bloco1">
           <div class="container b1">
             <div class="grupo-imprimir no-print">
               <button type="button" data-pdf="true" class="bto-imprimir" name="button">
@@ -163,7 +161,7 @@
 
         <div class="divisoria"></div>
 
-        <div class="bloco-2" id="bloco2">
+        <div class="section bloco-2" id="bloco2">
           <div class="container b2">
             <h3>Tipos</h3>
             <p>As instalações elétricas são as responsáveis por levar a energia à sua casa ou aos espaços comerciais do
@@ -253,7 +251,7 @@
 
         <div id="bloco3"></div>
 
-        <div class="bloco-3" >
+        <div class="section bloco-3" >
           <div class="container b3">
             <h3>Simbologia</h3>
             <p>Uma das coisas mais importantes que você, futuro <i>designer</i> de interiores, deve saber é interpretar
@@ -410,7 +408,7 @@
 
         <div class="divisoria"></div>
 
-        <div class="bloco-4" id="bloco4">
+        <div class="section bloco-4" id="bloco4">
           <div class="container b4">
             <h3>Fios</h3>
             <p>Toda a instalação elétrica de uma residência é feita por fios. São eles que conduzem a corrente elétrica,
@@ -592,7 +590,7 @@
 
         <div class="divisoria"></div>
 
-        <div class="bloco-5" id="bloco5">
+        <div class="section bloco-5" id="bloco5">
           <div class="container b5">
             <h3>Interruptores</h3>
             <div class="no-print" aria-hidden="true">
@@ -792,7 +790,7 @@
 
         <div class="divisoria"></div>
 
-        <div class="bloco-6" id="bloco6">
+        <div class="section bloco-6" id="bloco6">
           <div class="container b6">
             <h3>Tomadas</h3>
             <p>As tomadas são imprescindíveis em um ambiente de interiores, seja residencial, seja comercial ou
@@ -902,7 +900,7 @@
 
         <div class="divisoria"></div>
 
-        <div class="bloco-7" id="bloco7">
+        <div class="section bloco-7" id="bloco7">
           <div class="container b7">
             <div class="row">
               <div class="col-lg-8">
@@ -1006,9 +1004,7 @@
   <script src="../template/js/print.js"></script>
   <script src="../template/js/template.config.js"></script>
   <script src="../template/js/images.loader.js"></script>
-  <script src="../template/js/highlight.min.js"></script>
   <script src="../template/js/parallax.min.js"></script>
-  <script src="js/menu-02.js"></script>
   <script src="js/custom.js"></script>
   <noscript>
     <style media="screen">
@@ -1020,94 +1016,7 @@
 </body>
 
 </html>
-<script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    document.querySelectorAll('pre code').forEach((el) => {
-      hljs.highlightElement(el);
-    });
-  });
-  //inicializa zoom na imagem
-  $('.zoom-imagem').magnificPopup({
-    type: 'image',
-    mainClass: 'mfp-with-zoom', // this class is for CSS animation below
-    zoom: {
-      enabled: true, // By default it's false, so don't forget to enable it
 
-      duration: 300, // duration of the effect, in milliseconds
-      easing: 'ease-in-out', // CSS transition easing function
-
-      // The "opener" function should return the element from which popup will be zoomed in
-      // and to which popup will be scaled down
-      // By defailt it looks for an image tag:
-      opener: function (openerElement) {
-        // openerElement is the element on which popup was initialized, in this case its <a> tag
-        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-        return openerElement.is('img') ? openerElement : openerElement.find('img');
-      }
-    },
-    image: {
-      markup: '<div class="mfp-figure">' +
-        '<div class="mfp-close"></div>' +
-        '<div class="mfp-img"></div>' + // Floated left
-        '<div class="mfp-bottom-bar">' + '<figcaption>' + '<div class="mfp-title" style="text-align:center"></div>' +
-        '<div class="mfp-counter"></div>' + '</figcaption>' +
-        '</div>' +
-        '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
-
-      cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
-
-      tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
-    }
-  });
-
-  //inicializa popover
-  $(function () {
-    $('[data-toggle="popover"]').popover()
-  })
-  //inicializa tooltip
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
-
-  /*------- Script de animação do botão -------*/
-  var root = document.documentElement;
-  root.className += ' js';
-
-  function boxTop(idBox) {
-    var boxOffset = $(idBox).offset().top;
-    return boxOffset;
-  }
-
-  $(document).ready(function () {
-    var $target = $('.animeStart'),
-      $target2 = $('.animeStop'),
-      targetBox = $('.box'),
-      animationClass = 'anime-init',
-      windowHeight = $(window).height(),
-      offset = windowHeight - (windowHeight / 4);
-
-    function animeScroll() {
-      var documentTop = $(document).scrollTop();
-      $target.each(function () {
-        if (documentTop > boxTop(this) - offset) {
-          targetBox.addClass(animationClass);
-        } else {
-          targetBox.removeClass(animationClass);
-        }
-        if (documentTop > boxTop($target2) - offset) {
-          targetBox.removeClass(animationClass);
-        }
-      });
-    }
-    animeScroll();
-
-    $(document).scroll(function () {
-      animeScroll();
-    });
-  });
-
-
-</script>
 <script>
   var scriptElem = document.createElement("script");
   scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",

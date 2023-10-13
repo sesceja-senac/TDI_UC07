@@ -1,113 +1,31 @@
-// var FXManager = {
-//     snd_certo : new Audio("objetos/snd/acerto.mp3"),
-//     snd_erro : new Audio("objetos/snd/erro.mp3"),
-//     snd_aplauso : new Audio("objetos/snd/aplauso.mp3")
-// }
+// Função para verificar se uma seção está visível na janela de visualização
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
 
-// $(".menu label.menu-toggle").click(function(){
-//     $(".bg-fundo").toggleClass("mod");
-//     $('body').toggleClass('overflow');
-//     $('.menu').toggleClass('fade-check');
-// });
+// Função para destacar o item de menu correspondente à seção visível
+function highlightMenuOnScroll() {
+  var sections = document.querySelectorAll('.section');
+  var menuItems = document.querySelectorAll('.menu-topo-ul a');
 
-// $(".bg-fundo").click(function(){
-//     $(this).removeClass("mod");
-//     $('body').removeClass('overflow');
-//     $('.menu').removeClass('fade-check');
-// });
+  sections.forEach(function (section, index) {
+      if (isElementInViewport(section)) {
+          // Remove a classe 'active' de todos os itens de menu
+          menuItems.forEach(function (menuItem) {
+              menuItem.classList.remove('ativo');
+          });
 
-// $(".fundo-item").click(function(){
-//     $(".bg-fundo").removeClass("mod");
-//     $('body').removeClass('overflow');
-//     $('.menu').removeClass('fade-check');
-// });
+          // Adiciona a classe 'active' ao item de menu correspondente
+          menuItems[index].classList.add('ativo');
+      }
+  });
+}
 
-// //-------- BOTÕES EXERCÍCIO --------\\
-// $(".btn-exercicio01").click(function(){
-//     $(this).addClass("resposta-errada");
-//     FXManager.snd_erro.play();
-// });
-// $(".btn-exercicio02").click(function(){
-//     $(this).addClass("resposta-certa");
-//     FXManager.snd_certo.play();
-// });
-// $(".btn-exercicio03").click(function(){
-//     $(this).addClass("resposta-certa");
-//     FXManager.snd_certo.play();
-// });
-// $(".btn-exercicio04").click(function(){
-//     $(this).addClass("resposta-errada");
-//     FXManager.snd_erro.play();
-// });
-// $(".btn-exercicio05").click(function(){
-//     $(this).addClass("resposta-certa");
-//     FXManager.snd_certo.play();
-// });
-// $(".btn-exercicio06").click(function(){
-//     $(this).addClass("resposta-certa");
-//     FXManager.snd_certo.play();
-// });
-// $(".btn-exercicio07").click(function(){
-//     $(this).addClass("resposta-certa");
-//     FXManager.snd_certo.play();
-// });
-
-
-
-
-// window.addEventListener('load', function(){  
-//     $('.bts_exemplo').on('click', function(){
-//         $(this).toggleClass('ativo');
-//     })
-//   })
-  
-//   $(function() {
-//     $(".card").click(function() {
-//       if ($(this).hasClass("exibe-frente")) {
-//         $(this)
-//           .children()
-//           .first()
-//           .hide();
-//         $(this)
-//           .children()
-//           .last()
-//           .show();
-//         $(this).removeClass("exibe-frente");
-//       } else {
-//         $(".card .verso").hide();
-//         $(".card .frente").show();
-//         $(this).addClass("exibe-frente");
-//       }
-//     });
-//   });
-  
-//   $( document ).ready(function() {
-//     $(".card .verso").hide();
-//   });
-  
-//   window.onscroll = function() {myFunction()};
-  
-//   function myFunction() {
-//     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-//     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-//     var scrolled = (winScroll / height) * 100;
-//     document.getElementById("myBar").style.width = scrolled + "%";
-//   }
-  
-
- $(".btoMenu").click(function (){
-    $(".btoMenu").removeClass("ativo")
-    $(this).addClass("ativo")
-  })
-
-  
-  window.addEventListener("load",function(){
-    $(".btoMenu").click(function (e){
-      e.preventDefault()
-      console.log($($(this).attr("href")).position().top)
-      let topo=($($(this).attr("href")).position().top)-100
-     window.scrollTo(0,topo)
-
-  })
-})
-  
+// Chama a função de destaque quando a página é rolada
+window.addEventListener('scroll', highlightMenuOnScroll);
